@@ -1,0 +1,689 @@
+{
+  "records": [
+    {
+      "title": "IT specialista - Python programátor",
+      "role_category": "python_developer",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 60000,
+      "salary_max": 90000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Vývojář C#",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 50000,
+      "salary_max": 100000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Solution Architect / Analytik",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 80000,
+      "salary_max": 120000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Senior / Lead Full Stack Developer (Node.js, React), full remote",
+      "role_category": "javascript_developer",
+      "seniority": "senior",
+      "location": "praha",
+      "salary_min": 140000,
+      "salary_max": 180000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Embedded Linux Developer (m/ž)",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 80000,
+      "salary_max": 100000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Vývojář webových aplikací",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 50000,
+      "salary_max": 60000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Innovation AI Engineer (Legal Tech)",
+      "role_category": "ml_engineer",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 80000,
+      "salary_max": 120000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Fullstack Software Developer (Medior/Senior)",
+      "role_category": "fullstack_developer",
+      "seniority": "senior",
+      "location": "praha",
+      "salary_min": 70000,
+      "salary_max": 100000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Software Developer v unikátní firmě (až 100 tis. Kč)",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 80000,
+      "salary_max": 100000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Frontend Developer",
+      "role_category": "frontend_developer",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 60000,
+      "salary_max": 75000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Full-stack PHP Developer (Nette/Symfony, Doctrine, Latte, SQL) – Praha / Hybrid",
+      "role_category": "fullstack_developer",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 80000,
+      "salary_max": 120000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "PHP programátor",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 50000,
+      "salary_max": 60000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Lead Frontend Engineer (FinTech)",
+      "role_category": "frontend_developer",
+      "seniority": "senior",
+      "location": "praha",
+      "salary_min": 110000,
+      "salary_max": 140000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Senior Frontend Engineer (Platform Feature Team)",
+      "role_category": "frontend_developer",
+      "seniority": "senior",
+      "location": "praha",
+      "salary_min": 75000,
+      "salary_max": 90000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Vývojář C++",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 70000,
+      "salary_max": 90000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "IT operátor / vývojář – SQL a webová rozhraní",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 45000,
+      "salary_max": 55000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Samostatný programátor nebo programátorka",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 50000,
+      "salary_max": 80000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "SW Architekt s programátorskou historií - až 120.000 Kč",
+      "role_category": "general",
+      "seniority": "senior",
+      "location": "regiony",
+      "salary_min": 80000,
+      "salary_max": 120000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Systémový administrátor/ka (Linux/GCP) – budoucí migrace do AWS",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 70000,
+      "salary_max": 90000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Tester/ka interních aplikací",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 55000,
+      "salary_max": 60000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "TECHNIK - PŘÍPRAVÁŘ",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 45000,
+      "salary_max": 65000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Data Engineer",
+      "role_category": "data_engineer",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 60000,
+      "salary_max": 80000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "SPC ENGINEER | ANALÝZA VÝROBNÍCH DAT | KVALITA | PÍSECKO",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 60000,
+      "salary_max": 70000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Data Engineer | New Prague AI & Data Hub 🚀",
+      "role_category": "data_engineer",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 100000,
+      "salary_max": 150000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Project Engineer - Data Digitalization & Automation",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 40000,
+      "salary_max": 50000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "DevOps Engineer - Junior / Medior (45-85.000 Kč)",
+      "role_category": "devops",
+      "seniority": "junior",
+      "location": "regiony",
+      "salary_min": 45000,
+      "salary_max": 85000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Manufacturing Engineer",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 60000,
+      "salary_max": 85000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Compliance Engineer / Inženýr ověřování souladu (simulace & měření)",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 55000,
+      "salary_max": 65000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Sales Engineer – průmyslová automatizace (Jižní Čechy)",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 60000,
+      "salary_max": 90000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Data Analyst (senior)",
+      "role_category": "data_analyst",
+      "seniority": "senior",
+      "location": "praha",
+      "salary_min": 90000,
+      "salary_max": 120000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Data Analyst (junior/medior)",
+      "role_category": "data_analyst",
+      "seniority": "junior",
+      "location": "praha",
+      "salary_min": 60000,
+      "salary_max": 80000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Analytik medicínských a ekonomických dat",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 40000,
+      "salary_max": 55000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "HR Data Analyst",
+      "role_category": "data_analyst",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 45000,
+      "salary_max": 60000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Datový analytik pro kvalitu a správu kmenových dat",
+      "role_category": "data_analyst",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 55000,
+      "salary_max": 95000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "🔍 Tender Manager ve zdravotnictví – veřejné zakázky & analýza dat (m/ž)",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 60000,
+      "salary_max": 70000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "🌿 Specialista/ka pro udržitelná data v TTS Holding 📊",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 60000,
+      "salary_max": 80000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Šikovný Analytik vývoje softwaru až 75.000 Kč + 13. plat a další finanční bonusy",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 60000,
+      "salary_max": 75000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Business / IT Analytik",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 70000,
+      "salary_max": 90000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "DevOps Engineer",
+      "role_category": "devops",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 80000,
+      "salary_max": 110000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "DevOps Engineer - Praha, Česká republika",
+      "role_category": "devops",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 90000,
+      "salary_max": 110000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "DevOps Engineer pro Prahu (65-80.000 Kč)",
+      "role_category": "devops",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 65000,
+      "salary_max": 80000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "DevOps team leader",
+      "role_category": "devops",
+      "seniority": "senior",
+      "location": "praha",
+      "salary_min": 100000,
+      "salary_max": 120000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Full-Stack Developer (Java & React)",
+      "role_category": "fullstack_developer",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 120000,
+      "salary_max": 160000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Informatik - příslušník IT/ICT oddělení",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 45000,
+      "salary_max": 80000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Senior Infrastructure & Cloud Lead",
+      "role_category": "general",
+      "seniority": "senior",
+      "location": "praha",
+      "salary_min": 150000,
+      "salary_max": 180000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": ".NET Core System Architect/Team Leader",
+      "role_category": "general",
+      "seniority": "senior",
+      "location": "praha",
+      "salary_min": 180000,
+      "salary_max": 200000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Machine Learning Engineer",
+      "role_category": "ml_engineer",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 60000,
+      "salary_max": 100000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "AI Solutions Consultant - High-impact AI projects",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 80000,
+      "salary_max": 110000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Project Manager - stabilní a moderní automotive společnost - až 120 000CZK",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 100000,
+      "salary_max": 120000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Manažer/ka inovačních projektů",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 100000,
+      "salary_max": 130000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Data Science Specialist",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 80000,
+      "salary_max": 100000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "🤖 Hledáme AI Trainer / Lingvista",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 100000,
+      "salary_max": 140000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Product Owner: Data DWH & AI Innovation Hub (Prague) 🚀",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 100000,
+      "salary_max": 140000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "PHP Backend Developer",
+      "role_category": "backend_developer",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 60000,
+      "salary_max": 90000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Requirements Engineer (m/f/*) – Smart-metering & DACH Region",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 80000,
+      "salary_max": 120000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Programátor, embedded Linux / Yocto",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 50000,
+      "salary_max": 95000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Senior .NET Backend Architekt / Tech Lead",
+      "role_category": "backend_developer",
+      "seniority": "senior",
+      "location": "regiony",
+      "salary_min": 100000,
+      "salary_max": 120000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Senior Java Backend Developer |REMOTE| (Cloud & Microservices)",
+      "role_category": "backend_developer",
+      "seniority": "senior",
+      "location": "praha",
+      "salary_min": 130000,
+      "salary_max": 170000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Softwarový inženýr / Backend Vývojář",
+      "role_category": "backend_developer",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 66600,
+      "salary_max": 108300,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "SAP S/4HANA (ABAP) developer, Full remote",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 140000,
+      "salary_max": 240000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Java Developer, výhodou znalost FE - React",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 110000,
+      "salary_max": 180000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Product manager",
+      "role_category": "product_manager",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 60000,
+      "salary_max": 80000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Produktový manažer – počítačové sítě a síťová bezpečnost",
+      "role_category": "product_manager",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 40000,
+      "salary_max": 80000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Business Analyst / Produktový manažer pro POS | až 80 tisíc",
+      "role_category": "product_manager",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 60000,
+      "salary_max": 80000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Product Content & E-commerce Manager",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 65000,
+      "salary_max": 85000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "PRODUCT MANAGER SE ZAMĚŘENÍM NA DIGITAL MÉDIA  // BIODERMA & INSTITUT ESTHEDERM",
+      "role_category": "product_manager",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 50000,
+      "salary_max": 60000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Category Product Manager (ž/m)",
+      "role_category": "product_manager",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 70000,
+      "salary_max": 95000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Product manager",
+      "role_category": "product_manager",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 55000,
+      "salary_max": 60000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "PRODUKTOVÝ MANAŽER /OBCHODNÍK pro CZ a SK",
+      "role_category": "product_manager",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 45000,
+      "salary_max": 80000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Product Development Manager (m/ž)",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 80000,
+      "salary_max": 100000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Product & Growth Manager",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 60000,
+      "salary_max": 70000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "PRODUKTOVÝ MANAŽER/CATEGORY MANAGER PRO KAROSÁŘSKÉ A PODVOZKOVÉ DÍLY (M/Ž)",
+      "role_category": "product_manager",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 50000,
+      "salary_max": 60000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Product and Process Manager Sidewalls & Container",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 80000,
+      "salary_max": 120000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Sales & Account Manager (junior)",
+      "role_category": "general",
+      "seniority": "junior",
+      "location": "praha",
+      "salary_min": 40000,
+      "salary_max": 64000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Product Owner (custom software development)",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 120000,
+      "salary_max": 160000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "⭕Product specialist - molekulární a buněčná biologie",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 45000,
+      "salary_max": 65000,
+      "source": "jobs.cz"
+    }
+  ],
+  "count": 76
+}

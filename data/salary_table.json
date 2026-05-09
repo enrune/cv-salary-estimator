@@ -1,0 +1,53 @@
+{
+  "_meta": {
+    "currency": "CZK",
+    "period": "month",
+    "source": "Synthetic baseline odvozená z veřejných dat platy.cz, jobs.cz, Glassdoor (květen 2026). Slouží jako fallback, pokud chybí scraped data pro danou roli.",
+    "structure": "role -> location (praha|regiony) -> seniority (junior|medior|senior) -> [min_czk, max_czk]",
+    "notes": "Hodnoty jsou hrubá rozmezí GROSS hrubé mzdy. Senior range odráží trh včetně benefitů jako roční bonus."
+  },
+  "python_developer": {
+    "praha":   {"junior": [55000, 75000], "medior": [80000, 110000], "senior": [120000, 170000]},
+    "regiony": {"junior": [45000, 60000], "medior": [65000, 90000],  "senior": [95000, 140000]}
+  },
+  "javascript_developer": {
+    "praha":   {"junior": [50000, 70000], "medior": [75000, 105000], "senior": [110000, 160000]},
+    "regiony": {"junior": [42000, 58000], "medior": [62000, 85000],  "senior": [90000, 130000]}
+  },
+  "frontend_developer": {
+    "praha":   {"junior": [50000, 70000], "medior": [75000, 100000], "senior": [105000, 150000]},
+    "regiony": {"junior": [42000, 58000], "medior": [60000, 82000],  "senior": [88000, 125000]}
+  },
+  "backend_developer": {
+    "praha":   {"junior": [55000, 75000], "medior": [80000, 110000], "senior": [115000, 165000]},
+    "regiony": {"junior": [45000, 62000], "medior": [65000, 90000],  "senior": [95000, 140000]}
+  },
+  "fullstack_developer": {
+    "praha":   {"junior": [55000, 75000], "medior": [80000, 110000], "senior": [115000, 160000]},
+    "regiony": {"junior": [45000, 62000], "medior": [65000, 90000],  "senior": [95000, 135000]}
+  },
+  "data_engineer": {
+    "praha":   {"junior": [60000, 80000], "medior": [90000, 125000], "senior": [130000, 185000]},
+    "regiony": {"junior": [50000, 68000], "medior": [72000, 100000], "senior": [105000, 155000]}
+  },
+  "data_analyst": {
+    "praha":   {"junior": [45000, 65000], "medior": [70000, 95000],  "senior": [100000, 140000]},
+    "regiony": {"junior": [38000, 55000], "medior": [58000, 78000],  "senior": [82000, 115000]}
+  },
+  "ml_engineer": {
+    "praha":   {"junior": [65000, 85000], "medior": [95000, 135000], "senior": [140000, 200000]},
+    "regiony": {"junior": [55000, 72000], "medior": [78000, 110000], "senior": [115000, 170000]}
+  },
+  "devops": {
+    "praha":   {"junior": [60000, 80000], "medior": [90000, 125000], "senior": [130000, 185000]},
+    "regiony": {"junior": [50000, 68000], "medior": [72000, 100000], "senior": [105000, 155000]}
+  },
+  "product_manager": {
+    "praha":   {"junior": [55000, 75000], "medior": [85000, 120000], "senior": [125000, 180000]},
+    "regiony": {"junior": [45000, 62000], "medior": [68000, 95000],  "senior": [100000, 145000]}
+  },
+  "general": {
+    "praha":   {"junior": [40000, 60000], "medior": [65000, 95000],  "senior": [100000, 150000]},
+    "regiony": {"junior": [32000, 50000], "medior": [55000, 78000],  "senior": [82000, 125000]}
+  }
+}

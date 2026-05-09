@@ -1,0 +1,95 @@
+{
+  "_meta": {
+    "source": "Scraped from jobs.cz",
+    "record_count": 76,
+    "method": "p25 of min, p75 of max for each role x location x seniority"
+  },
+  "python_developer": {
+    "regiony": {}
+  },
+  "general": {
+    "praha": {
+      "medior": [
+        50000,
+        130000
+      ],
+      "senior": [
+        150000,
+        200000
+      ]
+    },
+    "regiony": {
+      "medior": [
+        55000,
+        100000
+      ]
+    }
+  },
+  "javascript_developer": {
+    "praha": {}
+  },
+  "ml_engineer": {
+    "regiony": {},
+    "praha": {}
+  },
+  "fullstack_developer": {
+    "praha": {
+      "medior": [
+        80000,
+        160000
+      ]
+    }
+  },
+  "frontend_developer": {
+    "praha": {
+      "senior": [
+        75000,
+        140000
+      ]
+    }
+  },
+  "data_engineer": {
+    "praha": {
+      "medior": [
+        60000,
+        150000
+      ]
+    }
+  },
+  "devops": {
+    "regiony": {},
+    "praha": {
+      "medior": [
+        65000,
+        110000
+      ]
+    }
+  },
+  "data_analyst": {
+    "praha": {},
+    "regiony": {
+      "medior": [
+        45000,
+        95000
+      ]
+    }
+  },
+  "backend_developer": {
+    "regiony": {},
+    "praha": {}
+  },
+  "product_manager": {
+    "regiony": {
+      "medior": [
+        50000,
+        80000
+      ]
+    },
+    "praha": {
+      "medior": [
+        40000,
+        80000
+      ]
+    }
+  }
+}
