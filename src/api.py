@@ -7,6 +7,8 @@ Test:    `curl -F file=@samples/sample_cv.pdf http://localhost:8000/analyze`
 Sdílí pipeline.run() s CLI i Streamlit — žádná duplicita.
 """
 
+
+from __future__ import annotations
 # tempfile + Path pro dočasné uložení uploadu (analogicky k app.py)
 import tempfile
 from pathlib import Path

@@ -11,6 +11,8 @@ Multi-faktorový výpočet:
 7. Aplikuj bonus za in-demand skills (+5 % za každou high-value, max +20 %)
 """
 
+
+from __future__ import annotations
 # json pro načtení tabulek; stdlib
 import json
 # functools.lru_cache pro caching načtení JSON souborů — IO se neopakuje

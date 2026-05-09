@@ -9,6 +9,8 @@ Výstup: list[str] varování. Prázdný = vše OK. Plný = něco se zdá podivn
 ale nezastavujeme pipeline (jen upozorníme).
 """
 
+
+from __future__ import annotations
 from src.models import Result
 
 

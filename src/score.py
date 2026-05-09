@@ -10,6 +10,8 @@ Vzorec:
   total = 0.40 * experience + 0.30 * skills + 0.15 * education + 0.15 * soft
 """
 
+
+from __future__ import annotations
 # CV a Score modely — sdílené Pydantic typy
 from src.models import CV, Score, ScoreBreakdown
 from src.debug import DebugTrace

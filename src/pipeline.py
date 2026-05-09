@@ -9,6 +9,8 @@ Reviewer bude pravděpodobně číst tento soubor jako první (priorita 5 zadán
 struktura.
 """
 
+
+from __future__ import annotations
 # Path pro typing a manipulaci s cestami
 from pathlib import Path
 

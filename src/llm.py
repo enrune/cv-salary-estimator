@@ -8,6 +8,8 @@ Proč openai SDK místo httpx: OpenRouter je 100% kompatibilní s OpenAI Chat Co
 takže oficiální SDK funguje out-of-the-box. Žádný custom HTTP klient = méně bugů.
 """
 
+
+from __future__ import annotations
 # os pro environment variables — stdlib, není třeba instalovat
 import os
 import time  # perf_counter pro měření latence LLM volání

@@ -8,6 +8,8 @@ Strategie: instruct LLM s ostrým schema definicí + příklady, vyžádat JSON,
 validovat přes Pydantic. Pokud validace selže, jeden retry s feedback do promptu.
 """
 
+
+from __future__ import annotations
 # json pro parsování LLM odpovědi; stdlib, vždy dostupné
 import json
 

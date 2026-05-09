@@ -10,6 +10,8 @@ Strategie:
 - Doporučení musí být MĚŘITELNÁ a NAVÁZANÁ na detekované gapy (priorita 5 zadání)
 """
 
+
+from __future__ import annotations
 import json
 from pydantic import BaseModel, Field, ValidationError
 

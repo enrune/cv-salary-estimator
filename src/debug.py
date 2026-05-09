@@ -7,6 +7,8 @@ in-memory kontejner, který Streamlit i CLI umí zobrazit (UI z něj kreslí exp
 CLI ho dumpuje na stderr).
 """
 
+
+from __future__ import annotations
 # time pro měření latence — time.perf_counter() je přesnější než time.time() pro krátké intervaly
 import time
 

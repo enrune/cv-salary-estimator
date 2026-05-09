@@ -6,6 +6,8 @@ dvě nejstabilnější knihovny pro každý z nich. Detekce formátu podle pří
 fallback chybí záměrně — pokud někdo pošle .txt, ať to selže rychle a hlasitě.
 """
 
+
+from __future__ import annotations
 # pathlib.Path místo os.path — modernější API, čitelnější (.suffix vs os.path.splitext)
 from pathlib import Path
 

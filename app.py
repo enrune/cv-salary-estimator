@@ -4,6 +4,8 @@ Streamlit UI — upload CV → výsledek + debug window.
 Spustit: `streamlit run app.py`
 """
 
+
+from __future__ import annotations
 # hashlib pro SHA256 hash uploadovaného souboru — cache key
 import hashlib
 # tempfile pro dočasné uložení uploadu (pdfplumber/python-docx potřebují file path)

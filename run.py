@@ -5,6 +5,8 @@ Tenký wrapper nad pipeline.run(). Vrací JSON na stdout — vhodné pro pipe do
 ukládání do souboru, nebo strojové zpracování.
 """
 
+
+from __future__ import annotations
 # argparse pro CLI argumenty — stdlib, žádná závislost
 import argparse
 # json pro pretty-printing výsledku

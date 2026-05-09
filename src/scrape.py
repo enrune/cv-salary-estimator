@@ -14,6 +14,8 @@ Etika scrapingu:
 - Limit počtu requestů (default 30 stran)
 """
 
+
+from __future__ import annotations
 # json pro ukládání výsledků; stdlib
 import json
 # re pro extrakci čísel ze stringu (mzdy v inzerátech jsou ve volném textu)

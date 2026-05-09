@@ -6,6 +6,8 @@ importovat stejné třídy bez kruhových importů. Centralizace = jediný zdroj
 o tvaru dat, který reviewer vidí na jednom místě.
 """
 
+
+from __future__ import annotations
 # Literal omezuje hodnoty pole na vyjmenovaný seznam — Pydantic to při validaci vynutí
 from typing import Literal
 
