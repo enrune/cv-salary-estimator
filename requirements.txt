@@ -4,6 +4,8 @@ python-docx==1.1.2
 cryptography>=44.0.0
 cffi>=1.17.0
 pydantic==2.9.2
+# Python 3.9 backport pro PEP 604 union syntaxi (str | None) — Pydantic 2 ji vyžaduje
+eval-type-backport>=0.2.0
 openai>=1.55.0
 python-dotenv==1.0.1
 streamlit==1.39.0
