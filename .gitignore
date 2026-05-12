@@ -11,10 +11,7 @@ venv/
 env/
 
 # Tajné údaje
-# .env je vědomě commitnutý pro účely této case study — obsahuje dočasný klíč
-# platný ~1 měsíc, slouží jen reviewerům. Po vyhodnocení bude rotován.
-# Pro produkční použití odkomentovat řádek níže a klíč rotovat:
-# .env
+.env
 
 # Logy
 logs/

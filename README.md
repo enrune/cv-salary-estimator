@@ -14,7 +14,9 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
-Otevře se prohlížeč na `http://localhost:8501`. Repo obsahuje dočasný OpenRouter API klíč v `.env`, takže není potřeba nic nastavovat. Pokud chcete použít vlastní klíč, smažte `.env` a aplikace si o něj při startu řekne formulářem v UI.
+Otevře se prohlížeč na `http://localhost:8501`. Při prvním spuštění vás UI vyzve k zadání **OpenRouter API klíče** — klíč si vytvořte zdarma na [openrouter.ai](https://openrouter.ai) (registrace + ~$1 kreditu stačí na desítky CV). Klíč se uloží do `.env` a víc se neptá.
+
+> Reviewerům tohoto projektu zasílám dočasný klíč mailem; vložte ho do UI formuláře nebo do `.env`.
 
 V UI nahrajte CV (například `samples/sample_cv_senior.docx`). Pro zobrazení detailů pipeline zaškrtněte v levém sidebaru **🐞 Debug mode**.
 
