@@ -11,7 +11,10 @@ venv/
 env/
 
 # Tajné údaje
-.env
+# .env je vědomě commitnutý pro účely této case study — obsahuje dočasný klíč
+# s nastaveným $2 limitem na OpenRouter, slouží jen reviewerům.
+# Pro produkční použití odkomentovat řádek níže a klíč rotovat:
+# .env
 
 # Logy
 logs/
