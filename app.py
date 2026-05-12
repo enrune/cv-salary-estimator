@@ -2,12 +2,17 @@
 Streamlit UI — upload CV → výsledek + debug window.
 
 Spustit: `streamlit run app.py`
+
+První spuštění: pokud chybí OPENROUTER_API_KEY (v .env nebo env), UI ukáže
+formulář pro vložení klíče. Po uložení se klíč zapíše do .env a UI se přenačte.
+Tím je celý setup po `pip install` zvládnutelný jediným spuštěním Streamlitu —
+žádné manuální editování .env souborů.
 """
 
 
 from __future__ import annotations
-# hashlib pro SHA256 hash uploadovaného souboru — cache key
-import hashlib
+# os pro environ a path manipulaci s klíčem
+import os
 # tempfile pro dočasné uložení uploadu (pdfplumber/python-docx potřebují file path)
 import tempfile
 # Path pro manipulaci s cestami
@@ -15,10 +20,8 @@ from pathlib import Path
 
 # Streamlit — alias `st` je standardní konvence
 import streamlit as st
-
-from src.pipeline import run
-from src.models import Result
-from src.debug import DebugTrace
+# dotenv načte .env při startu i po jeho zápisu — overrride=True pro re-load
+from dotenv import load_dotenv
 
 
 # ---------- Page config (musí být první Streamlit volání) ----------
@@ -29,19 +32,97 @@ st.set_page_config(
 )
 
 
+# ---------- API key handling (před import pipeline modulů, které key potřebují) ----------
+# Načteme .env do os.environ (no-op pokud .env neexistuje)
+load_dotenv(override=True)
+
+# Cesta k .env relativně ke scriptu — funguje i při spuštění z jiné CWD
+_ENV_PATH = Path(__file__).parent / ".env"
+
+
+def _save_env(api_key: str, model: str = "google/gemini-2.5-flash") -> None:
+    """
+    Zapíše .env s API klíčem a default modelem.
+    Vyhradně override-write — bez parse stávajícího .env, protože v této fázi
+    je jediný relevantní obsah ten, co tu nastavíme.
+    """
+    # f-string + multi-line; \n na konci zachová Unix line endings (Windows je tolerantní)
+    content = (
+        "# Vygenerováno automaticky Streamlit UI při prvním spuštění\n"
+        f"OPENROUTER_API_KEY={api_key}\n"
+        f"OPENROUTER_MODEL={model}\n"
+    )
+    # encoding='utf-8' explicitně, aby fungovalo i na Windows s ne-UTF default
+    _ENV_PATH.write_text(content, encoding="utf-8")
+    # Aktualizujeme i runtime env, aby nemusel uživatel restartovat Streamlit
+    os.environ["OPENROUTER_API_KEY"] = api_key
+    os.environ["OPENROUTER_MODEL"] = model
+
+
+# Pokud klíč chybí, ukážeme onboarding formulář a zastavíme zbytek skriptu
+if not os.getenv("OPENROUTER_API_KEY"):
+    st.title("💼 Job Fit & Salary Estimator")
+    st.markdown("### 🔑 První spuštění — zadej OpenRouter API klíč")
+    st.info(
+        "Klíč získáš zdarma na **[openrouter.ai](https://openrouter.ai)** "
+        "(stačí registrace a ~$1 kreditu na desítky analyzovaných CV). "
+        "Klíč se uloží do souboru `.env` ve složce projektu a víc se na něj nebudu ptát."
+    )
+
+    # st.form sdružuje inputy a submit — uživatel může Enterem odeslat
+    with st.form("api_key_form"):
+        # type="password" maskuje vstup hvězdičkami — bezpečnost při screen-sharingu
+        key_input = st.text_input(
+            "OPENROUTER_API_KEY",
+            type="password",
+            placeholder="sk-or-v1-...",
+            help="Formát: 'sk-or-v1-' + 64 hex znaků",
+        )
+        # Selectbox pro model — default první (gemini-flash), doporučeno popisem
+        model_input = st.selectbox(
+            "Model (lze změnit později v .env)",
+            options=[
+                "google/gemini-2.5-flash",
+                "anthropic/claude-haiku-4.5",
+                "openai/gpt-4o-mini",
+                "deepseek/deepseek-chat",
+            ],
+            index=0,
+            help="gemini-2.5-flash je nejlevnější a rychlý, dobrá čeština",
+        )
+        # form_submit_button = jediný submit pro celý form
+        submitted = st.form_submit_button("Uložit a pokračovat", type="primary")
+
+    if submitted:
+        # Validace tvaru — OpenRouter klíče začínají 'sk-or-' (sk-or-v1-)
+        cleaned = key_input.strip()
+        if not cleaned.startswith("sk-or-"):
+            st.error("Klíč musí začínat 'sk-or-v1-'. Zkontroluj kopírování (mezery / nezvolené znaky).")
+        elif len(cleaned) < 20:
+            st.error("Klíč je příliš krátký — pravděpodobně nedokopírovaný.")
+        else:
+            _save_env(cleaned, model_input)
+            st.success("✅ Klíč uložen. Načítám aplikaci…")
+            # st.rerun() znovu spustí celý script od začátku → load_dotenv načte nový .env
+            st.rerun()
+
+    # Stop — bez klíče zbytek skriptu nemá smysl spouštět (LLM by spadl)
+    st.stop()
+
+
+# ---------- Až sem se dostaneme jen s validním klíčem ----------
+# Importy pipeline modulů jsou až tady, aby se nepokoušely o LLM před vyplněním klíče
+from src.pipeline import run  # noqa: E402
+from src.models import Result  # noqa: E402
+from src.debug import DebugTrace  # noqa: E402
+
+
 # ---------- Cache wrapper ----------
 @st.cache_data(show_spinner=False)
 def _cached_run(file_bytes: bytes, suffix: str) -> tuple[Result, DebugTrace]:
     """
     Cached pipeline run — pokud uživatel uploadne stejný soubor, nepálíme tokeny.
     Cache key: hash file_bytes (Streamlit ho spočítá automaticky pro bytes).
-
-    Args:
-        file_bytes: surová byte data uploadu
-        suffix: ".pdf" nebo ".docx" (potřeba pro extract_text dispatch)
-
-    Returns:
-        Tuple (Result, DebugTrace) ze pipeline.run().
     """
     # Pipeline potřebuje file path, ne bytes — uložíme do temp souboru
     # delete=False protože context manager pdfplumber potřebuje vlastní file handle
@@ -60,8 +141,10 @@ def _cached_run(file_bytes: bytes, suffix: str) -> tuple[Result, DebugTrace]:
 st.sidebar.title("⚙️ Nastavení")
 
 # Debug toggle — default OFF, aby běžný demo vypadal čistě
-debug_mode = st.sidebar.checkbox("🐞 Debug mode", value=False,
-                                 help="Zobrazí všechny mezikroky pipeline, prompty, raw LLM odpovědi a cost")
+debug_mode = st.sidebar.checkbox(
+    "🐞 Debug mode", value=False,
+    help="Zobrazí všechny mezikroky pipeline, prompty, raw LLM odpovědi a cost",
+)
 
 st.sidebar.markdown("---")
 st.sidebar.markdown(
@@ -73,6 +156,14 @@ st.sidebar.markdown(
     "5. Explain (LLM → česky)\n"
     "6. Validate (sanity check)"
 )
+st.sidebar.markdown("---")
+# Tlačítko na reset API klíče — pro případ, že chce uživatel změnit
+if st.sidebar.button("🔁 Změnit API klíč", help="Vymaže .env a vyžádá nový klíč"):
+    if _ENV_PATH.exists():
+        _ENV_PATH.unlink()  # smaže .env
+    # Vyčistíme i runtime, aby další rerun viděl prázdno
+    os.environ.pop("OPENROUTER_API_KEY", None)
+    st.rerun()
 
 
 # ---------- Main UI ----------

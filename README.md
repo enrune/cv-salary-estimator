@@ -1,7 +1,7 @@
 # Job Fit & Salary Estimator
 
 AI pipeline, která z PDF/DOCX CV vrátí:
-- **Seniority Score** (0–100) složený ze zkušeností, dovedností, vzdělání a soft skills
+- **Seniority Score** (0–100) složený z dovedností, zkušeností, osobnostních rysů a vzdělání
 - **Salary Estimate** v CZK/měsíc (range, např. 80 000 – 110 000)
 - **České vysvětlení** + konkrétní doporučení pro **+30 % platu**
 
@@ -9,88 +9,129 @@ Implementace pro AI Case Study (květen 2026).
 
 ---
 
-## Rychlý start
+## 🚀 Jak to spustit (2 příkazy)
 
 ```bash
-# 1) Závislosti
-python3 -m venv venv && source venv/bin/activate
 pip install -r requirements.txt
-
-# 2) API klíč (OpenRouter — viz https://openrouter.ai)
-cp .env.example .env
-# vyplň OPENROUTER_API_KEY v .env
-
-# 3) Spustit (3 možnosti)
-streamlit run app.py                              # Web UI s debug oknem
-python run.py samples/sample_cv.pdf               # CLI → JSON na stdout
-uvicorn src.api:app --reload                      # REST API (POST /analyze)
+streamlit run app.py
 ```
+
+To je všechno. Při prvním spuštění UI samo vyzve k vložení **OpenRouter API klíče** (zdarma účet na [openrouter.ai](https://openrouter.ai), ~$1 kreditu stačí na desítky CV). Klíč se uloží do `.env` a víc se nikdy neptá.
+
+Po nahrání CV (například `samples/sample_cv_senior.docx`) klikni v sidebaru **🐞 Debug mode** pro zobrazení všech mezikroků pipeline.
+
+**Alternativy spuštění:**
+```bash
+python run.py samples/sample_cv_senior.docx              # CLI → JSON na stdout
+python run.py samples/sample_cv_senior.docx --debug      # + debug trace na stderr
+uvicorn src.api:app --reload                             # REST API: POST /analyze
+```
+
+> CLI a REST API potřebují klíč v `.env` — buď ho tam Streamlit už uložil, nebo jednorázově `cp .env.example .env` a editovat.
+
+**Doporučená verze Pythonu:** 3.11+. Pro 3.9/3.10 funguje díky `eval-type-backport`, ale doporučuju použít `python -m venv venv && source venv/bin/activate` (Linux/Mac) / `.\venv\Scripts\Activate.ps1` (Windows) před `pip install`.
 
 ---
 
-## Architektura pipeline
+## 🔧 Jak funguje pipeline
 
 ```
 ┌───────────┐  ┌──────────┐  ┌─────────┐  ┌──────────┐  ┌──────────┐  ┌──────────┐
-│ 1 Ingest  │→ │ 2 Parse  │→ │ 3 Score │→ │ 4 Salary │→ │ 5 Explain│→ │ 6 Validate│
+│ 1 INGEST  │→ │ 2 PARSE  │→ │ 3 SCORE │→ │ 4 SALARY │→ │ 5 EXPLAIN│→ │ 6 VALIDATE│
 │ PDF/DOCX  │  │ LLM →    │  │ heur.   │  │ lookup + │  │ LLM →    │  │ sanity    │
 │ → text    │  │ Pydantic │  │ 0–100   │  │ bonusy   │  │ česky    │  │ checks    │
 └───────────┘  └──────────┘  └─────────┘  └──────────┘  └──────────┘  └──────────┘
+       ▼              ▼            ▼            ▼              ▼             ▼
+   raw text        CV objekt    Score      SalaryEstimate   strengths    Result + warnings
+                                            (min, max CZK)   gaps + 3+    (JSON pro UI/API)
+                                                             recomms
 ```
 
-Každý krok je samostatný modul v `src/`, volaný čistou funkcí. `src/pipeline.py` orchestruje vše.
+Každý krok je **samostatný modul v `src/` jako čistá funkce**, `src/pipeline.py` orchestruje sekvenci. To umožňuje (a) testovat moduly samostatně z REPL, (b) sdílet pipeline mezi CLI / Streamlit / FastAPI bez duplicity.
 
-| Krok | Modul | Co dělá |
-|---|---|---|
-| 1 | `src/ingest.py` | `pdfplumber` (PDF) / `python-docx` (DOCX) → plain text |
-| 2 | `src/parse.py` | LLM (`json_mode`) → Pydantic `CV`, retry s feedback při validation error |
-| 3 | `src/score.py` | Vážená heuristika: 40 % experience + 30 % skills + 15 % education + 15 % soft |
-| 4 | `src/salary.py` | Lookup tabulky × pozice v range podle score × bonus za premium skills (+max 20 %) |
-| 5 | `src/explain.py` | LLM dostane CV + score breakdown + salary range → vrací JSON s vysvětlením a 3+ doporučeními |
-| 6 | `src/validate.py` | Sanity checks (range, konzistence seniority/score, počty doporučení atd.) |
+| # | Modul | Vstup → Výstup | Detail |
+|---|---|---|---|
+| 1 | `src/ingest.py` | `path → str` | `pdfplumber` (PDF, layout-aware) nebo `python-docx` (DOCX, vč. tabulek) |
+| 2 | `src/parse.py` | `str → CV` | LLM s `json_mode` + Pydantic validace. Při chybě **retry s feedbackem** chyby do promptu (self-healing) |
+| 3 | `src/score.py` | `CV → Score` | Vážená heuristika: **0.40·exp + 0.30·skills + 0.15·edu + 0.15·soft**. Sigmoidní křivka pro roky praxe |
+| 4 | `src/salary.py` | `CV+Score → SalaryEstimate` | (a) lookup baseline range pro role × lokace × seniorita, (b) posun v range podle score (max ±12.5 %), (c) bonus za premium skills (cap +20 %) |
+| 5 | `src/explain.py` | `vše → text + lists` | LLM dostane plný kontext (CV JSON + score breakdown + salary range + cíl +30 %) → vrací JSON s explanation, strengths, gaps, **min. 3 měřitelná doporučení** |
+| 6 | `src/validate.py` | `Result → list[warnings]` | 8 sanity check pravidel (range, konzistence seniority/score, počet doporučení, realistický plat 15–500k…) |
+
+Detaily skoringu a salary vzorce viz docstring v daném modulu.
 
 ---
 
-## Přístup k datům
+## 📊 Jak jsem přistoupil k datům
 
-Hybridní strategie pokrývající všechny tři možnosti ze zadání:
+Zadání povoluje scraping / veřejné zdroje / synthetic data. Použil jsem **všechny tři** — každý má jinou roli:
 
 ### a) Synthetic baseline — `data/salary_table.json`
-Ručně sestavená tabulka 10+ rolí × 2 lokace (Praha / regiony) × 3 senioritní úrovně, opřená o veřejně známé vzorce platů (platy.cz, Glassdoor 2026). Vždy přítomná, slouží jako fallback.
+Ručně sestavená tabulka **11 rolí × 2 lokace (Praha / regiony) × 3 senioritní úrovně** = 66 platových rozmezí. Hodnoty jsou odvozené z veřejně známých vzorců (platy.cz, Glassdoor 2026). Slouží jako **vždy přítomný fallback** — pipeline funguje, i když chybí scraped data nebo internet.
 
-### b) Scraping — `src/scrape.py` + `data/scraped_salaries.json`
-One-shot skript stahuje veřejné inzeráty z `jobs.cz`, extrahuje role + zmíněnou mzdu, agreguje na percentily a ukládá do JSON. Data se mergují do baseline při startu salary modulu (scraped má prioritu).
+### b) Scraping — `src/scrape.py` → `data/scraped_salaries.json`
+One-shot Python skript, který stahuje veřejné inzeráty z **jobs.cz**:
+- 10 různých query (`python developer`, `data engineer`, `devops`, …) × 3 stránky = ~150 inzerátů
+- Extrakce mzdy z volného textu (regex tolerantní na NBSP, ZWJ, em-dash)
+- Klasifikace role + seniority + lokace (keyword matching → naše taxonomie)
+- Deduplikace, agregace na **P25 of min / P75 of max** pro každou kombinaci (eliminuje outliery)
+- Slušný scraping: rate-limit 1.5 s, identifikující User-Agent, respekt k robots.txt
 
+Spuštění:
 ```bash
-python -m src.scrape       # ~5 min, ~150 inzerátů, slušný rate-limit (1.5 s)
+python -m src.scrape       # ~5 min, vytvoří/aktualizuje JSON
 ```
 
-Aktuální `data/scraped_salaries.json` byl vygenerován **9. 5. 2026** ze 76 unikátních inzerátů (10 query, 3 stránky každý). Zachovaná raw data jsou v `data/scraped_raw.json` pro re-aggregaci bez re-scrape.
+Aktuální `data/scraped_salaries.json` vznikl **9. 5. 2026** ze 76 unikátních inzerátů (po dedup z 111). `data/scraped_raw.json` obsahuje surové záznamy pro re-aggregaci bez nutnosti znovu scrapovat.
 
 ### c) Heuristika — `src/salary.py`
-Multi-faktorový výpočet: detekce role (LLM whitelist) → detekce lokace (Praha vs regiony) → lookup baseline range → posun v range podle score → premium-skill bonus.
+Spojuje a/ + b/ v multi-faktorovém vzorci:
+1. **Load tabulky** (`@lru_cache` na IO) — baseline + merge scraped (scraped má prioritu, kde existuje)
+2. **Detekce role** z `cv.role_category` (LLM klasifikuje do whitelistu 11 rolí, fallback `general`)
+3. **Detekce lokace** z `cv.location` (klíčová slova: Praha/prague/pražsk → praha, jinak regiony)
+4. **Detekce seniority** ze score (≤45 junior, 46–70 medior, 71+ senior) — objektivnější než z titulu v CV
+5. **Lookup range** [min, max] CZK
+6. **Interpolace v range** podle pozice score v seniorita kategorii (max ±12.5 % šířky range)
+7. **Premium-skill bonus** (+5 % AWS, +7 % K8s, +8 % Rust/LLM, …, max +20 %)
+8. **Zaokrouhlení** na tisícovky pro čitelnost
 
-### Omezení a transparentnost
+### Transparentnost a omezení
 
-- Synthetic data jsou **odhad**, ne autoritativní zdroj — reálné platy záleží na firmě, benefitech a vyjednání.
-- Scraped data jsou **snapshot** trhu k datu spuštění. Pro aktualizaci stačí znovu spustit `python -m src.scrape`.
-- Klasifikace role z inzerátu používá keyword matching; ~30 % inzerátů spadne do `general` kategorie.
+- Synthetic data jsou **odhad**, ne autoritativní zdroj — reálné platy závisí na firmě, benefitech a vyjednání.
+- Scraped data jsou **snapshot trhu** k datu běhu. Pro refresh: `python -m src.scrape`.
+- Klasifikace role z inzerátu používá keyword matching; cca 30 % inzerátů spadne do `general` (nemají typický IT title).
+- Kombinace s méně než 2 záznamy ve scrape se zahazují (statisticky nespolehlivé) — baseline pak rozhoduje.
 
 ---
 
-## Struktura projektu
+## 🐞 Debug mode
+
+V Streamlit UI zaškrtni `🐞 Debug mode` v sidebaru:
+1. **Ingest** — počet stránek/znaků, ukázka textu
+2. **Parse** — plný system + user prompt, raw LLM response, parsed CV, tokens, cost, latence
+3. **Score** — breakdown jednotlivých složek + váhy + textový vzorec `0.4×86 + 0.3×89 + ...`
+4. **Salary** — base range, position v seniorita, shift, bonusy, finální range
+5. **Explain** — plný prompt (vč. score+salary kontextu), raw LLM, tokens
+6. **Validate** — sanity check warnings
+7. **Souhrn** — total tokens, total cost, total time
+
+V CLI: `python run.py samples/sample_cv_senior.docx --debug 2>debug.log`.
+
+---
+
+## 📁 Struktura projektu
 
 ```
 jobhunt/
 ├── README.md
 ├── requirements.txt
 ├── .env.example                 # OPENROUTER_API_KEY=...
-├── .gitignore
 ├── data/
 │   ├── salary_table.json        # synthetic baseline
 │   ├── scraped_salaries.json    # výstup scraperu (mergne se do baseline)
 │   └── scraped_raw.json         # raw inzeráty pro re-aggregaci
-├── samples/                     # ukázková CV pro testy
+├── samples/
+│   └── sample_cv_senior.docx    # ukázkové CV pro test
 ├── src/
 │   ├── models.py                # Pydantic CV, Score, SalaryEstimate, Result
 │   ├── ingest.py                # PDF/DOCX → text
@@ -110,68 +151,29 @@ jobhunt/
 
 ---
 
-## LLM model
+## 🤖 LLM model
 
-Default: `google/gemini-2.5-flash` (rychlý, levný, dobrá čeština).
-Změnit lze v `.env` proměnnou `OPENROUTER_MODEL`. Doporučené alternativy:
-- `anthropic/claude-haiku-4.5` — nejlepší čeština, mírně dražší
-- `openai/gpt-4o-mini` — kompromis kvalita/cena
-- `deepseek/deepseek-chat` — nejlevnější, hor­ší v češtině
+Default: `google/gemini-2.5-flash` (rychlý, levný, dobrá čeština). Změnit v `.env` přes `OPENROUTER_MODEL`. Alternativy: `anthropic/claude-haiku-4.5`, `openai/gpt-4o-mini`, `deepseek/deepseek-chat`.
 
-Typický run pro 1 CV: ~1500 input + 700 output tokens, ~$0.0003 (gemini-flash) až ~$0.005 (claude-haiku).
+Typický run pro 1 CV: **~4500 tokens, ~$0.0007** (gemini-flash), **~10 s** end-to-end.
 
 ---
 
-## Debug mode
+## ✏️ Komentáře v kódu
 
-V Streamlit UI zaškrtni `🐞 Debug mode` v sidebaru. Zobrazí se:
-
-1. **Ingest** — počet znaků, prvních 500 chars textu
-2. **Parse** — full system + user prompt, raw LLM response, parsed Pydantic CV, tokens, cost, latence
-3. **Score** — breakdown jednotlivých složek (`experience: 76, skills: 28, ...`), váhy, formula
-4. **Salary** — base range, pozice ve seniorita kategorii, shift dle score, bonusy
-5. **Explain** — full prompt (vč. score+salary kontextu), raw LLM response, tokens, cost
-6. **Souhrn** — total tokens, total cost, total time
-
-V CLI: `python run.py samples/sample_cv.pdf --debug` → debug trace na stderr.
+Každý řádek Pythonu má krátký komentář vysvětlující **proč** — volba knihovny, parametru, edge case, datového rozhodnutí. Důvod: kód musí jít obhájit při review.
 
 ---
 
-## Verifikace
-
-```bash
-# Sanity tests (3 různá CV)
-python run.py samples/junior_cv.pdf  | jq '.score.total, .salary'
-python run.py samples/medior_cv.pdf  | jq '.score.total, .salary'
-python run.py samples/senior_cv.pdf  | jq '.score.total, .salary'
-
-# REST endpoint
-curl -F file=@samples/sample_cv.pdf http://localhost:8000/analyze | jq '.score.total'
-```
-
-Očekávané:
-- Junior bez praxe: score < 45, plat 40–70k, doporučení míří na získání zkušeností
-- Senior 10+ let s leadershipem: score > 70, plat 100k+, doporučení na management/architekturu
-- Neznámá role: pipeline nespadne, `role_detected: "general"`, širší range
-
----
-
-## Co je v kódu komentováno
-
-Každý řádek Pythonu má krátký komentář vysvětlující **proč** (volba knihovny, parametru, edge case, datového rozhodnutí). Důvod: kód musí jít obhájit při review v dalším kole — čtení od neznámého reviewera musí dát smysl.
-
----
-
-## Co (vědomě) nedělám
+## 🚫 Co (vědomě) nedělám
 
 - Žádné fine-tuning / embeddings / vector DB — overkill pro tento rozsah
 - Žádné Docker / CI / unit testy — sanity checks v `validate.py` + ruční testy stačí
 - Žádný auth / databáze — stateless funkce, žádné session storage
-- Scraping je on-demand (`python -m src.scrape`), ne runtime — výsledky se cachují do JSON
+- Scraping běží on-demand (`python -m src.scrape`), ne runtime — výsledky cachované do JSON
 
 ---
 
-## Licence
+## 📜 Licence
 
-Educational case study — žádná licence pro produkční použití. Scraping z jobs.cz proběhl s
-respektem k robots.txt, slušnými rate-limity a identifikujícím User-Agent.
+Educational case study — žádná licence pro produkční použití. Scraping z jobs.cz proběhl s respektem k robots.txt, slušnými rate-limity (1.5 s/request) a identifikujícím User-Agent.
