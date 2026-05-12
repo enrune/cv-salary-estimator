@@ -12,6 +12,8 @@ validovat přes Pydantic. Pokud validace selže, jeden retry s feedback do promp
 from __future__ import annotations
 # json pro parsování LLM odpovědi; stdlib, vždy dostupné
 import json
+# os pro detekci přítomnosti API klíče (rozhoduje LLM vs fallback)
+import os
 
 # ValidationError = výjimka, kterou Pydantic hodí když LLM vrátí špatný tvar
 from pydantic import ValidationError
@@ -20,6 +22,8 @@ from pydantic import ValidationError
 from src.llm import complete
 from src.models import CV
 from src.debug import DebugTrace
+# Fallback parser — pouzije se kdyz chybi OPENROUTER_API_KEY (regex/keyword based)
+from src.parse_fallback import parse_cv_fallback
 
 
 # Maximální délka CV textu poslaného do LLM. Důvod limitu:
@@ -163,6 +167,22 @@ def parse_cv(text: str, *, trace: DebugTrace | None = None) -> CV:
     Raises:
         ValueError: pokud LLM dvakrát vrátí nevalidní strukturu (po retry).
     """
+    # Pokud chybí OPENROUTER_API_KEY, prepneme do fallback rezimu bez LLM.
+    # Kvalita je horsi (regex misto chapani kontextu), ale pipeline projde.
+    if not os.getenv("OPENROUTER_API_KEY"):
+        cv = parse_cv_fallback(text)
+        if trace is not None:
+            trace.log(
+                "parse_fallback",
+                mode="regex+keywords (no LLM)",
+                input_chars=len(text),
+                parsed_skills_count=len(cv.skills),
+                detected_role=cv.role_category,
+                years_experience=cv.years_experience,
+                note="LLM neni dostupny — vyhledáno klíčovými slovy. Kvalita je nizsi.",
+            )
+        return cv
+
     # Truncate na max chars; ochrana před nákladnými requesty u dlouhých dokumentů
     # `[:limit]` je bezpečné i pro kratší stringy (Python neudělá out-of-bounds)
     truncated = text[:_MAX_CV_CHARS]

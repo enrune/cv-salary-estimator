@@ -13,11 +13,14 @@ Strategie:
 
 from __future__ import annotations
 import json
+import os  # detekce API kliče pro rozhodnutí LLM vs fallback
 from pydantic import BaseModel, Field, ValidationError
 
 from src.llm import complete
 from src.models import CV, Score, SalaryEstimate
 from src.debug import DebugTrace
+# Fallback explainer — template-based vysvetleni kdyz neni API klic
+from src.explain_fallback import explain_fallback
 
 
 # Lokální Pydantic model pro explanation output. Nedáváme ho do models.py,
@@ -66,6 +69,16 @@ def explain(
     trace: DebugTrace | None = None,
 ) -> _ExplanationPayload:
     """Hlavní funkce modulu — vrátí strukturované vysvětlení."""
+    # Pokud chybi API klic, prepneme do fallback rezimu (template-based)
+    if not os.getenv("OPENROUTER_API_KEY"):
+        if trace is not None:
+            trace.log(
+                "explain_fallback",
+                mode="template-based (no LLM)",
+                note="Pro personalizovane vysvetleni vlozte OpenRouter API klic.",
+            )
+        return explain_fallback(cv, score, salary)
+
     # Sestavíme kontext do promptu — kompletní informace
     # model_dump_json je rychlejší než model_dump + json.dumps a zachová Pydantic formátování
     # exclude_none=True odstraní null fields → kratší prompt → méně tokenů

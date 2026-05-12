@@ -59,26 +59,25 @@ def _save_env(api_key: str, model: str = "google/gemini-2.5-flash") -> None:
     os.environ["OPENROUTER_MODEL"] = model
 
 
-# Pokud klíč chybí, ukážeme onboarding formulář a zastavíme zbytek skriptu
-if not os.getenv("OPENROUTER_API_KEY"):
+# Pokud klíč chybí A uživatel zatím neodsouhlasil fallback, ukážeme onboarding.
+# Fallback flag drzime v session_state — preziva mezi reruny ve stejne session.
+if not os.getenv("OPENROUTER_API_KEY") and not st.session_state.get("use_fallback"):
     st.title("💼 Job Fit & Salary Estimator")
-    st.markdown("### 🔑 První spuštění — zadej OpenRouter API klíč")
+    st.markdown("### 🔑 OpenRouter API klíč")
     st.info(
-        "Klíč získáš zdarma na **[openrouter.ai](https://openrouter.ai)** "
-        "(stačí registrace a ~$1 kreditu na desítky analyzovaných CV). "
-        "Klíč se uloží do souboru `.env` ve složce projektu a víc se na něj nebudu ptát."
+        "**Doporučeno:** vytvořte si zdarma účet na **[openrouter.ai](https://openrouter.ai)** "
+        "(~$1 kreditu = desítky analyzovaných CV). Klíč vložte níže, uloží se do `.env`.\n\n"
+        "**Bez klíče:** můžete pokračovat v **fallback módu** — bez LLM, jen regex + šablony. "
+        "Pipeline projde end-to-end, ale parsing CV a vysvětlení budou méně přesné."
     )
 
-    # st.form sdružuje inputy a submit — uživatel může Enterem odeslat
     with st.form("api_key_form"):
-        # type="password" maskuje vstup hvězdičkami — bezpečnost při screen-sharingu
         key_input = st.text_input(
             "OPENROUTER_API_KEY",
             type="password",
             placeholder="sk-or-v1-...",
             help="Formát: 'sk-or-v1-' + 64 hex znaků",
         )
-        # Selectbox pro model — default první (gemini-flash), doporučeno popisem
         model_input = st.selectbox(
             "Model (lze změnit později v .env)",
             options=[
@@ -90,11 +89,14 @@ if not os.getenv("OPENROUTER_API_KEY"):
             index=0,
             help="gemini-2.5-flash je nejlevnější a rychlý, dobrá čeština",
         )
-        # form_submit_button = jediný submit pro celý form
-        submitted = st.form_submit_button("Uložit a pokračovat", type="primary")
+        # Dve tlacitka — submit s klicem nebo skip do fallbacku
+        col_a, col_b = st.columns(2)
+        with col_a:
+            submitted = st.form_submit_button("✅ Uložit klíč a pokračovat", type="primary")
+        with col_b:
+            skip = st.form_submit_button("⏭️ Pokračovat bez klíče (fallback)")
 
     if submitted:
-        # Validace tvaru — OpenRouter klíče začínají 'sk-or-' (sk-or-v1-)
         cleaned = key_input.strip()
         if not cleaned.startswith("sk-or-"):
             st.error("Klíč musí začínat 'sk-or-v1-'. Zkontroluj kopírování (mezery / nezvolené znaky).")
@@ -103,10 +105,13 @@ if not os.getenv("OPENROUTER_API_KEY"):
         else:
             _save_env(cleaned, model_input)
             st.success("✅ Klíč uložen. Načítám aplikaci…")
-            # st.rerun() znovu spustí celý script od začátku → load_dotenv načte nový .env
             st.rerun()
 
-    # Stop — bez klíče zbytek skriptu nemá smysl spouštět (LLM by spadl)
+    if skip:
+        # Uzivatel souhlasi s fallback rezimem — zachytime to do session_state
+        st.session_state["use_fallback"] = True
+        st.rerun()
+
     st.stop()
 
 
@@ -169,6 +174,13 @@ if st.sidebar.button("🔁 Změnit API klíč", help="Vymaže .env a vyžádá n
 # ---------- Main UI ----------
 st.title("💼 Job Fit & Salary Estimator")
 st.caption("Nahraj CV (PDF nebo DOCX) → seniority skóre, odhad mzdy, doporučení v češtině.")
+
+# Pokud jsme ve fallback rezimu (zadny API klic), upozornime uzivatele
+if not os.getenv("OPENROUTER_API_KEY"):
+    st.warning(
+        "⚠️ **Fallback mód** (bez LLM): parsing CV a vysvětlení používají regex a šablony. "
+        "Kvalita je nižší než s OpenRouter klíčem. Klíč můžete zadat tlačítkem v sidebaru."
+    )
 
 # File uploader — accept_multiple_files=False (default) pro single CV
 uploaded = st.file_uploader(

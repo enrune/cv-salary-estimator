@@ -14,7 +14,10 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
-Otevře se prohlížeč na `http://localhost:8501`. Repo obsahuje dočasný OpenRouter API klíč v `.env` s nastaveným $2 limitem, takže není potřeba nic nastavovat. Pokud chcete použít vlastní klíč, smažte `.env` a aplikace si o něj při startu řekne formulářem v UI.
+Otevře se prohlížeč na `http://localhost:8501`. Při prvním spuštění UI nabídne:
+
+- **S LLM klíčem (doporučeno):** vytvořte si zdarma účet na [openrouter.ai](https://openrouter.ai) (~$1 kreditu = desítky CV). Klíč vložte do formuláře a uloží se do `.env`.
+- **Bez klíče (fallback mód):** klikněte „Pokračovat bez klíče". Pipeline projde end-to-end přes regex + šablony místo LLM. Kvalita je nižší (parsing CV i vysvětlení), ale dostanete plný demo end-to-end.
 
 V UI nahrajte CV (například `samples/sample_cv_senior.docx`). Pro zobrazení detailů pipeline zaškrtněte v levém sidebaru **🐞 Debug mode**.
 
