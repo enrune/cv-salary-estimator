@@ -82,8 +82,11 @@ def estimate_salary(cv: CV, score: Score, *, trace: DebugTrace | None = None) ->
     # Krok 3: detekce location
     location = _detect_location(cv)
 
-    # Krok 4: detekce seniority ze SCORE (nikoli z CV, score je objektivnější)
-    seniority = _seniority_from_score(score.total)
+    # Krok 4: detekce seniority — PRIMÁRNĚ podle let praxe, NE podle score.
+    # Důvod: non-IT pozice (pokladní, řidič, sestra...) mají strukturálně nižší
+    # skills score, protože v _HIGH_VALUE_SKILLS je víc IT-zaměřených dovedností.
+    # Roky praxe jsou univerzální signál, který funguje napříč odvětvími.
+    seniority = _seniority_from_years(cv.years_experience)
 
     # Krok 5: lookup baseline range
     # Defenzivně .get() s defaults pro případ chybějící kombinace v tabulce
@@ -177,22 +180,32 @@ def _detect_location(cv: CV) -> str:
     return "regiony"
 
 
-def _seniority_from_score(score_total: int) -> str:
-    """Mapuje celkové score na seniority kategorii."""
-    # Boundary: <= 45 junior, 46-70 medior, 71+ senior
-    # Důvod: většina juniorů má score 20-45, mediorů 50-70, seniorů 70+
-    if score_total <= 45:
+def _seniority_from_years(years: float) -> str:
+    """
+    Mapuje roky relevantní praxe na seniority kategorii.
+    Univerzální napříč obory: pokladní/lékař/programátor s 5 lety = senior bez ohledu na score.
+    Hranice:
+      - 0–2 roky → junior
+      - 2–6 let → medior
+      - 6+ let  → senior
+    """
+    if years < 2:
         return "junior"
-    if score_total <= 70:
+    if years < 6:
         return "medior"
     return "senior"
 
 
 def _seniority_bounds(seniority: str) -> tuple[int, int]:
-    """Vrací (low, high) score boundaries pro danou seniority kategorii."""
-    # Synchronizováno s _seniority_from_score
+    """
+    Vrací (low, high) SCORE boundaries pro danou seniority kategorii.
+    Používá se pro POZICI v platovém range — score interpoluje, kam v range padneme.
+    Ne pro detekci seniority samotnou (to dělá _seniority_from_years podle praxe).
+    """
+    # Liberálnější horní hranice pro juniora — non-IT junior může mít score ~50 (Excel, AJ, soft)
+    # Senior začíná až od 65, aby nezkresloval non-IT (kde málokdo dosáhne 80+ kvůli skills mapě)
     return {
-        "junior": (0, 45),
-        "medior": (46, 70),
-        "senior": (71, 100),
+        "junior": (0, 50),
+        "medior": (50, 75),
+        "senior": (75, 100),
     }[seniority]

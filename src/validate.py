@@ -46,14 +46,27 @@ def sanity_check(result: Result) -> list[str]:
             f"Salary max příliš vysoký: {result.salary.max_czk:,} CZK"
         )
 
-    # 4) Konzistence seniority vs. score
-    # Junior s vysokým score = nesoulad (možná špatná detekce role v score)
+    # 4) Konzistence seniority vs. praxe vs. score
+    # Seniorita se primárně určuje z let praxe (univerzální napříč obory), ne ze score.
+    # Score se používá jen pro pozici v range; non-IT může mít legitimně nižší score (15-40),
+    # aniž by to znamenalo junioritu. Proto kontrolujeme primárně praxi:
     sen = result.salary.seniority
+    years = result.cv.years_experience
     score = result.score.total
-    if sen == "junior" and score > 60:
-        warnings.append(f"Seniorita 'junior' nesedí se score {score} (>60)")
-    if sen == "senior" and score < 50:
-        warnings.append(f"Seniorita 'senior' nesedí se score {score} (<50)")
+    # Sanity: seniority kategorie musí sedět s roky praxe (s odpustí výjimkou self-trained)
+    if sen == "senior" and years < 4:
+        warnings.append(f"Seniorita 'senior' ale jen {years} let praxe (< 4)")
+    if sen == "junior" and years > 4:
+        warnings.append(f"Seniorita 'junior' ale {years} let praxe (> 4)")
+    # Sekundárně: extrémní rozdíl score vs. seniority u IT-rolí (kde je škála skills široká)
+    it_roles = {"python_developer", "javascript_developer", "frontend_developer",
+                "backend_developer", "fullstack_developer", "data_engineer",
+                "data_analyst", "ml_engineer", "devops"}
+    if result.salary.role_detected in it_roles:
+        if sen == "junior" and score > 65:
+            warnings.append(f"IT junior se score {score} (>65) — možná podceněná seniorita")
+        if sen == "senior" and score < 45:
+            warnings.append(f"IT senior se score {score} (<45) — chybí dovednosti pro level")
 
     # 5) Doporučení — minimálně 3 položky (vyžadováno explicitně v zadání)
     if len(result.recommendations_for_30pct) < 3:

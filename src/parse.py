@@ -38,11 +38,37 @@ Pravidla:
 - Vrať POUZE validní JSON, žádný markdown, žádné code fences, žádný komentář.
 - Pokud informace v CV chybí, použij null (pro string pole) nebo prázdný seznam (pro list pole).
 - Pole `years_experience` spočítej jako součet relevantní praxe (zaokrouhli na 0.5).
-- Pole `role_category` musí být jedna z: python_developer, javascript_developer, data_engineer,
-  ml_engineer, data_analyst, devops, fullstack_developer, backend_developer,
-  frontend_developer, product_manager, general. Vyber tu nejbližší. Pokud nic nesedí, použij "general".
-- Pole `level` u education: SS=středoškolské, Bc=bakalář, Mgr=magistr, PhD=doktorát, MBA, other.
-- Pole `soft_skills` ODVOĎ z popisů rolí (např. "vedl tým 5 lidí" → "leadership").
+- Pole `role_category` musí být PŘESNĚ jedna z následujících kategorií (vyber nejbližší).
+  Pokud nic kandidátovi nesedí, použij "general":
+
+  IT — software:
+    python_developer, javascript_developer, frontend_developer,
+    backend_developer, fullstack_developer
+  IT — data / ML:
+    data_engineer, data_analyst, ml_engineer
+  IT — infra / produkt:
+    devops, product_manager
+  Office / administrativa / finance:
+    ucetni (účetní), financni_analytik (finanční analytik), hr_specialista,
+    administrativni_pracovnik, projektovy_manazer, office_manager
+  Sales / marketing / kreativa:
+    marketing_specialista, obchodni_zastupce (sales rep), copywriter, grafik
+  Retail / služby:
+    pokladni (pokladní), prodavac (prodavač), skladnik (skladník), recepcni
+  Gastronomie:
+    kuchar (kuchař), cisnik (číšník)
+  Doprava:
+    ridic (řidič), kuryr (kurýr)
+  Vzdělávání / zdravotnictví:
+    ucitel (učitel), zdravotni_sestra (zdrav. sestra), lekar (lékař)
+  Řemesla / stavebnictví:
+    elektrikar, instalater, stavbar (zedník, stavbyvedoucí)
+  Bezpečnost / sport:
+    ostraha, trener (osobní trenér, fitness trenér)
+  Fallback: general
+
+- Pole `level` u education: SS=středoškolské/výuční list, Bc=bakalář, Mgr=magistr, PhD=doktorát, MBA, other.
+- Pole `soft_skills` ODVOĎ z popisů rolí (např. "vedl tým 5 lidí" → "leadership"; "obsluhoval zákazníky" → "communication").
 - Lokace: pokud kandidát uvádí Prahu nebo Pražský kraj, dej "Praha", jinak konkrétní město."""
 
 
@@ -76,7 +102,7 @@ _SCHEMA_HINT = """{
   "skills": ["technické dovednosti, např. Python, SQL, Docker"],
   "languages": ["jazyky s úrovní, např. 'angličtina C1'"],
   "soft_skills": ["odvozené z popisů, např. 'leadership', 'mentoring'"],
-  "role_category": "python_developer|javascript_developer|data_engineer|ml_engineer|data_analyst|devops|fullstack_developer|backend_developer|frontend_developer|product_manager|general",
+  "role_category": "viz systémový prompt — IT: python_developer/javascript_developer/frontend_developer/backend_developer/fullstack_developer/data_engineer/data_analyst/ml_engineer/devops/product_manager | office: ucetni/financni_analytik/hr_specialista/administrativni_pracovnik/projektovy_manazer/office_manager | sales: marketing_specialista/obchodni_zastupce/copywriter/grafik | retail: pokladni/prodavac/skladnik/recepcni | gastro: kuchar/cisnik | doprava: ridic/kuryr | edu+zdrav: ucitel/zdravotni_sestra/lekar | řemesla: elektrikar/instalater/stavbar | ostatní: ostraha/trener | fallback: general",
   "years_experience": "číslo (float), např. 3.5"
 }"""
 

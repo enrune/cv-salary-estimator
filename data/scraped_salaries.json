@@ -1,7 +1,7 @@
 {
   "_meta": {
     "source": "Scraped from jobs.cz",
-    "record_count": 76,
+    "record_count": 741,
     "method": "p25 of min, p75 of max for each role x location x seniority"
   },
   "python_developer": {
@@ -10,26 +10,30 @@
   "general": {
     "praha": {
       "medior": [
-        50000,
-        130000
+        35000,
+        80000
       ],
       "senior": [
-        150000,
-        200000
+        60000,
+        180000
+      ],
+      "junior": [
+        43000,
+        100000
       ]
     },
     "regiony": {
       "medior": [
-        55000,
-        100000
+        32000,
+        80000
+      ],
+      "junior": [
+        30000,
+        80000
       ]
     }
   },
   "javascript_developer": {
-    "praha": {}
-  },
-  "ml_engineer": {
-    "regiony": {},
     "praha": {}
   },
   "fullstack_developer": {
@@ -56,20 +60,47 @@
       ]
     }
   },
+  "ml_engineer": {
+    "regiony": {},
+    "praha": {}
+  },
   "devops": {
     "regiony": {},
-    "praha": {
-      "medior": [
-        65000,
-        110000
-      ]
-    }
+    "praha": {}
   },
   "data_analyst": {
     "praha": {},
     "regiony": {
       "medior": [
         45000,
+        95000
+      ]
+    }
+  },
+  "ostraha": {
+    "praha": {
+      "medior": [
+        45000,
+        65000
+      ]
+    },
+    "regiony": {
+      "medior": [
+        27000,
+        45000
+      ]
+    }
+  },
+  "projektovy_manazer": {
+    "regiony": {
+      "medior": [
+        40000,
+        120000
+      ]
+    },
+    "praha": {
+      "medior": [
+        40000,
         95000
       ]
     }
@@ -87,8 +118,314 @@
     },
     "praha": {
       "medior": [
+        50000,
+        97000
+      ]
+    }
+  },
+  "obchodni_zastupce": {
+    "praha": {
+      "medior": [
         40000,
+        70000
+      ]
+    },
+    "regiony": {
+      "medior": [
+        40000,
+        100000
+      ],
+      "junior": [
+        38000,
+        44500
+      ]
+    }
+  },
+  "ucetni": {
+    "regiony": {
+      "medior": [
+        40000,
+        65000
+      ],
+      "senior": [
+        37500,
+        62400
+      ]
+    },
+    "praha": {
+      "medior": [
+        45000,
+        83300
+      ]
+    }
+  },
+  "financni_analytik": {
+    "praha": {},
+    "regiony": {}
+  },
+  "hr_specialista": {
+    "regiony": {
+      "medior": [
+        50000,
         80000
+      ]
+    },
+    "praha": {}
+  },
+  "stavbar": {
+    "praha": {
+      "medior": [
+        30000,
+        70000
+      ]
+    },
+    "regiony": {
+      "medior": [
+        35000,
+        70000
+      ]
+    }
+  },
+  "administrativni_pracovnik": {
+    "praha": {
+      "medior": [
+        35000,
+        55000
+      ]
+    },
+    "regiony": {
+      "medior": [
+        28000,
+        40000
+      ]
+    }
+  },
+  "office_manager": {
+    "regiony": {
+      "medior": [
+        30000,
+        40000
+      ],
+      "junior": [
+        35000,
+        70000
+      ]
+    },
+    "praha": {
+      "medior": [
+        40000,
+        58000
+      ],
+      "junior": [
+        15000,
+        70000
+      ]
+    }
+  },
+  "marketing_specialista": {
+    "praha": {
+      "junior": [
+        43000,
+        50000
+      ],
+      "medior": [
+        40000,
+        70000
+      ]
+    },
+    "regiony": {
+      "medior": [
+        30000,
+        60000
+      ]
+    }
+  },
+  "copywriter": {
+    "regiony": {}
+  },
+  "grafik": {
+    "regiony": {
+      "medior": [
+        30000,
+        45000
+      ]
+    },
+    "praha": {
+      "medior": [
+        45000,
+        90000
+      ]
+    }
+  },
+  "pokladni": {
+    "regiony": {
+      "medior": [
+        24000,
+        35000
+      ]
+    }
+  },
+  "prodavac": {
+    "praha": {
+      "medior": [
+        35000,
+        50000
+      ]
+    },
+    "regiony": {
+      "medior": [
+        25000,
+        38000
+      ]
+    }
+  },
+  "trener": {
+    "praha": {}
+  },
+  "skladnik": {
+    "regiony": {
+      "medior": [
+        28830,
+        41000
+      ]
+    },
+    "praha": {
+      "medior": [
+        31000,
+        40000
+      ]
+    }
+  },
+  "recepcni": {
+    "regiony": {
+      "medior": [
+        26500,
+        40000
+      ]
+    },
+    "praha": {
+      "medior": [
+        30000,
+        42000
+      ]
+    }
+  },
+  "kuchar": {
+    "regiony": {
+      "medior": [
+        28000,
+        50000
+      ]
+    },
+    "praha": {
+      "medior": [
+        35000,
+        50000
+      ]
+    }
+  },
+  "ridic": {
+    "regiony": {
+      "medior": [
+        35000,
+        60000
+      ]
+    },
+    "praha": {
+      "medior": [
+        38000,
+        80000
+      ]
+    }
+  },
+  "cisnik": {
+    "regiony": {
+      "medior": [
+        35000,
+        50000
+      ]
+    },
+    "praha": {
+      "medior": [
+        38000,
+        75000
+      ]
+    }
+  },
+  "kuryr": {
+    "praha": {},
+    "regiony": {
+      "medior": [
+        16000,
+        18000
+      ]
+    }
+  },
+  "ucitel": {
+    "praha": {
+      "medior": [
+        37000,
+        52000
+      ]
+    },
+    "regiony": {
+      "medior": [
+        33000,
+        50000
+      ]
+    }
+  },
+  "zdravotni_sestra": {
+    "regiony": {
+      "medior": [
+        35000,
+        50000
+      ],
+      "senior": [
+        43500,
+        50000
+      ]
+    },
+    "praha": {
+      "medior": [
+        40000,
+        55000
+      ]
+    }
+  },
+  "lekar": {
+    "regiony": {
+      "medior": [
+        60000,
+        150000
+      ]
+    },
+    "praha": {
+      "medior": [
+        80000,
+        200000
+      ]
+    }
+  },
+  "elektrikar": {
+    "regiony": {
+      "medior": [
+        38000,
+        60000
+      ]
+    },
+    "praha": {
+      "medior": [
+        40000,
+        75000
+      ]
+    }
+  },
+  "instalater": {
+    "praha": {
+      "medior": [
+        26500,
+        70000
       ]
     }
   }

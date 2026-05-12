@@ -28,8 +28,10 @@ assert abs(_W_EXPERIENCE + _W_SKILLS + _W_EDUCATION + _W_SOFT - 1.0) < 1e-9, "V�
 
 
 # In-demand skills mají vyšší váhu — odráží reálnou poptávku na trhu (květen 2026)
-# Hodnoty: kolik bodů (max 100) přidá každá detekovaná skill
+# Hodnoty: kolik bodů (max 100) přidá každá detekovaná skill.
+# Pokrýváme IT i non-IT skills, aby pipeline fungovala pro libovolnou pozici.
 _HIGH_VALUE_SKILLS: dict[str, int] = {
+    # === IT ===
     # Cloud & infra
     "aws": 8, "azure": 7, "gcp": 7, "kubernetes": 8, "docker": 5, "terraform": 6,
     # Data & ML
@@ -43,6 +45,47 @@ _HIGH_VALUE_SKILLS: dict[str, int] = {
     "ci/cd": 5, "github actions": 4, "linux": 4, "bash": 3,
     # Databáze
     "postgres": 4, "mongodb": 4, "redis": 4, "elasticsearch": 5,
+
+    # === Office / administrativa / finance ===
+    "excel": 4, "ms office": 3, "powerpoint": 2, "word": 2,
+    "sap": 6, "oracle": 5, "pohoda": 4, "money s3": 3,  # ERP systémy v ČR
+    "účetnictví": 5, "ucetnictvi": 5, "daňová evidence": 4, "danova evidence": 4,
+    "fakturace": 3, "mzdy": 4, "personalistika": 4,
+    "power bi": 5, "tableau": 5, "looker": 4,
+
+    # === Marketing / sales / kreativa ===
+    "google ads": 6, "facebook ads": 5, "meta ads": 5, "linkedin ads": 4,
+    "google analytics": 5, "ga4": 5, "seo": 5, "sem": 4,
+    "hubspot": 5, "salesforce": 6, "mailchimp": 3,
+    "photoshop": 4, "illustrator": 4, "indesign": 3, "figma": 5, "canva": 2,
+    "copywriting": 4, "content marketing": 4, "social media": 3,
+
+    # === Jazyky (úroveň B2+ se počítá) ===
+    "angličtina": 4, "anglictina": 4, "english": 4, "b2 english": 5, "c1 english": 6, "c2 english": 7,
+    "němčina": 5, "nemcina": 5, "german": 5,  # v ČR žádaná
+    "francouzština": 3, "spanish": 3, "italština": 3, "russian": 3,
+
+    # === Doprava / řemesla / služby (certifikáty a praktické dovednosti) ===
+    "řidičský průkaz b": 2, "ridicsky prukaz b": 2,
+    "řidičský průkaz c": 5, "ridicsky prukaz c": 5,
+    "řidičský průkaz d": 5, "ridicsky prukaz d": 5,
+    "průkaz e": 6, "prukaz e": 6,  # B+E, C+E
+    "vzv": 4, "vysokozdvižný vozík": 4,
+    "svářečský průkaz": 5, "svarecsky prukaz": 5,
+    "vyhláška 50": 4, "vyhlaska 50": 4,  # elektrikáři
+    "adr": 4,  # přeprava nebezpečných věcí
+    "tachograf": 3,
+
+    # === Gastronomie / retail ===
+    "hccp": 3, "haccp": 3,  # hygienické předpisy
+    "pokladna": 2, "ekasa": 2, "barista": 3, "sommelier": 4,
+    "obsluha zákazníků": 2, "obsluha zakazniku": 2, "customer service": 3,
+
+    # === Vzdělávání / zdravotnictví ===
+    "pedagogická způsobilost": 5, "pedagogicka zpusobilost": 5,
+    "registrace nelp": 5,  # zdrav. sestry
+    "atestace": 6,  # lékaři
+    "iva": 3, "ivf": 3,
 }
 
 # Soft skills s váhou — leadership a mentoring nejvíce, protože indikují seniora

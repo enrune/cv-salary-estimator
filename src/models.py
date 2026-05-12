@@ -61,10 +61,34 @@ class CV(BaseModel):
     soft_skills: list[str] = Field(default_factory=list, description="Měkké dovednosti vyvozené LLM")
     # role_category je předem klasifikovaná pro salary lookup — whitelist hodnot
     # Pokud LLM nedokáže klasifikovat, vrátí "general" (fallback v salary.py)
+    # Pokrýváme IT i non-IT pozice; názvy bez diakritiky pro JSON/Python kompatibilitu
     role_category: Literal[
-        "python_developer", "javascript_developer", "data_engineer",
-        "ml_engineer", "data_analyst", "devops", "fullstack_developer",
-        "backend_developer", "frontend_developer", "product_manager", "general",
+        # IT — software development
+        "python_developer", "javascript_developer", "frontend_developer",
+        "backend_developer", "fullstack_developer",
+        # IT — data / ML
+        "data_engineer", "data_analyst", "ml_engineer",
+        # IT — infra / produkt
+        "devops", "product_manager",
+        # Office / administrativa / finance
+        "ucetni", "financni_analytik", "hr_specialista",
+        "administrativni_pracovnik", "projektovy_manazer", "office_manager",
+        # Sales / marketing / kreativa
+        "marketing_specialista", "obchodni_zastupce", "copywriter", "grafik",
+        # Retail / služby
+        "pokladni", "prodavac", "skladnik", "recepcni",
+        # Gastronomie
+        "kuchar", "cisnik",
+        # Doprava
+        "ridic", "kuryr",
+        # Vzdělávání / zdravotnictví
+        "ucitel", "zdravotni_sestra", "lekar",
+        # Řemesla / stavebnictví
+        "elektrikar", "instalater", "stavbar",
+        # Bezpečnost / ostatní
+        "ostraha", "trener",
+        # Fallback
+        "general",
     ] = Field("general", description="Detekovaná kategorie role pro salary lookup")
     # years_experience pro scoring — LLM musí spočítat, ne my, protože data jsou v CV ve volném formátu
     years_experience: float = Field(0.0, ge=0, description="Celkové roky relevantní praxe")

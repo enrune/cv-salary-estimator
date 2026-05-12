@@ -46,7 +46,10 @@ _OUTPUT_PATH = Path(__file__).parent.parent / "data" / "scraped_salaries.json"
 
 # Mapování klíčových slov v inzerátech na role_category v naší taxonomii.
 # Pořadí MATTERS: kontroluje se shora dolů, první match vyhrává (specifické před obecnými).
+# České názvy bez diakritiky kvůli case-folded matchingu (text z get_text() ji obsahuje, ale držíme
+# bezpečnou stranu — některé inzeráty diakritiku nemají).
 _ROLE_KEYWORDS: list[tuple[str, list[str]]] = [
+    # IT — software (specifické před obecnými)
     ("ml_engineer",          ["machine learning", "ml engineer", "ai engineer", "deep learning"]),
     ("data_engineer",        ["data engineer", "datový inženýr", "etl", "databázový architekt"]),
     ("data_analyst",         ["data analyst", "datový analytik", "bi analyst", "business intelligence"]),
@@ -56,7 +59,49 @@ _ROLE_KEYWORDS: list[tuple[str, list[str]]] = [
     ("frontend_developer",   ["frontend", "front-end", "front end"]),
     ("backend_developer",    ["backend", "back-end", "back end"]),
     ("fullstack_developer",  ["fullstack", "full-stack", "full stack"]),
-    ("product_manager",      ["product manager", "produktový manažer"]),
+    ("product_manager",      ["product manager", "produktový manažer", "produktovy manazer"]),
+
+    # Office / administrativa / finance
+    ("financni_analytik",     ["finanční analytik", "financni analytik", "financial analyst"]),
+    ("ucetni",                ["účetní", "ucetni", "účetnictví", "junior accountant", "senior accountant"]),
+    ("hr_specialista",        ["hr specialist", "hr generalist", "personalista", "recruitment specialist", "náborář"]),
+    ("projektovy_manazer",    ["projektový manažer", "projektovy manazer", "project manager"]),
+    ("office_manager",        ["office manager", "kancelářský", "kancelarsky", "asistent vedení"]),
+    ("administrativni_pracovnik", ["administrativní pracovník", "administrativni pracovnik", "back office"]),
+
+    # Sales / marketing / kreativa
+    ("marketing_specialista", ["marketing specialist", "marketingový specialista", "marketing manager", "digital marketing"]),
+    ("obchodni_zastupce",     ["obchodní zástupce", "obchodni zastupce", "sales representative", "account executive", "account manager"]),
+    ("copywriter",            ["copywriter", "content writer", "content specialist", "tvůrce obsahu"]),
+    ("grafik",                ["grafik", "graphic designer", "ui designer", "ux designer", "designer"]),
+
+    # Retail / služby
+    ("pokladni",              ["pokladní", "pokladni", "cashier"]),
+    ("prodavac",              ["prodavač", "prodavac", "shop assistant", "sales assistant", "prodejce"]),
+    ("skladnik",              ["skladník", "skladnik", "warehouse worker", "operátor skladu"]),
+    ("recepcni",              ["recepční", "recepcni", "receptionist", "hotel reception"]),
+
+    # Gastronomie
+    ("kuchar",                ["kuchař", "kuchar", "chef", "cook"]),
+    ("cisnik",                ["číšník", "cisnik", "servírka", "servirka", "waiter", "waitress"]),
+
+    # Doprava
+    ("ridic",                 ["řidič", "ridic", "driver", "kamion", "tír", "tir", "mkd", "vzv"]),
+    ("kuryr",                 ["kurýr", "kuryr", "courier", "rozvozce"]),
+
+    # Vzdělávání / zdravotnictví
+    ("lekar",                 ["lékař", "lekar", "physician", "doctor", "internista", "chirurg"]),
+    ("zdravotni_sestra",      ["zdravotní sestra", "zdravotni sestra", "nurse", "ošetřovatel"]),
+    ("ucitel",                ["učitel", "učitelka", "ucitel", "ucitelka", "teacher", "lektor"]),
+
+    # Řemesla / stavebnictví
+    ("elektrikar",            ["elektrikář", "elektrikar", "electrician", "elektromechanik"]),
+    ("instalater",            ["instalatér", "instalater", "plumber", "topenář"]),
+    ("stavbar",               ["stavbař", "stavbar", "zedník", "zednik", "stavbyvedoucí", "construction"]),
+
+    # Bezpečnost / sport
+    ("ostraha",               ["ostraha", "security", "bezpečnostní", "bezpecnostni", "strážný"]),
+    ("trener",                ["trenér", "trener", "fitness trainer", "osobní trenér", "fitness instructor"]),
 ]
 
 # Detekce seniority — rovněž pořadí: senior, medior, junior (default = medior).
@@ -299,17 +344,29 @@ def main() -> None:
     """
     # Multiple queries — každý zachytí jiný kus trhu.
     # Jobs.cz vrací různé výsledky pro různé klíčové slova; sloučení dá širší pokrytí.
+    # Mix IT + non-IT — chceme reálná data pro celou taxonomii rolí.
     queries = [
-        "python developer",
-        "javascript developer",
-        "data engineer",
-        "data analyst",
-        "devops",
-        "machine learning",
-        "frontend",
-        "backend",
-        "fullstack",
+        # IT
+        "python developer", "javascript developer", "data engineer", "data analyst",
+        "devops", "machine learning", "frontend", "backend", "fullstack",
         "product manager",
+        # Office / finance / admin
+        "účetní", "finanční analytik", "hr specialist", "projektový manažer",
+        "administrativní pracovník", "office manager",
+        # Sales / marketing / kreativa
+        "marketing specialist", "obchodní zástupce", "copywriter", "grafik",
+        # Retail / služby
+        "pokladní", "prodavač", "skladník", "recepční",
+        # Gastro
+        "kuchař", "číšník",
+        # Doprava
+        "řidič", "kurýr",
+        # Vzdělávání / zdravotnictví
+        "učitel", "zdravotní sestra", "lékař",
+        # Řemesla
+        "elektrikář", "instalatér", "zedník",
+        # Bezpečnost / sport
+        "ostraha", "fitness trenér",
     ]
 
     all_records: list[dict] = []

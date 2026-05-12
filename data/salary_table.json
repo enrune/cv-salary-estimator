@@ -2,10 +2,13 @@
   "_meta": {
     "currency": "CZK",
     "period": "month",
+    "type": "gross",
     "source": "Synthetic baseline odvozená z veřejných dat platy.cz, jobs.cz, Glassdoor (květen 2026). Slouží jako fallback, pokud chybí scraped data pro danou roli.",
     "structure": "role -> location (praha|regiony) -> seniority (junior|medior|senior) -> [min_czk, max_czk]",
-    "notes": "Hodnoty jsou hrubá rozmezí GROSS hrubé mzdy. Senior range odráží trh včetně benefitů jako roční bonus."
+    "notes": "Hrubá mzda měsíčně. Praha vs regiony rozdíl typicky 10–20 % v non-IT, 20–25 % v IT.",
+    "role_count": 36
   },
+
   "python_developer": {
     "praha":   {"junior": [55000, 75000], "medior": [80000, 110000], "senior": [120000, 170000]},
     "regiony": {"junior": [45000, 60000], "medior": [65000, 90000],  "senior": [95000, 140000]}
@@ -46,8 +49,121 @@
     "praha":   {"junior": [55000, 75000], "medior": [85000, 120000], "senior": [125000, 180000]},
     "regiony": {"junior": [45000, 62000], "medior": [68000, 95000],  "senior": [100000, 145000]}
   },
+
+  "ucetni": {
+    "praha":   {"junior": [35000, 45000], "medior": [48000, 65000],  "senior": [70000, 95000]},
+    "regiony": {"junior": [30000, 38000], "medior": [40000, 55000],  "senior": [58000, 80000]}
+  },
+  "financni_analytik": {
+    "praha":   {"junior": [45000, 60000], "medior": [65000, 90000],  "senior": [95000, 140000]},
+    "regiony": {"junior": [38000, 52000], "medior": [55000, 75000],  "senior": [80000, 115000]}
+  },
+  "hr_specialista": {
+    "praha":   {"junior": [38000, 52000], "medior": [55000, 78000],  "senior": [80000, 115000]},
+    "regiony": {"junior": [32000, 45000], "medior": [48000, 65000],  "senior": [68000, 95000]}
+  },
+  "administrativni_pracovnik": {
+    "praha":   {"junior": [28000, 38000], "medior": [38000, 50000],  "senior": [50000, 70000]},
+    "regiony": {"junior": [24000, 32000], "medior": [32000, 42000],  "senior": [42000, 58000]}
+  },
+  "projektovy_manazer": {
+    "praha":   {"junior": [50000, 70000], "medior": [75000, 105000], "senior": [110000, 170000]},
+    "regiony": {"junior": [42000, 58000], "medior": [62000, 85000],  "senior": [90000, 140000]}
+  },
+  "office_manager": {
+    "praha":   {"junior": [35000, 48000], "medior": [50000, 70000],  "senior": [72000, 100000]},
+    "regiony": {"junior": [30000, 40000], "medior": [42000, 58000],  "senior": [60000, 82000]}
+  },
+
+  "marketing_specialista": {
+    "praha":   {"junior": [38000, 52000], "medior": [55000, 78000],  "senior": [80000, 120000]},
+    "regiony": {"junior": [32000, 45000], "medior": [48000, 65000],  "senior": [68000, 100000]}
+  },
+  "obchodni_zastupce": {
+    "praha":   {"junior": [38000, 55000], "medior": [60000, 95000],  "senior": [95000, 160000]},
+    "regiony": {"junior": [32000, 48000], "medior": [50000, 80000],  "senior": [82000, 135000]}
+  },
+  "copywriter": {
+    "praha":   {"junior": [32000, 45000], "medior": [48000, 65000],  "senior": [68000, 95000]},
+    "regiony": {"junior": [28000, 38000], "medior": [40000, 55000],  "senior": [58000, 80000]}
+  },
+  "grafik": {
+    "praha":   {"junior": [32000, 45000], "medior": [48000, 68000],  "senior": [70000, 100000]},
+    "regiony": {"junior": [28000, 38000], "medior": [40000, 55000],  "senior": [58000, 82000]}
+  },
+
+  "pokladni": {
+    "praha":   {"junior": [25000, 32000], "medior": [30000, 40000],  "senior": [38000, 50000]},
+    "regiony": {"junior": [22000, 28000], "medior": [27000, 36000],  "senior": [34000, 45000]}
+  },
+  "prodavac": {
+    "praha":   {"junior": [25000, 33000], "medior": [30000, 42000],  "senior": [40000, 55000]},
+    "regiony": {"junior": [22000, 30000], "medior": [28000, 38000],  "senior": [36000, 48000]}
+  },
+  "skladnik": {
+    "praha":   {"junior": [30000, 38000], "medior": [35000, 45000],  "senior": [42000, 55000]},
+    "regiony": {"junior": [26000, 34000], "medior": [32000, 42000],  "senior": [38000, 50000]}
+  },
+  "recepcni": {
+    "praha":   {"junior": [28000, 35000], "medior": [32000, 42000],  "senior": [40000, 55000]},
+    "regiony": {"junior": [24000, 31000], "medior": [28000, 37000],  "senior": [35000, 48000]}
+  },
+
+  "kuchar": {
+    "praha":   {"junior": [30000, 40000], "medior": [40000, 55000],  "senior": [55000, 80000]},
+    "regiony": {"junior": [27000, 36000], "medior": [36000, 48000],  "senior": [48000, 68000]}
+  },
+  "cisnik": {
+    "praha":   {"junior": [28000, 38000], "medior": [35000, 50000],  "senior": [48000, 70000]},
+    "regiony": {"junior": [24000, 33000], "medior": [30000, 42000],  "senior": [40000, 58000]}
+  },
+
+  "ridic": {
+    "praha":   {"junior": [35000, 45000], "medior": [45000, 60000],  "senior": [58000, 80000]},
+    "regiony": {"junior": [32000, 42000], "medior": [42000, 55000],  "senior": [55000, 75000]}
+  },
+  "kuryr": {
+    "praha":   {"junior": [28000, 38000], "medior": [35000, 48000],  "senior": [45000, 65000]},
+    "regiony": {"junior": [25000, 34000], "medior": [32000, 42000],  "senior": [40000, 55000]}
+  },
+
+  "ucitel": {
+    "praha":   {"junior": [32000, 40000], "medior": [40000, 52000],  "senior": [50000, 68000]},
+    "regiony": {"junior": [30000, 38000], "medior": [38000, 48000],  "senior": [46000, 62000]}
+  },
+  "zdravotni_sestra": {
+    "praha":   {"junior": [35000, 45000], "medior": [45000, 58000],  "senior": [55000, 75000]},
+    "regiony": {"junior": [32000, 42000], "medior": [42000, 54000],  "senior": [52000, 68000]}
+  },
+  "lekar": {
+    "praha":   {"junior": [60000, 80000], "medior": [85000, 115000], "senior": [115000, 200000]},
+    "regiony": {"junior": [55000, 75000], "medior": [78000, 105000], "senior": [105000, 175000]}
+  },
+
+  "elektrikar": {
+    "praha":   {"junior": [35000, 45000], "medior": [45000, 65000],  "senior": [65000, 95000]},
+    "regiony": {"junior": [32000, 42000], "medior": [42000, 58000],  "senior": [58000, 82000]}
+  },
+  "instalater": {
+    "praha":   {"junior": [32000, 42000], "medior": [42000, 58000],  "senior": [58000, 85000]},
+    "regiony": {"junior": [28000, 38000], "medior": [38000, 52000],  "senior": [52000, 75000]}
+  },
+  "stavbar": {
+    "praha":   {"junior": [32000, 42000], "medior": [42000, 58000],  "senior": [58000, 90000]},
+    "regiony": {"junior": [28000, 38000], "medior": [38000, 52000],  "senior": [52000, 80000]}
+  },
+
+  "ostraha": {
+    "praha":   {"junior": [25000, 32000], "medior": [30000, 40000],  "senior": [38000, 52000]},
+    "regiony": {"junior": [22000, 28000], "medior": [27000, 35000],  "senior": [33000, 45000]}
+  },
+  "trener": {
+    "praha":   {"junior": [25000, 38000], "medior": [38000, 60000],  "senior": [60000, 100000]},
+    "regiony": {"junior": [22000, 32000], "medior": [32000, 50000],  "senior": [50000, 80000]}
+  },
+
   "general": {
-    "praha":   {"junior": [40000, 60000], "medior": [65000, 95000],  "senior": [100000, 150000]},
-    "regiony": {"junior": [32000, 50000], "medior": [55000, 78000],  "senior": [82000, 125000]}
+    "praha":   {"junior": [28000, 45000], "medior": [45000, 70000],  "senior": [70000, 110000]},
+    "regiony": {"junior": [24000, 38000], "medior": [38000, 58000],  "senior": [58000, 90000]}
   }
 }

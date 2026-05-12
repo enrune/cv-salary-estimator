@@ -55,12 +55,12 @@
       "source": "jobs.cz"
     },
     {
-      "title": "Innovation AI Engineer (Legal Tech)",
-      "role_category": "ml_engineer",
+      "title": "AI Developer",
+      "role_category": "general",
       "seniority": "medior",
-      "location": "regiony",
-      "salary_min": 80000,
-      "salary_max": 120000,
+      "location": "praha",
+      "salary_min": 85000,
+      "salary_max": 170000,
       "source": "jobs.cz"
     },
     {
@@ -73,16 +73,7 @@
       "source": "jobs.cz"
     },
     {
-      "title": "Software Developer v unikátní firmě (až 100 tis. Kč)",
-      "role_category": "general",
-      "seniority": "medior",
-      "location": "regiony",
-      "salary_min": 80000,
-      "salary_max": 100000,
-      "source": "jobs.cz"
-    },
-    {
-      "title": "Frontend Developer",
+      "title": "Frontend Developer (React/TS) – tvořte s námi framework pro tisíce uživatelů",
       "role_category": "frontend_developer",
       "seniority": "medior",
       "location": "praha",
@@ -154,15 +145,6 @@
       "source": "jobs.cz"
     },
     {
-      "title": "SW Architekt s programátorskou historií - až 120.000 Kč",
-      "role_category": "general",
-      "seniority": "senior",
-      "location": "regiony",
-      "salary_min": 80000,
-      "salary_max": 120000,
-      "source": "jobs.cz"
-    },
-    {
       "title": "Systémový administrátor/ka (Linux/GCP) – budoucí migrace do AWS",
       "role_category": "general",
       "seniority": "medior",
@@ -181,30 +163,12 @@
       "source": "jobs.cz"
     },
     {
-      "title": "TECHNIK - PŘÍPRAVÁŘ",
-      "role_category": "general",
-      "seniority": "medior",
-      "location": "regiony",
-      "salary_min": 45000,
-      "salary_max": 65000,
-      "source": "jobs.cz"
-    },
-    {
       "title": "Data Engineer",
       "role_category": "data_engineer",
       "seniority": "medior",
       "location": "praha",
       "salary_min": 60000,
       "salary_max": 80000,
-      "source": "jobs.cz"
-    },
-    {
-      "title": "SPC ENGINEER | ANALÝZA VÝROBNÍCH DAT | KVALITA | PÍSECKO",
-      "role_category": "general",
-      "seniority": "medior",
-      "location": "regiony",
-      "salary_min": 60000,
-      "salary_max": 70000,
       "source": "jobs.cz"
     },
     {
@@ -223,6 +187,15 @@
       "location": "regiony",
       "salary_min": 40000,
       "salary_max": 50000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Innovation AI Engineer (Legal Tech)",
+      "role_category": "ml_engineer",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 80000,
+      "salary_max": 120000,
       "source": "jobs.cz"
     },
     {
@@ -253,15 +226,6 @@
       "source": "jobs.cz"
     },
     {
-      "title": "Sales Engineer – průmyslová automatizace (Jižní Čechy)",
-      "role_category": "general",
-      "seniority": "medior",
-      "location": "regiony",
-      "salary_min": 60000,
-      "salary_max": 90000,
-      "source": "jobs.cz"
-    },
-    {
       "title": "Data Analyst (senior)",
       "role_category": "data_analyst",
       "seniority": "senior",
@@ -286,6 +250,15 @@
       "location": "regiony",
       "salary_min": 40000,
       "salary_max": 55000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Business Data Analyst / Junior Controller – Pravá ruka CFO",
+      "role_category": "data_analyst",
+      "seniority": "junior",
+      "location": "regiony",
+      "salary_min": 60000,
+      "salary_max": 90000,
       "source": "jobs.cz"
     },
     {
@@ -343,30 +316,12 @@
       "source": "jobs.cz"
     },
     {
-      "title": "DevOps Engineer",
-      "role_category": "devops",
-      "seniority": "medior",
-      "location": "regiony",
-      "salary_min": 80000,
-      "salary_max": 110000,
-      "source": "jobs.cz"
-    },
-    {
       "title": "DevOps Engineer - Praha, Česká republika",
       "role_category": "devops",
       "seniority": "medior",
       "location": "praha",
       "salary_min": 90000,
       "salary_max": 110000,
-      "source": "jobs.cz"
-    },
-    {
-      "title": "DevOps Engineer pro Prahu (65-80.000 Kč)",
-      "role_category": "devops",
-      "seniority": "medior",
-      "location": "praha",
-      "salary_min": 65000,
-      "salary_max": 80000,
       "source": "jobs.cz"
     },
     {
@@ -389,7 +344,7 @@
     },
     {
       "title": "Informatik - příslušník IT/ICT oddělení",
-      "role_category": "general",
+      "role_category": "ostraha",
       "seniority": "medior",
       "location": "praha",
       "salary_min": 45000,
@@ -434,7 +389,7 @@
     },
     {
       "title": "Project Manager - stabilní a moderní automotive společnost - až 120 000CZK",
-      "role_category": "general",
+      "role_category": "projektovy_manazer",
       "seniority": "medior",
       "location": "regiony",
       "salary_min": 100000,
@@ -448,15 +403,6 @@
       "location": "praha",
       "salary_min": 100000,
       "salary_max": 130000,
-      "source": "jobs.cz"
-    },
-    {
-      "title": "Data Science Specialist",
-      "role_category": "general",
-      "seniority": "medior",
-      "location": "praha",
-      "salary_min": 80000,
-      "salary_max": 100000,
       "source": "jobs.cz"
     },
     {
@@ -478,21 +424,12 @@
       "source": "jobs.cz"
     },
     {
-      "title": "PHP Backend Developer",
-      "role_category": "backend_developer",
-      "seniority": "medior",
-      "location": "regiony",
-      "salary_min": 60000,
-      "salary_max": 90000,
-      "source": "jobs.cz"
-    },
-    {
-      "title": "Requirements Engineer (m/f/*) – Smart-metering & DACH Region",
+      "title": "WEB developer / 3D (React + TypeScript)",
       "role_category": "general",
       "seniority": "medior",
-      "location": "praha",
-      "salary_min": 80000,
-      "salary_max": 120000,
+      "location": "regiony",
+      "salary_min": 50000,
+      "salary_max": 70000,
       "source": "jobs.cz"
     },
     {
@@ -502,6 +439,15 @@
       "location": "regiony",
       "salary_min": 50000,
       "salary_max": 95000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Requirements Engineer (m/f/*) – Smart-metering & DACH Region",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 80000,
+      "salary_max": 120000,
       "source": "jobs.cz"
     },
     {
@@ -559,15 +505,6 @@
       "source": "jobs.cz"
     },
     {
-      "title": "Produktový manažer – počítačové sítě a síťová bezpečnost",
-      "role_category": "product_manager",
-      "seniority": "medior",
-      "location": "praha",
-      "salary_min": 40000,
-      "salary_max": 80000,
-      "source": "jobs.cz"
-    },
-    {
       "title": "Business Analyst / Produktový manažer pro POS | až 80 tisíc",
       "role_category": "product_manager",
       "seniority": "medior",
@@ -604,12 +541,12 @@
       "source": "jobs.cz"
     },
     {
-      "title": "Product manager",
+      "title": "Product Manager PHARMA FS CZ&SK",
       "role_category": "product_manager",
       "seniority": "medior",
       "location": "praha",
-      "salary_min": 55000,
-      "salary_max": 60000,
+      "salary_min": 85000,
+      "salary_max": 97000,
       "source": "jobs.cz"
     },
     {
@@ -631,15 +568,6 @@
       "source": "jobs.cz"
     },
     {
-      "title": "Product & Growth Manager",
-      "role_category": "general",
-      "seniority": "medior",
-      "location": "praha",
-      "salary_min": 60000,
-      "salary_max": 70000,
-      "source": "jobs.cz"
-    },
-    {
       "title": "PRODUKTOVÝ MANAŽER/CATEGORY MANAGER PRO KAROSÁŘSKÉ A PODVOZKOVÉ DÍLY (M/Ž)",
       "role_category": "product_manager",
       "seniority": "medior",
@@ -658,9 +586,9 @@
       "source": "jobs.cz"
     },
     {
-      "title": "Sales & Account Manager (junior)",
-      "role_category": "general",
-      "seniority": "junior",
+      "title": "🚀 Sales & Account Manager (EU)  | Toys & Garden brands",
+      "role_category": "obchodni_zastupce",
+      "seniority": "medior",
       "location": "praha",
       "salary_min": 40000,
       "salary_max": 64000,
@@ -683,7 +611,6064 @@
       "salary_min": 45000,
       "salary_max": 65000,
       "source": "jobs.cz"
+    },
+    {
+      "title": "Integration & Monetization Manager",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 90000,
+      "salary_max": 120000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Brand Manager",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 52750,
+      "salary_max": 70000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "💼📊 SAMOSTATNÁ ÚČETNÍ – STABILNÍ FIRMA V BRNĚ | 45–60.000 Kč",
+      "role_category": "ucetni",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 45000,
+      "salary_max": 60000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "SAMOSTATNÝ MZDOVÝ ÚČETNÍ / SAMOSTATNÁ MZDOVÁ ÚČETNÍ",
+      "role_category": "ucetni",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 45000,
+      "salary_max": 55000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Účetní",
+      "role_category": "ucetni",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 20000,
+      "salary_max": 30000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Samostatná účetní / samostatný účetní",
+      "role_category": "ucetni",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 48000,
+      "salary_max": 55000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Hlavní účetní",
+      "role_category": "ucetni",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 55000,
+      "salary_max": 65000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Senior účetní (HELIOS) – investiční společnost",
+      "role_category": "ucetni",
+      "seniority": "senior",
+      "location": "praha",
+      "salary_min": 60000,
+      "salary_max": 75000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "FINANČNÍ ÚČETNÍ / SAMOSTATNÁ ÚČETNÍ  (Čestlice)",
+      "role_category": "ucetni",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 58000,
+      "salary_max": 65000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Hlavní účetní pro Comgate",
+      "role_category": "ucetni",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 50000,
+      "salary_max": 60000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Účetní firem zajišťujících správu nemovitostí",
+      "role_category": "ucetni",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 40000,
+      "salary_max": 60000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Hlavní účetní",
+      "role_category": "ucetni",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 40000,
+      "salary_max": 60000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Účetní",
+      "role_category": "ucetni",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 20000,
+      "salary_max": 33000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Mzdová účetní (m/ž)",
+      "role_category": "ucetni",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 40000,
+      "salary_max": 60000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Samostatná účetní - flexibilní úvazek, možnost HO",
+      "role_category": "ucetni",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 55000,
+      "salary_max": 70000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Účetní pro developera a ZOO Tábor",
+      "role_category": "ucetni",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 55000,
+      "salary_max": 70000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Samostatná účetní bez nutnosti AJ — DEK a.s.",
+      "role_category": "ucetni",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 45000,
+      "salary_max": 65000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Hlavní účetní",
+      "role_category": "ucetni",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 70800,
+      "salary_max": 83300,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "⋙Hlavní skupinová/ý účetní⋘ (zástupce CFO)",
+      "role_category": "ucetni",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 75000,
+      "salary_max": 105000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "⭕ Hlavní účetní s AJ - Praha 7",
+      "role_category": "ucetni",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 70000,
+      "salary_max": 80000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Hlavní účetní / Accounting Manager",
+      "role_category": "ucetni",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 70000,
+      "salary_max": 100000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Hlavní účetní / Chief Accountant",
+      "role_category": "ucetni",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 65000,
+      "salary_max": 75000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Hlavní účetní / Chief Accountant s možností home office",
+      "role_category": "ucetni",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 65000,
+      "salary_max": 75000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "účetní",
+      "role_category": "ucetni",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 40000,
+      "salary_max": 50000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "❗️Zástupce/ zástupkyně hlavní účetní ❗️",
+      "role_category": "ucetni",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 60000,
+      "salary_max": 80000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Hlavní účetní - metodik",
+      "role_category": "ucetni",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 40000,
+      "salary_max": 60000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Hlavní účetní",
+      "role_category": "ucetni",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 50000,
+      "salary_max": 60000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Chief Accountant-Hlavní Účetní",
+      "role_category": "ucetni",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 80000,
+      "salary_max": 100000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Účetní",
+      "role_category": "ucetni",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 40000,
+      "salary_max": 45000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Finanční účetní",
+      "role_category": "ucetni",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 39000,
+      "salary_max": 45000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Finanční oddělení přijme vhodného uchazeče/uchazečku na pozici  FINANČNÍ ÚČETNÍ",
+      "role_category": "ucetni",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 40000,
+      "salary_max": 48000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Samostatný/á účetní - senior",
+      "role_category": "ucetni",
+      "seniority": "senior",
+      "location": "regiony",
+      "salary_min": 50000,
+      "salary_max": 55000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Samostatná účetní",
+      "role_category": "ucetni",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 45000,
+      "salary_max": 55000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Účetní – externí účetnictví",
+      "role_category": "ucetni",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 35000,
+      "salary_max": 40000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Samostatná finanční účetní",
+      "role_category": "ucetni",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 45000,
+      "salary_max": 60000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Právník/právnička pro oblast mezinárodních sankcí na FAÚ:",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 35080,
+      "salary_max": 51040,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "FINANČNÍ ANALYTIK | Investment Group",
+      "role_category": "financni_analytik",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 80000,
+      "salary_max": 100000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Finanční Analytik",
+      "role_category": "financni_analytik",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 40000,
+      "salary_max": 50000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Analytik/Analytička finančního trhu",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 39510,
+      "salary_max": 57700,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Finanční controller | až 75 tisíc + možnost částečného HO",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 60000,
+      "salary_max": 75000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Finanční manažer MEGABOOKS",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 50000,
+      "salary_max": 60000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "💼 FI specialista/Senior FI specialista (finanční účetní)",
+      "role_category": "ucetni",
+      "seniority": "senior",
+      "location": "regiony",
+      "salary_min": 37500,
+      "salary_max": 62400,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Finanční manažer/ manažerka (finance & controlling)",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 40000,
+      "salary_max": 80000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Finanční manažer/ka",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 70000,
+      "salary_max": 100000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Finanční specialista s přesahem do analýzy 📊📈",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 60000,
+      "salary_max": 80000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Medior Business / Finanční Controller",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 65000,
+      "salary_max": 75000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Finanční controller",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 55000,
+      "salary_max": 60000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Operations Controller/Finanční kontroler ve výrobní firmě",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 45000,
+      "salary_max": 60000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Finance Systems & BI Analyst - REMOTE",
+      "role_category": "data_analyst",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 80000,
+      "salary_max": 110000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Financial Analyst (Junior) – Nettino",
+      "role_category": "financni_analytik",
+      "seniority": "junior",
+      "location": "praha",
+      "salary_min": 50000,
+      "salary_max": 60000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Investiční analytik ve stavebnictví",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 70000,
+      "salary_max": 90000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "HR SPECIALIST s AJ - mezinárodní výrobní společnost",
+      "role_category": "hr_specialista",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 50000,
+      "salary_max": 60000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "HR generalista (výrobní firmy)",
+      "role_category": "hr_specialista",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 65000,
+      "salary_max": 80000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Recruitment Specialist | Poloviční úvazek | Remote",
+      "role_category": "hr_specialista",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 25000,
+      "salary_max": 30000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Warehouse / Logistics Specialist (Czech & English) - 50-60 000CZK",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 50000,
+      "salary_max": 60000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Ocean Freight Specialist (m/ž)",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 50000,
+      "salary_max": 70000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Digitalisation Specialist - Power Apps",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 50000,
+      "salary_max": 100000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "🚛 Logistics Specialist with Polish & English",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 40000,
+      "salary_max": 60000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Payroll Specialist (SEE Region) – Hybrid Opportunity - Pharma",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 55000,
+      "salary_max": 60000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "HR Manager - Tier 1 automotive - až 170 000 CZK + auto",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 120000,
+      "salary_max": 170000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Senior HR / Talent Acquisition (LinkedIn sourcing)",
+      "role_category": "general",
+      "seniority": "senior",
+      "location": "praha",
+      "salary_min": 70000,
+      "salary_max": 80000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Payroll Specialist - Pharma - German language - Hybrid",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 55000,
+      "salary_max": 60000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Payroll Specialist (Hebrew) – Prague | Pharma | Hybrid",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 50000,
+      "salary_max": 70000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "HR LEADER - HOSPITALITY & OPERTATIONS",
+      "role_category": "general",
+      "seniority": "senior",
+      "location": "regiony",
+      "salary_min": 75000,
+      "salary_max": 90000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "⭕ HR Manager s AJ - Praha 7",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 65000,
+      "salary_max": 85000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Hledáme HR parťáka pro logistiku 🚀  (JPO19923)",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 35000,
+      "salary_max": 45000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "HR Business Partner pro Commercial (CZ)",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 60000,
+      "salary_max": 70000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "HR GENERALIST",
+      "role_category": "hr_specialista",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 50000,
+      "salary_max": 55000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "HR Specialista",
+      "role_category": "hr_specialista",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 50000,
+      "salary_max": 60000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "HR generalist senior (m/ž) – Pardubice",
+      "role_category": "hr_specialista",
+      "seniority": "senior",
+      "location": "regiony",
+      "salary_min": 40000,
+      "salary_max": 60000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Stavbyvedoucí / Vedoucí projektu - stavební interiéry (fit-out)",
+      "role_category": "stavbar",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 60000,
+      "salary_max": 70000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Přípravář/Rozpočtář krásných staveb a atrakcí",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 50000,
+      "salary_max": 70000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Kalkulant/ka interiérových systémů MILT",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 38000,
+      "salary_max": 45000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Projektový manažer",
+      "role_category": "projektovy_manazer",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 50000,
+      "salary_max": 95000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Projektový manažer/ka se zaměřením na kyberbezpečnost",
+      "role_category": "projektovy_manazer",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 40000,
+      "salary_max": 80000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Projektový manažer - Benešov | až 130.000 Kč",
+      "role_category": "projektovy_manazer",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 80000,
+      "salary_max": 130000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Projektový manažer IT (implementace POS systémů pro retail)",
+      "role_category": "projektovy_manazer",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 80000,
+      "salary_max": 100000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "⭕ Projektový manažer/Key Account Manažer pro lékárenský trh",
+      "role_category": "projektovy_manazer",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 55000,
+      "salary_max": 100000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "TECHNICAL PROJECT MANAGER/ PROJECT ENGINEER",
+      "role_category": "projektovy_manazer",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 75000,
+      "salary_max": 95000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "PROJECT MANAGER pro německý trh",
+      "role_category": "projektovy_manazer",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 28000,
+      "salary_max": 50000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Projektový manažer - senior | průmyslová automatizace | Olomouc",
+      "role_category": "projektovy_manazer",
+      "seniority": "senior",
+      "location": "regiony",
+      "salary_min": 60000,
+      "salary_max": 80000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "🏗️JUNIOR PROJECT MANAGER SE ZAMĚŘENÍM NA STAVEBNICTVÍ🏗️",
+      "role_category": "projektovy_manazer",
+      "seniority": "junior",
+      "location": "praha",
+      "salary_min": 90000,
+      "salary_max": 100000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Projektový manažer Senior - IT vývoj",
+      "role_category": "projektovy_manazer",
+      "seniority": "senior",
+      "location": "praha",
+      "salary_min": 75000,
+      "salary_max": 100000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Obchodní administrativa v terénu (m/ž)",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 70000,
+      "salary_max": 120000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "OBCHODNÍ REFERENT - DEKORACE",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 35000,
+      "salary_max": 40000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Specialista zákaznické linky s němčinou 📞",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 35000,
+      "salary_max": 42500,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Konzultant O2 prodejny (m/ž)",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 40000,
+      "salary_max": 70000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Terénní specialista (m/ž)",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 70000,
+      "salary_max": 120000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Administrativní pracovník / Back office - Jesenice u Prahy",
+      "role_category": "administrativni_pracovnik",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 35000,
+      "salary_max": 40000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Administrativní podpora (m/ž)",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 32000,
+      "salary_max": 35000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Administrativní podpora / BackOffice",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 30000,
+      "salary_max": 35000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Administrativní pracovník/referent/ka - 202528A",
+      "role_category": "administrativni_pracovnik",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 40000,
+      "salary_max": 42000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Recepční / administrativní pracovník",
+      "role_category": "administrativni_pracovnik",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 45000,
+      "salary_max": 55000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Administrativní pracovník – podpora back office",
+      "role_category": "administrativni_pracovnik",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 35000,
+      "salary_max": 38000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Office manager / administrativní podpora",
+      "role_category": "office_manager",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 35000,
+      "salary_max": 40000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Administrativní pracovník/ce",
+      "role_category": "administrativni_pracovnik",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 27000,
+      "salary_max": 32000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Administrativní podpora realitního týmu - Ostrava (m/ž)",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 35000,
+      "salary_max": 40000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Asistent(ka) jednatele/Administrativní pracovník",
+      "role_category": "administrativni_pracovnik",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 30000,
+      "salary_max": 40000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "PRAHA 1 - obchodně-administrativní podpora s němčinou",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 35000,
+      "salary_max": 45000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Administrativní a organizační pracovník sekretariátu (m/ž)",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 38000,
+      "salary_max": 40000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "ADMINISTRATIVNÍ PRACOVNICE / ASISTENTKA PRODEJE (zahraniční obchod)",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 30000,
+      "salary_max": 45000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Asistent Brand Managera / Administrativní Pracovník",
+      "role_category": "administrativni_pracovnik",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 28000,
+      "salary_max": 30000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "ASISTENTKA/ADMINISTRATIVNÍ PRACOVNICE VELETICE",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 30000,
+      "salary_max": 35000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Asistent/ka -  Administrativní pracovník/pracovnice",
+      "role_category": "administrativni_pracovnik",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 28000,
+      "salary_max": 30000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Administrativní pracovník eshopu",
+      "role_category": "administrativni_pracovnik",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 30000,
+      "salary_max": 35000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Administrativní pracovník/pracovnice - Transport - Jažlovice",
+      "role_category": "administrativni_pracovnik",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 34800,
+      "salary_max": 38800,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "OBCHODNĚ ADMINISTRATIVNÍ PRACOVNÍK",
+      "role_category": "administrativni_pracovnik",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 40000,
+      "salary_max": 50000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Administrativní podpora výroby (m/ž)",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 30000,
+      "salary_max": 40000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Administrativní pracovník pro developerskou společnost",
+      "role_category": "administrativni_pracovnik",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 25000,
+      "salary_max": 35000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Administrativní pracovník/ce provozu - pouze noční směny 🌙",
+      "role_category": "administrativni_pracovnik",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 36000,
+      "salary_max": 42000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "administrativní podpora týmu dispečinku",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 30000,
+      "salary_max": 35000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Technicko-administrativní pracovník/-ce Praha",
+      "role_category": "administrativni_pracovnik",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 37000,
+      "salary_max": 42000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Administrativní pracovník/pracovnice kovovýroby - Horušice, Kutná Hora",
+      "role_category": "administrativni_pracovnik",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 30000,
+      "salary_max": 40000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Administrativní pracovník / pracovnice",
+      "role_category": "administrativni_pracovnik",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 32000,
+      "salary_max": 34000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Account Manager (Praha)",
+      "role_category": "obchodni_zastupce",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 55000,
+      "salary_max": 60000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Account Manager převážně pro Plzeňský kraj",
+      "role_category": "obchodni_zastupce",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 55000,
+      "salary_max": 60000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Office Manager 📨",
+      "role_category": "office_manager",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 40000,
+      "salary_max": 45000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Office Manager",
+      "role_category": "office_manager",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 30000,
+      "salary_max": 40000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Manager Back Office - Operations, HR, Finance Admin (Part-time)",
+      "role_category": "administrativni_pracovnik",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 20000,
+      "salary_max": 30000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Back Office Manager / poloviční úvazek / pracovní týden PO-ČT",
+      "role_category": "office_manager",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 25000,
+      "salary_max": 28000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Front office / Account Manager – obnova dat (Praha)",
+      "role_category": "obchodni_zastupce",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 35000,
+      "salary_max": 45000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Junior office manager pro realitní kancelář a investiční - developerskou společnost",
+      "role_category": "office_manager",
+      "seniority": "junior",
+      "location": "praha",
+      "salary_min": 15000,
+      "salary_max": 25000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Asistentka - office manager",
+      "role_category": "office_manager",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 40000,
+      "salary_max": 50000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Senior Office / Operations Manager/ka",
+      "role_category": "general",
+      "seniority": "senior",
+      "location": "praha",
+      "salary_min": 60000,
+      "salary_max": 70000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "OFFICE MANAGER",
+      "role_category": "office_manager",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 65000,
+      "salary_max": 75000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Asistent/ka vedení (office manager) – Praha západ / Velké Přílepy",
+      "role_category": "office_manager",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 35000,
+      "salary_max": 45000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Front Office Manager",
+      "role_category": "office_manager",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 40000,
+      "salary_max": 58000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Partners Banka Jesenice - 💼Junior office Manager",
+      "role_category": "office_manager",
+      "seniority": "junior",
+      "location": "regiony",
+      "salary_min": 32000,
+      "salary_max": 60000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Partners Banka - Junior Office Manager",
+      "role_category": "office_manager",
+      "seniority": "junior",
+      "location": "praha",
+      "salary_min": 35000,
+      "salary_max": 70000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Assistant Front Office Manager",
+      "role_category": "office_manager",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 42000,
+      "salary_max": 46000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Office Manager",
+      "role_category": "office_manager",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 45000,
+      "salary_max": 55000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Junior Office Manager/Junior obchodník 💼- Pobočka Partners Banky Trutnov",
+      "role_category": "office_manager",
+      "seniority": "junior",
+      "location": "regiony",
+      "salary_min": 35000,
+      "salary_max": 70000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Junior Office Manager/Junior obchodník 💼 - Partners Mladá Boleslav",
+      "role_category": "office_manager",
+      "seniority": "junior",
+      "location": "regiony",
+      "salary_min": 35000,
+      "salary_max": 70000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Partners Banka Ostrava - Junior Poradce & Junior Office Manager 💼",
+      "role_category": "office_manager",
+      "seniority": "junior",
+      "location": "regiony",
+      "salary_min": 35000,
+      "salary_max": 70000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Junior Poradce & Junior Office Manager 💼 - Partners Banka Klatovy",
+      "role_category": "office_manager",
+      "seniority": "junior",
+      "location": "regiony",
+      "salary_min": 35000,
+      "salary_max": 70000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Projektový manažer – možnost i pro JUNIORY, 2 dny home-office týdně (45.000 – 60.000 Kč)",
+      "role_category": "projektovy_manazer",
+      "seniority": "junior",
+      "location": "regiony",
+      "salary_min": 45000,
+      "salary_max": 60000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Manažer obchodního týmu",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 100000,
+      "salary_max": 130000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "OFFICE SALES REPRESENTATIVE/Specialista prodeje a péče o klienty - B2B",
+      "role_category": "obchodni_zastupce",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 40000,
+      "salary_max": 55000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Vedoucí týmu back office pro stabilní developerskou společnost",
+      "role_category": "administrativni_pracovnik",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 50000,
+      "salary_max": 80000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Back Office Specialista/tka (Brno)",
+      "role_category": "administrativni_pracovnik",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 35000,
+      "salary_max": 40000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Back Office ve světě nemovitostí (junior/senior)",
+      "role_category": "administrativni_pracovnik",
+      "seniority": "senior",
+      "location": "praha",
+      "salary_min": 45000,
+      "salary_max": 60000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Junior Marketing Specialist s kariérním růstem",
+      "role_category": "marketing_specialista",
+      "seniority": "junior",
+      "location": "praha",
+      "salary_min": 45000,
+      "salary_max": 50000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Digital Marketing Specialist (Retail & Franchising)",
+      "role_category": "marketing_specialista",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 40000,
+      "salary_max": 60000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Marketing Specialist (B2B / Brand & Sales Support)",
+      "role_category": "marketing_specialista",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 45000,
+      "salary_max": 60000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Marketing & Events Specialist | High-tech | Hybrid | Růst do strategie",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 48000,
+      "salary_max": 50000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Marketing Specialist - IT a humanoidní robot",
+      "role_category": "marketing_specialista",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 30000,
+      "salary_max": 60000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Marketing Specialist - Pumpedu",
+      "role_category": "marketing_specialista",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 40000,
+      "salary_max": 60000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "ONLINE MARKETING & COORDINATION SPECIALIST",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 35000,
+      "salary_max": 50000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Performance Marketing Specialist (Specialista/ka výkonnostního marketingu)",
+      "role_category": "marketing_specialista",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 50000,
+      "salary_max": 70000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Marketing specialist*ka do Loono 🟠🟠",
+      "role_category": "marketing_specialista",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 42000,
+      "salary_max": 48000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Marketing specialist junior, nástup možný ihned, PHA 5 Jinonice, hybridní režim",
+      "role_category": "marketing_specialista",
+      "seniority": "junior",
+      "location": "praha",
+      "salary_min": 43000,
+      "salary_max": 45000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Marketing Specialist",
+      "role_category": "marketing_specialista",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 50000,
+      "salary_max": 70000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Master Data Specialist CZ+SK | TotalEnergies",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 50000,
+      "salary_max": 55000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Social Media & Employer Brand Specialist- Start up - Praha-Karlín!",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 20000,
+      "salary_max": 40000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Digital Ads Specialist (Meta/Google/TikTok)",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 55000,
+      "salary_max": 80000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Creative Content Specialist v Goldea (video • foto • AI)",
+      "role_category": "copywriter",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 35000,
+      "salary_max": 55000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Content & Retention Specialist",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 45000,
+      "salary_max": 60000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Marketing Manager / Online markeťák",
+      "role_category": "marketing_specialista",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 50000,
+      "salary_max": 80000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Senior Marketing Projekt Manager",
+      "role_category": "general",
+      "seniority": "senior",
+      "location": "praha",
+      "salary_min": 55000,
+      "salary_max": 75000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Marketing Executive",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 60000,
+      "salary_max": 70000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Marketing / Brand specialista/tka",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 50000,
+      "salary_max": 65000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Marketingový specialista / správce značky | online & offline marketing",
+      "role_category": "marketing_specialista",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 45000,
+      "salary_max": 55000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "SPECIALISTA/-TKA MARKETINGU - junior",
+      "role_category": "general",
+      "seniority": "junior",
+      "location": "regiony",
+      "salary_min": 30000,
+      "salary_max": 40000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "REFERENT ONLINE MARKETINGU",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 35840,
+      "salary_max": 42050,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "🔥 HLEDÁME NADŠENCE DO RETAIL MARKETINGU! 🔥",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 30000,
+      "salary_max": 42000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Specialistka / Specialista marketingu – Umělá inteligence & moderní marketing 🤖🐾",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 40000,
+      "salary_max": 55000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Marketing Support",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 18000,
+      "salary_max": 20000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Obchodník Junior (m/ž)",
+      "role_category": "general",
+      "seniority": "junior",
+      "location": "regiony",
+      "salary_min": 60000,
+      "salary_max": 120000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Obchodník Junior (m/ž)",
+      "role_category": "general",
+      "seniority": "junior",
+      "location": "praha",
+      "salary_min": 60000,
+      "salary_max": 90000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Změna kariéry bez obav! Začněte ve financích – od nás dostane klienty, podporu i zázemí",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 50000,
+      "salary_max": 80000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Pojišťovací specialista - obchodník (m/ž)",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 50000,
+      "salary_max": 65000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Manažer/ka pro tým zkušených obchodních zástupců",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 50000,
+      "salary_max": 90000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "JUNIOR OBCHODNÍK  (HPP, SLUŽEBNÍ VOZIDLO, DOMLUVENÉ SCHŮZKY, FIX + PROVIZE AŽ 80 000 KČ)",
+      "role_category": "general",
+      "seniority": "junior",
+      "location": "regiony",
+      "salary_min": 40000,
+      "salary_max": 80000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Obchodní zástupce ( stavební sektor )",
+      "role_category": "obchodni_zastupce",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 50000,
+      "salary_max": 100000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "OBCHODNÍK – MORAVSKOSLEZSKÝ / OLOMOUCKÝ KRAJ",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 65000,
+      "salary_max": 130000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Obchodní zástupce v logistice",
+      "role_category": "obchodni_zastupce",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 40000,
+      "salary_max": 60000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "OBCHODNÍ ZÁSTUPCE (B2B | technický produkt)",
+      "role_category": "obchodni_zastupce",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 50000,
+      "salary_max": 70000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Obchodní zástupce s asistentkou (m/ž)",
+      "role_category": "obchodni_zastupce",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 70000,
+      "salary_max": 140000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Akviziční obchodník / konzultant pro B2B segment",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 80000,
+      "salary_max": 110000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Obchodní zástupce (segment HoReCa)",
+      "role_category": "obchodni_zastupce",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 41500,
+      "salary_max": 69000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Obchodní zástupce (segment HoReCa)",
+      "role_category": "obchodni_zastupce",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 40000,
+      "salary_max": 66000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "OBCHODNÍ ZÁSTUPCE pro zdravotnické prostředky",
+      "role_category": "obchodni_zastupce",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 60000,
+      "salary_max": 110000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Akviziční obchodník pro Jihomoravský kraj - až 100 000 Kč",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 42000,
+      "salary_max": 84000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Akviziční obchodní zástupce/kyně s přesahem do stavebnictví",
+      "role_category": "obchodni_zastupce",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 40000,
+      "salary_max": 70000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Obchodník pro B2B (podlahové mycí stroje pro školy a sportoviště) | až 120 tis. Kč |",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 60000,
+      "salary_max": 120000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "TOP obchodník pro prodej vozů | fix 50 000 Kč + provize | výdělek až 120 000 Kč",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 80000,
+      "salary_max": 120000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Obchodník/obchodnice JPF Czech s.r.o.",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 60000,
+      "salary_max": 120000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Obchodnice / Obchodník pro Moravu a Slovensko - VR pro sociální a zdravotní péči (B2B)",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 60000,
+      "salary_max": 100000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Obchodník / Obchodnice pro Severní Ameriku a Kanadu (hokejový segment) - Brno",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 36000,
+      "salary_max": 70000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "💼 Obchodník - AI řešení pro firmy - Everbot s.r.o. | 50–100k+ Kč | remote / Praha",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 50000,
+      "salary_max": 100000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "💼 Obchodník - AI řešení pro firmy - Everbot s.r.o. | 50–100k+ Kč | remote / Brno",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 50000,
+      "salary_max": 100000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "💼 Obchodník - AI řešení pro firmy - Everbot s.r.o. | 50–100k+ Kč | remote / Ostrava",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 50000,
+      "salary_max": 100000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Obchodní zástupce pro značkovou obuv  👞",
+      "role_category": "obchodni_zastupce",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 45000,
+      "salary_max": 90000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "OBCHODNÍ ZÁSTUPCE - SW PRODUKTY",
+      "role_category": "obchodni_zastupce",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 50000,
+      "salary_max": 60000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Obchodník ve světě vína | budování vztahů po telefonu + růst do terénu",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 40000,
+      "salary_max": 80000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Partners Banka Kladno - 💼Junior Bankéř/Junior obchodník",
+      "role_category": "general",
+      "seniority": "junior",
+      "location": "regiony",
+      "salary_min": 30000,
+      "salary_max": 60000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Obchodní zástupce s možností manažerského růstu v Allianz pojišťovně (Prémiová kancelář)",
+      "role_category": "obchodni_zastupce",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 45000,
+      "salary_max": 75000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Obchodník pro Švýcarsko",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 60000,
+      "salary_max": 100000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Obchodník pro anglicky mluvící trhy - B2B & Angličtina",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 50000,
+      "salary_max": 100000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "💼 Obchodní zástupce / Export Sales | služební auto | 13. mzda | (50 - 65.000 Kč) #2915",
+      "role_category": "obchodni_zastupce",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 50000,
+      "salary_max": 65000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Obchodník s NJ: auto 🚗, bonusy, cestování, HO, jednoduchý produkt",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 40000,
+      "salary_max": 80000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "B2B Obchodník/ce – žádné cold cally, TOP provize",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 50000,
+      "salary_max": 100000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Obchodník pro zateplení rodinných domů",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 60000,
+      "salary_max": 100000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Obchodní zástupce s vietnamštinou – Brno a okolí (m/ž)",
+      "role_category": "obchodni_zastupce",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 60000,
+      "salary_max": 83000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Obchodní zástupce - jižní Čechy  (m/ž)",
+      "role_category": "obchodni_zastupce",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 50000,
+      "salary_max": 100000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Obchodní zástupce (segment Maloobchod)",
+      "role_category": "obchodni_zastupce",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 40000,
+      "salary_max": 66000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Obchodní zástupce Junior (segment HoReCa)",
+      "role_category": "obchodni_zastupce",
+      "seniority": "junior",
+      "location": "regiony",
+      "salary_min": 39500,
+      "salary_max": 44500,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Obchodní zástupce Junior (segment Maloobchod)",
+      "role_category": "obchodni_zastupce",
+      "seniority": "junior",
+      "location": "praha",
+      "salary_min": 39500,
+      "salary_max": 44500,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Obchodní zástupce Junior (segment HoReCa)",
+      "role_category": "obchodni_zastupce",
+      "seniority": "junior",
+      "location": "regiony",
+      "salary_min": 38000,
+      "salary_max": 43000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "⭕ Obchodní zástupce - manipulační technika",
+      "role_category": "obchodni_zastupce",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 60000,
+      "salary_max": 100000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Obchodní zástupce technického sortimentu s firemním vozem (35 - 65.000 Kč) #2917",
+      "role_category": "obchodni_zastupce",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 35000,
+      "salary_max": 65000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Obchodní zástupce pro region jižní Čechy",
+      "role_category": "obchodni_zastupce",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 30000,
+      "salary_max": 40000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Obchodní zástupce - laboratorní přístroje Praha",
+      "role_category": "obchodni_zastupce",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 45000,
+      "salary_max": 60000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Kreativní PR a Socme profesionál pro vědu a byznys ❤️.",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 40000,
+      "salary_max": 70000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Kreativní PR a Socme Profesionál pro vědu a byznys ❤️.",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 40000,
+      "salary_max": 70000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Specialista pro komunikaci",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 23000,
+      "salary_max": 46000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "PŘEKLADATEL/KA (AJ) - ODBOR AKADEMICKÝCH MÉDIÍ SSČ AV ČR - I PRO ABSOLVENTY",
+      "role_category": "general",
+      "seniority": "junior",
+      "location": "praha",
+      "salary_min": 40000,
+      "salary_max": 44000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Expert/ka na sociální sítě se zaměřením na X",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 40000,
+      "salary_max": 48000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Account Manager – Public Relations",
+      "role_category": "obchodni_zastupce",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 40000,
+      "salary_max": 60000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "ACCOUNT EXECUTIVE - PR agentura",
+      "role_category": "obchodni_zastupce",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 45000,
+      "salary_max": 60000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Pracovník zákaznického a marketingového oddělení",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 30000,
+      "salary_max": 40000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Grafik / Graphic Designer pro e-shop (online & offline)",
+      "role_category": "grafik",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 40000,
+      "salary_max": 45000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Grafik a webdesigner s kreativním přesahem",
+      "role_category": "grafik",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 60000,
+      "salary_max": 70000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Grafik - Motion Designer",
+      "role_category": "grafik",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 45000,
+      "salary_max": 65000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Grafik a motion designér",
+      "role_category": "grafik",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 60000,
+      "salary_max": 90000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Grafik – Máš oko pro kompozici a pracuješ s nástroji od Adobe?",
+      "role_category": "grafik",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 30000,
+      "salary_max": 40000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Grafik pro naší značku TETA drogerie (m/ž)",
+      "role_category": "grafik",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 45000,
+      "salary_max": 55000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Grafik - grafička",
+      "role_category": "grafik",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 35000,
+      "salary_max": 45000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Junior programátor C++ pro Nikon Imaging Software (2D/3D grafika)",
+      "role_category": "grafik",
+      "seniority": "junior",
+      "location": "praha",
+      "salary_min": 50000,
+      "salary_max": 60000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Grafický designér ve společnosti ProSpánek",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 30000,
+      "salary_max": 40000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Senior grafický designer/produktový fotograf - m/ž",
+      "role_category": "grafik",
+      "seniority": "senior",
+      "location": "regiony",
+      "salary_min": 48000,
+      "salary_max": 55000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Social Media Content Creator",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 38000,
+      "salary_max": 41000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Specialist*ka sociálních sítí",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 40000,
+      "salary_max": 45000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Marketing & Content Creator (Brno) – Hledáme kreativce se zápalem pro video",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 35000,
+      "salary_max": 45000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Marketingový manager pro speedlo - B2B",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 40000,
+      "salary_max": 50000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Account & Project Manager (Marketing/Pharma)",
+      "role_category": "projektovy_manazer",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 40000,
+      "salary_max": 48000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Specialista prodeje fitness vybavení  - Brno",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 50000,
+      "salary_max": 75000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Ředitel výroby a redakce v nakladatelství",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 50000,
+      "salary_max": 100000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Asistent/ka vedení a marketingu | e-Finance, a.s.",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 35000,
+      "salary_max": 40000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "POKLADNÍ - FAKTURANT/KA - CHOMUTOV- Obchodní zóna OTVICE",
+      "role_category": "pokladni",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 24000,
+      "salary_max": 27000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "POKLADNÍ",
+      "role_category": "pokladni",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 27000,
+      "salary_max": 35000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Obsluha čerpací stanice - pokladní - OMV Olomouc Nemilany",
+      "role_category": "pokladni",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 32000,
+      "salary_max": 35000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Bankéř/Pokladní - Vsetín (39.000Kč - 45.000Kč) (m/ž)",
+      "role_category": "pokladni",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 39000,
+      "salary_max": 45000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Pokladní - Příbram - částečný úvazek (m/ž)",
+      "role_category": "pokladni",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 18000,
+      "salary_max": 20000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Asistent/ka prodeje – MOBIL POHOTOVOST Hradec Králové",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 38000,
+      "salary_max": 45000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Hledáme posily (DSM a SA) pro novou prodejnu Celio - Fashion Outlet Štěrboholy",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 23000,
+      "salary_max": 36500,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Zástupce/kyně vedoucí prodejny Kopřivnice Fastmall",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 15000,
+      "salary_max": 22000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Columbia store: Odborný prodejce/Sportovní nadšenec (m/ž)",
+      "role_category": "prodavac",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 35000,
+      "salary_max": 40000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Přidej se do týmu Burger King! 🍔👑",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 30000,
+      "salary_max": 32000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Nastartuj svou kariéru v bance - Praha, Vodičkova",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 31000,
+      "salary_max": 45000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Telefonní operátor - praxe není nutná, vše Vás naučíme Olomouc",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 30000,
+      "salary_max": 40000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Telefonní operátor - praxe není nutná, vše Vás naučíme Brno",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 30000,
+      "salary_max": 40000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Prodejní asistent/ka – vedoucí směny (2. zástup) Humanic Westfield Černý Most",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 36000,
+      "salary_max": 40000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "DEPUTY MANAGER - Zástupce manažera prodejny/Specialista SEPHORA- PRAHA",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 35000,
+      "salary_max": 42000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "BEAUTY KONZULTANT - prodavač(ka) v SEPHORA - PRAHA",
+      "role_category": "prodavac",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 29000,
+      "salary_max": 32000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Finanční specialista/ka - pobočka Olbramovice",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 50000,
+      "salary_max": 80000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Finanční specialista/ka - pobočka Plzeň",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 40000,
+      "salary_max": 70000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Odborný prodejce na showroom",
+      "role_category": "prodavac",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 40000,
+      "salary_max": 50000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Store Manager | Praha 1",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 50000,
+      "salary_max": 57000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "HLEDÁME KNIHKUPCE / KNIHKUPKYNI V LITOMĚŘICÍCH",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 23000,
+      "salary_max": 24500,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "✨ Hledáme milou posilu pro luxusní showroom v Hradci (42-48K měsíčně)",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 42000,
+      "salary_max": 48000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Vedoucí oddělení (ž/m) - Ostrov",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 54000,
+      "salary_max": 60000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "👑🍔 Burger King na Letišti Václava Havla hledá posily! 🍔👑",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 35000,
+      "salary_max": 37000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "OSOBNÍ BANKÉŘ/KA JUNIOR",
+      "role_category": "general",
+      "seniority": "junior",
+      "location": "regiony",
+      "salary_min": 40000,
+      "salary_max": 45000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Vedoucí směny v Pizza Hut Galerie Butovice 🍕 (HPP i brigáda)",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 30000,
+      "salary_max": 32000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "🥗 Staňte se salátovým superhrdinou v nové UGO salaterii v Metropoli Zličín 🥑",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 27000,
+      "salary_max": 33000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Asistentka prodeje šperků pro Red and Cube v OC Campus",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 37000,
+      "salary_max": 43000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Prodavač-ka do specializované prodejny elektronických cigaret v Přerově",
+      "role_category": "prodavac",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 24000,
+      "salary_max": 32000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Prodavač/ka - Tabák Valmont, Billa, Brno - Vinohrady",
+      "role_category": "prodavac",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 26000,
+      "salary_max": 34000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Brno Futurum | Prodavač/ka a Střihač/ka na prodejně chovatelských potřeb (A4038)",
+      "role_category": "prodavac",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 25200,
+      "salary_max": 31200,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Prodavač/ka - Tabák Valmont, Billa, Senohraby u Prahy",
+      "role_category": "prodavac",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 26000,
+      "salary_max": 34000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Prodavač/ka pro prémiové prodejny s alkoholickými nápoji a dárkovým zbožím",
+      "role_category": "prodavac",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 36000,
+      "salary_max": 42000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Prodavač/ka",
+      "role_category": "prodavac",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 35000,
+      "salary_max": 40000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Prodavačka nebo Baristka v Antonínově pekařství",
+      "role_category": "prodavac",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 35000,
+      "salary_max": 36000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Prodavač/ka, Praha - Stodůlky",
+      "role_category": "prodavac",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 36000,
+      "salary_max": 38000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Prodavač/ka - Benešov",
+      "role_category": "prodavac",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 25500,
+      "salary_max": 36000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Prodavač sanita (m/ž) - Mladá Boleslav",
+      "role_category": "prodavac",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 37000,
+      "salary_max": 40300,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Prodavač/ka - Boskovice",
+      "role_category": "prodavac",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 24750,
+      "salary_max": 26250,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Prodavač/ka v pražírně kávy, barista Třeboň",
+      "role_category": "prodavac",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 29000,
+      "salary_max": 40000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Prodavač/ka v pražírně kávy, barista - i jako brigáda (Drahonice)",
+      "role_category": "prodavac",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 25000,
+      "salary_max": 30000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Prodavač/ka v pražírně kávy, barista - i jako brigáda",
+      "role_category": "prodavac",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 25000,
+      "salary_max": 30000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Prodavač/ka v charitním obchodě Šatník ve Stráži pod Ralskem – NUTNÁ INVALIDITA",
+      "role_category": "prodavac",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 18000,
+      "salary_max": 22000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Prodavač/ka v pražírně kávy, barista",
+      "role_category": "prodavac",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 29000,
+      "salary_max": 38000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Parťák se srdcem pro lidi a čokoládu, Krásná Lípa, úvazek 0,6 odpoledne i víkendy",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 25000,
+      "salary_max": 30000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Brand Retail Expert pro IQOS (m/ž). Mzda až 50000 Kč měsíčně.",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 35000,
+      "salary_max": 50000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Apple Retail Sales Representative - PRAHA",
+      "role_category": "obchodni_zastupce",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 35000,
+      "salary_max": 50000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Prodejní poradce/kyně RITUALS… - PRAHA",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 38000,
+      "salary_max": 48000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "DESIGNÉR NĚMECKÝCH KUCHYNÍ NOLTE A NOBILIA STUDIO -FLORA (na METRU ! ))",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 60000,
+      "salary_max": 100000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Obchodník a poradce prodejny ProSpánek v Přerově",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 30000,
+      "salary_max": 40000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Obchodník a poradce prodejny ProSpánek ve Frýdku- Místku",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 30000,
+      "salary_max": 40000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Zahradník/zahradnice v zahradním centru Školky-Montano",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 28000,
+      "salary_max": 32000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Floristka/florista, květinářka/květinář Brno-Vaňkovka",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 25000,
+      "salary_max": 30000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Tým Bageterie Boulevard na Letišti Václava Havla hledá trenéra/trenérku!",
+      "role_category": "trener",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 37000,
+      "salary_max": 44000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Konzultant/ka prodeje - Chodov",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 36000,
+      "salary_max": 43000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Vedoucí provozovny Fruitisimo Jihlava",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 32000,
+      "salary_max": 38000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "🆕 Specialista prodejny duty free zóna letiště T1  🚀📱 -  20k příspěvek",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 33000,
+      "salary_max": 35000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Odborný prodejce moto oblečení Praha",
+      "role_category": "prodavac",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 35000,
+      "salary_max": 50000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Vedoucí provozovny Fruitisimo Hradec králové, OC Futurum",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 32000,
+      "salary_max": 38000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Asistent/asistentka prodeje (Šantovka Olomouc)",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 24960,
+      "salary_max": 30000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Přidejte se k týmu - čerpací stanice MOL v Oseku nad Bečvou (JHP)",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 33000,
+      "salary_max": 35000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Prodejce koupelen, dveří a podlah 40.000 až 50.000 Kč + náborový přísp. – Praha Černý Most",
+      "role_category": "prodavac",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 40000,
+      "salary_max": 50000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Specialista prodeje sedacího nábytku",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 30000,
+      "salary_max": 50000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Supermakléřka/makléř Praha luxusní nemovitosti -  Y&T Luxury Property",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 50000,
+      "salary_max": 100000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Junior Manager/Junior obchodník - Partners Praha",
+      "role_category": "general",
+      "seniority": "junior",
+      "location": "praha",
+      "salary_min": 50000,
+      "salary_max": 100000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Asistent/ka prodeje – motocyklové příslušenství a oblečení (Praha-Ořech)",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 29000,
+      "salary_max": 35000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "BEAUTY ADVISOR YVES ROCHER PRAHA HLAVNÍ NÁDRAŽÍ",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 30500,
+      "salary_max": 36500,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Obchodník a poradce prodejny ProSpánek Liberec",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 30000,
+      "salary_max": 40000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Asistent/ka prodeje FJÄLLRÄVEN",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 28000,
+      "salary_max": 42000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Vedoucí dobročinného second handu - Mariánské hory",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 25000,
+      "salary_max": 30000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Vedoucí prodejny – MOBIL POHOTOVOST Ústí nad Labem",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 50000,
+      "salary_max": 65000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Skladník /skladnice (Chrášťany)",
+      "role_category": "skladnik",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 35000,
+      "salary_max": 45000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Skladník VZV, Skladník expedice zboží, Skladník příjmu zboží a Skladník patrových regálů",
+      "role_category": "skladnik",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 39000,
+      "salary_max": 42000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Skladník / Expedient",
+      "role_category": "skladnik",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 33000,
+      "salary_max": 35000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "SKLADNÍK V LAKOVNĚ - mzda od 35 000 Kč | benefity 40 000 Kč ročně | svoz z centra Brna",
+      "role_category": "skladnik",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 35000,
+      "salary_max": 39000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Skladník/skladnice Žatčany",
+      "role_category": "skladnik",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 35000,
+      "salary_max": 38000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "SKLADNÍK",
+      "role_category": "skladnik",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 35000,
+      "salary_max": 38000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Skladník / Skladnice",
+      "role_category": "skladnik",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 31000,
+      "salary_max": 35000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Skladník pro jednosměnný provoz v Brně",
+      "role_category": "skladnik",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 34000,
+      "salary_max": 40000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "SKLADNÍK/-CE",
+      "role_category": "skladnik",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 34000,
+      "salary_max": 40000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Skladník/skladnice s VZV",
+      "role_category": "skladnik",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 35000,
+      "salary_max": 40000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "SEZÓNNÍ SKLADNÍK VT/POSM CHÝNĚ",
+      "role_category": "skladnik",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 23000,
+      "salary_max": 28300,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "SKLADNÍK MTZ (M/Ž)",
+      "role_category": "skladnik",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 25000,
+      "salary_max": 32000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Odborný skladník 35.000 - 40.000/Brno/náborový příspěvek 30.000",
+      "role_category": "skladnik",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 35000,
+      "salary_max": 40000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Skladník - Hradec Králové",
+      "role_category": "skladnik",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 33000,
+      "salary_max": 38000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Skladník VZV, mzda 36 000 Kč + svoz zdarma",
+      "role_category": "skladnik",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 30000,
+      "salary_max": 36000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Skladník \"Picker\"! Úžice - 36 000 Kč",
+      "role_category": "skladnik",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 36000,
+      "salary_max": 40000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "SEZÓNNÍ SKLADNÍK VT/POSM BRNO",
+      "role_category": "skladnik",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 25000,
+      "salary_max": 28300,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Skladník/ice - řidič/ka VZV - víkendy volné",
+      "role_category": "skladnik",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 28830,
+      "salary_max": 31560,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "SEZÓNNÍ SKLADNÍK VT/POSM HRADEC KRÁLOVÉ",
+      "role_category": "skladnik",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 25000,
+      "salary_max": 28300,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "SEZÓNNÍ SKLADNÍK VT/POSM KARLOVY VARY",
+      "role_category": "skladnik",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 25000,
+      "salary_max": 28300,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Skladník",
+      "role_category": "skladnik",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 25000,
+      "salary_max": 33000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Skladník(ce) / manipulant(ka)",
+      "role_category": "skladnik",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 36200,
+      "salary_max": 37800,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Skladník (ž/m)",
+      "role_category": "skladnik",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 36500,
+      "salary_max": 48000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Skladník",
+      "role_category": "skladnik",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 38000,
+      "salary_max": 46000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "SKLADNÍK - Čimelice - průměrná mzda 40 000 Kč",
+      "role_category": "skladnik",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 40000,
+      "salary_max": 45000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "skladník - ŘIDIČ VZV - expediční sklad",
+      "role_category": "skladnik",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 36700,
+      "salary_max": 41000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Skladník/skladnice - operátor/ka expedice",
+      "role_category": "skladnik",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 29000,
+      "salary_max": 35000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Skladník*ce/Prodejce Havlíčkův Brod",
+      "role_category": "prodavac",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 32000,
+      "salary_max": 36000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Skladník / Skladnice - užitková vozidla a autobusy",
+      "role_category": "skladnik",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 31000,
+      "salary_max": 40000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Skladník/ice > prémie 50.000 Kč",
+      "role_category": "skladnik",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 40800,
+      "salary_max": 48400,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Skladník/ Skladnice - PŘÍJEM 33.700 - 37.000,-",
+      "role_category": "skladnik",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 33700,
+      "salary_max": 37000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Skladník s VZV, dvousměnný provoz - Rhenus Logistics s.r.o. v Chrášťanech u Prahy",
+      "role_category": "skladnik",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 30000,
+      "salary_max": 45000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Odborný skladník/ Praha - Zličín - 40.000 - 45.000 Kč + náborový příspěvek až 40.000 Kč",
+      "role_category": "skladnik",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 40000,
+      "salary_max": 45000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Skladník/skladnice - práce na jednu směnu",
+      "role_category": "skladnik",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 26000,
+      "salary_max": 40000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Skladník/servisní technik",
+      "role_category": "skladnik",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 33000,
+      "salary_max": 35000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Skladník  - OLOMOUC",
+      "role_category": "skladnik",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 35000,
+      "salary_max": 40000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "DENNÍ RECEPČNÍ hotel Retro Riverside ***** u Karlových Varů",
+      "role_category": "recepcni",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 30000,
+      "salary_max": 42000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Recepční/provozní hotelu",
+      "role_category": "recepcni",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 25000,
+      "salary_max": 40000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "RECEPČNÍ DENNÍ/NOČNÍ hotel Retro Riverside *****",
+      "role_category": "recepcni",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 30000,
+      "salary_max": 42000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Recepční - hotelová recepce 30 tis. hr. po zapracování + stravenky 150 Kč/ směna",
+      "role_category": "recepcni",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 28000,
+      "salary_max": 30000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Denní recepční pro 4* hotel Golf Wellness Resort Cihelny v Karlových Varech",
+      "role_category": "recepcni",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 30600,
+      "salary_max": 45000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Recepční - klinika duševního zdraví",
+      "role_category": "recepcni",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 35000,
+      "salary_max": 42000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Recepční - energie a akce je to, co tě vystihuje 🌟",
+      "role_category": "recepcni",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 33000,
+      "salary_max": 35000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "DENNÍ RECEPČNÍ ve 4* hotelu SUN PALACE SPA & WELLNESS v Mariánských Lázních",
+      "role_category": "recepcni",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 26500,
+      "salary_max": 35000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Recepční ve SPA & Wellness | Panorama by Verdi Hotels | Praha 4 (u metra)",
+      "role_category": "recepcni",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 29000,
+      "salary_max": 31800,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "DENNÍ RECEPČNÍ ve 4* hotelu Dvořák v Karlových Varech",
+      "role_category": "recepcni",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 26000,
+      "salary_max": 40000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "NOČNÍ RECEPČNÍ v hotelu Dvořák **** v Karlových Varech",
+      "role_category": "recepcni",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 26000,
+      "salary_max": 35000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Recepční Denní i Noční",
+      "role_category": "recepcni",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 30000,
+      "salary_max": 35000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "DENNÍ RECEPČNÍ ve 4* hotelu BELVEDERE SPA & WELLNESS v Mariánských Lázních",
+      "role_category": "recepcni",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 27000,
+      "salary_max": 35000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Recepční soukromé zdravotní kliniky",
+      "role_category": "recepcni",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 35000,
+      "salary_max": 42000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Recepční výkupního oddělení (M/Ž)",
+      "role_category": "recepcni",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 25000,
+      "salary_max": 30000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "ASISTENTKA-RECEPČNÍ V ADVOKÁTNÍ KANCELÁŘI",
+      "role_category": "recepcni",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 32000,
+      "salary_max": 40000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Noční recepční | Panorama by Verdi Hotels | Praha 4 metro pankrác",
+      "role_category": "recepcni",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 33000,
+      "salary_max": 37000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "\"Recepční do residence hotelového typu",
+      "role_category": "recepcni",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 27000,
+      "salary_max": 30000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Recepční pro společnost e-Finance, a.s.",
+      "role_category": "recepcni",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 30000,
+      "salary_max": 35000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "ASISTENT/KA PRODEJE - RECEPČNÍ - provozovna Zdiby",
+      "role_category": "recepcni",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 28000,
+      "salary_max": 30000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Denní recepční na HPP pro eFi Palace Hotel***",
+      "role_category": "recepcni",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 35000,
+      "salary_max": 40000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Obsluha saunových barů a recepční wellness",
+      "role_category": "recepcni",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 39500,
+      "salary_max": 40500,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Recepční & office asistent s AJ (m/ž) - mzda až 45 000 Kč, Praha 8",
+      "role_category": "recepcni",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 40000,
+      "salary_max": 45000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Recepční s úsměvem – buďte důvodem, proč se hosté rádi vracejí",
+      "role_category": "recepcni",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 28000,
+      "salary_max": 33000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Recepční - jednosměnný provoz, volné víkendy",
+      "role_category": "recepcni",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 30000,
+      "salary_max": 32000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "RECEPČNÍ, ASISTENT/KA kliniky NUTRIADAPT - Praha 4",
+      "role_category": "recepcni",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 38000,
+      "salary_max": 43000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Recepční v ubytovacím zařízení",
+      "role_category": "recepcni",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 33000,
+      "salary_max": 40000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "RECEPČNÍ, ASISTENT/KA kliniky NUTRIADAPT - Praha 1",
+      "role_category": "recepcni",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 30000,
+      "salary_max": 40000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "RECEPČNÍ, ASISTENT/KA kliniky NUTRIADAPT - Havlíčkův Brod",
+      "role_category": "recepcni",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 30000,
+      "salary_max": 40000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Recepční Thermal Resort K. Vary (HPP)",
+      "role_category": "recepcni",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 32000,
+      "salary_max": 40000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Recepční",
+      "role_category": "recepcni",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 42000,
+      "salary_max": 45000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Kuchař (m/ž) na 8h směny pro Zámek Načeradec, okr. Benešov",
+      "role_category": "kuchar",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 28000,
+      "salary_max": 56000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Kuchařka / kuchař do školní jídelny",
+      "role_category": "kuchar",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 34000,
+      "salary_max": 37000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Kuchař/kuchařka na zámku Račice",
+      "role_category": "kuchar",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 43000,
+      "salary_max": 45000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Kuchař/Servírka",
+      "role_category": "kuchar",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 40000,
+      "salary_max": 45000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Samostatný/á kuchař/ka",
+      "role_category": "kuchar",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 25000,
+      "salary_max": 26000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Kuchař",
+      "role_category": "kuchar",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 45000,
+      "salary_max": 60000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "KUCHAŘ/KA V HOTELOVÉ KUCHYNI - ZÁMEK TŘEŠŤ - VYSOČINA",
+      "role_category": "kuchar",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 28000,
+      "salary_max": 32000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "POMOCNÁ KUCHAŘKA NA DĚTSKÝCH POBYTECH",
+      "role_category": "kuchar",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 25000,
+      "salary_max": 35000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Kuchař/ka do hotelu Cihelny Golf & Wellness Resort u Karlových Varů",
+      "role_category": "kuchar",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 43000,
+      "salary_max": 50000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Pomocný Kuchař do 4* hotelu Panorama",
+      "role_category": "kuchar",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 31000,
+      "salary_max": 33000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "👨‍🍳Kuchař | od 35 000 Kč podle zkušeností",
+      "role_category": "kuchar",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 35000,
+      "salary_max": 45500,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Kuchař/ka v restauraci na Letišti Václava Havla",
+      "role_category": "kuchar",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 40000,
+      "salary_max": 50000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Kuchař / Kuchařka –  Bottega Prosecco Bar and Restaurant na Letišti Václava Havla",
+      "role_category": "kuchar",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 45000,
+      "salary_max": 50000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "🔥 Hledáme kuchaře do nové restaurace v hotelu WE HoteEXPO Prague!",
+      "role_category": "kuchar",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 45000,
+      "salary_max": 50000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Kuchař/ka",
+      "role_category": "kuchar",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 28800,
+      "salary_max": 32000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Pokojská/Snídaňový kuchař/ka pro hotel The King Charles",
+      "role_category": "kuchar",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 25000,
+      "salary_max": 30000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Kuchař/ka - Léčebné lázně Jáchymov",
+      "role_category": "kuchar",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 29000,
+      "salary_max": 35000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Kuchař/ka v 5* hotelu The President v centru Prahy",
+      "role_category": "kuchar",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 35000,
+      "salary_max": 50000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "KUCHAŘ/KA do 4* hotelu BELVEDERE SPA & WELLNESS v Mariánských Lázních",
+      "role_category": "kuchar",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 40000,
+      "salary_max": 50000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Šéfkuchař/ka - Kuchař/ka",
+      "role_category": "kuchar",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 40000,
+      "salary_max": 70000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Kuchař/ka",
+      "role_category": "kuchar",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 50000,
+      "salary_max": 51000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Kuchař/kuchařka",
+      "role_category": "kuchar",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 49000,
+      "salary_max": 50000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "pomocná cukrářka, kuchařka",
+      "role_category": "kuchar",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 28000,
+      "salary_max": 30000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Kuchař/ka na ČS ORLEN - Klimkovice",
+      "role_category": "kuchar",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 28000,
+      "salary_max": 34000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Vedoucí kuchař",
+      "role_category": "kuchar",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 35000,
+      "salary_max": 55000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "🍔 Řidič & nebo Crew v Burger King Troubsko",
+      "role_category": "ridic",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 26000,
+      "salary_max": 30000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "🔥 Street Kebab – Hledáme zkušené GASTRO PROFÍKY",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 30000,
+      "salary_max": 50000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Pojď s námi dělat nejlepší kebab v Praze",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 35000,
+      "salary_max": 50000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Zaměstnanec provozu restaurace - Nástupní mzda až 30 500 Kč/měsíčně",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 26500,
+      "salary_max": 28500,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Vrchní číšník M/Ž",
+      "role_category": "cisnik",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 35000,
+      "salary_max": 45000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Vrchní / číšník / servírka – Finestra Restaurant Vyškov",
+      "role_category": "cisnik",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 40000,
+      "salary_max": 50000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Číšník/servírka ve 4* hotelu Golf Wellness Resort Cihelny v Karlových Varech",
+      "role_category": "cisnik",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 33000,
+      "salary_max": 40000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Číšník/servírka na zámku Račice",
+      "role_category": "cisnik",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 38500,
+      "salary_max": 40000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Hlavní číšník / servírka v resortu na Vysočině s ubytováním",
+      "role_category": "cisnik",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 35000,
+      "salary_max": 50000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Servírka/číšník - vegetariánská restaurace GREEN TABLE",
+      "role_category": "cisnik",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 35000,
+      "salary_max": 38000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Servírka/Číšník do restaurace v Praze",
+      "role_category": "cisnik",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 35000,
+      "salary_max": 50000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Hlavní číšník, který se stane tváří prestižního klubu podnikatelů",
+      "role_category": "cisnik",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 50000,
+      "salary_max": 80000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Číšník/servírka/ barman/ka do restaurace Vinohradský Parlament",
+      "role_category": "cisnik",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 64000,
+      "salary_max": 74000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Číšník / servírka / barman do restaurace Bruxx",
+      "role_category": "cisnik",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 64000,
+      "salary_max": 75000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Číšník/servírka v 5* hotelu Retro Riverside Wellness Resort  v Karlových Varech",
+      "role_category": "cisnik",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 33000,
+      "salary_max": 45000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Číšník či Servírka v Restauraci na Závisti (Veltrusy)",
+      "role_category": "cisnik",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 35000,
+      "salary_max": 42000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Číšník/Servírka v koktejlovém baru",
+      "role_category": "cisnik",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 40000,
+      "salary_max": 50000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "ČÍŠNÍK / SERVÍRKA / BARMAN do restaurace Palazzo d'Este",
+      "role_category": "cisnik",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 43000,
+      "salary_max": 55000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Servírka/Číšník v restauraci na Letišti Václava Havla - noční směny",
+      "role_category": "cisnik",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 38000,
+      "salary_max": 39000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "ČÍŠNÍK / SERVÍRKA",
+      "role_category": "cisnik",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 65000,
+      "salary_max": 75000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Číšník / Servírka do restaurací Zátiší Group",
+      "role_category": "cisnik",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 40000,
+      "salary_max": 55000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Barista a číšník/servírka",
+      "role_category": "cisnik",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 38000,
+      "salary_max": 46000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "číšník, servírka",
+      "role_category": "cisnik",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 45000,
+      "salary_max": 60000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Servírka/Číšník v restauraci na Letišti Václava Havla",
+      "role_category": "cisnik",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 37000,
+      "salary_max": 38000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Vedoucí číšník",
+      "role_category": "cisnik",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 35000,
+      "salary_max": 55000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Pomocný pracovník v pizzerii",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 22000,
+      "salary_max": 22400,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Baristka/obsluha",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 28000,
+      "salary_max": 30000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Obsluha cateringu",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 28000,
+      "salary_max": 35000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Tým Bageterie Boulevard na Letišti Václava Havla hledá vedoucí/ho směny!",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 38000,
+      "salary_max": 46000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Barist(k)ou v Costa Coffee kavárně na Letišti Václava Havla",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 33000,
+      "salary_max": 36000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Noční barist(k)a v Costa Coffee na letišti Václava Havla - K/D týden",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 35000,
+      "salary_max": 37000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Obsluha lobby baru hotelu Aqualand Inn",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 30000,
+      "salary_max": 34000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "OBSLUHA V ASIJSKÉ RESTAURACI SIA - 60 000,- měsíčně",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 57000,
+      "salary_max": 60000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Hledáme parťáka/parťačku do Bageterie Boulevard na Letišti Václava Havla",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 34000,
+      "salary_max": 37000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Five Guys poprvé v ČR – hledáme Shift Managera!",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 40000,
+      "salary_max": 45000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Burger King Brno Campus hledá kolegy/ně na plný úvazek 🍔",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 26000,
+      "salary_max": 28000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Vedoucí směny junior v Burger King Kladno 🍔",
+      "role_category": "general",
+      "seniority": "junior",
+      "location": "regiony",
+      "salary_min": 30000,
+      "salary_max": 32000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Noční Prodejce/Prodejkyně v bistru na Letišti Václava Havla",
+      "role_category": "prodavac",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 37000,
+      "salary_max": 38000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Asistent/ka Store managera v Costa Coffee na Letišti Václava Havla - 15k náb. příspěvek",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 40000,
+      "salary_max": 42000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "🌙 Noční směny v Burger King – Letiště Václava Havla ✈️🍔",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 37000,
+      "salary_max": 39000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Barist(k)a v kavárně Costa Coffee na Karlově náměstí",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 32000,
+      "salary_max": 34000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Budeš náš nový parťák v Ďáblicích?",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 29000,
+      "salary_max": 33000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Podpora obchodního teamu Vodafone PRAHA - Callcentrum",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 40000,
+      "salary_max": 60000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Barist(k)a v kavárně na Letišti Václava Havla",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 37000,
+      "salary_max": 38000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Obsluha krásné kavárny/restaurace",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 38000,
+      "salary_max": 44000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Zaměstnanec provozu v nově zrekonstruované restauraci",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 24000,
+      "salary_max": 26000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Barman/ka",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 27000,
+      "salary_max": 35000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Hledáme noční Baristu/Baristku do kavárny na Letiště Václava Havla 🌙☕",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 37000,
+      "salary_max": 39000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Projektant/ka s odvahou tvořit",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 45000,
+      "salary_max": 70000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Kurýr pro Košík🛒 v Praze: Vyjezdi si denně až 4.300 Kč💸",
+      "role_category": "kuryr",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 60000,
+      "salary_max": 92989,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "GO parking - řidič/řidička sk. B až 180 Kč/h",
+      "role_category": "ridic",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 31000,
+      "salary_max": 39000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Řidič/ka dopravy po Libereckém kraji🚛",
+      "role_category": "ridic",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 45000,
+      "salary_max": 50000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Řidič C+E",
+      "role_category": "ridic",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 45000,
+      "salary_max": 60000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Řidič/ka sk. C - náborový příspěvek 70.000 Kč",
+      "role_category": "ridic",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 50000,
+      "salary_max": 60000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Kurýr pro rozvoz zásilek - pozice pro OZP - Ostrava",
+      "role_category": "kuryr",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 16000,
+      "salary_max": 18000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Kurýr zásilek do boxů - pro OZP - Otrokovice",
+      "role_category": "kuryr",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 16000,
+      "salary_max": 18000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Kurýr zásilek do boxů - pro OZP - Hradec Králové",
+      "role_category": "kuryr",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 16000,
+      "salary_max": 18000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Kurýr zásilek do boxů - pro OZP - Brno",
+      "role_category": "kuryr",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 16000,
+      "salary_max": 18000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Kurýr zásilek do boxů - pro OZP - Ostrava",
+      "role_category": "kuryr",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 16000,
+      "salary_max": 18000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Přijmeme kurýry pro rozvoz do boxů v Brně- pro OZP - zkrácený úvazek",
+      "role_category": "kuryr",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 16000,
+      "salary_max": 18000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "ŘIDIČ sk. C - s profesním průkazem náborový příspěvek 20 000 Kč",
+      "role_category": "ridic",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 44000,
+      "salary_max": 52000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Řidič VZV - 2x ročně zvyšování mzdy, dvousměnný provoz",
+      "role_category": "ridic",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 39000,
+      "salary_max": 48000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Skladový manipulant – řidič",
+      "role_category": "ridic",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 38000,
+      "salary_max": 41000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "řidič autobusu",
+      "role_category": "ridic",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 40000,
+      "salary_max": 65000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Řidič C+E –  kontejnerka Volvo 2024 jižní a střední Čechy, Praha",
+      "role_category": "ridic",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 70000,
+      "salary_max": 80000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Řidič mezinárodní kamionové dopravy",
+      "role_category": "ridic",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 55000,
+      "salary_max": 75000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Řidič/ka sk. C + E - kontejnerové vozidlo - Brno",
+      "role_category": "ridic",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 35000,
+      "salary_max": 40000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Řidič C+E – posuvka/walkingfloor jižní a střední Čechy, Praha",
+      "role_category": "ridic",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 70000,
+      "salary_max": 80000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "ŘIDIČ/ka PRO NÁVĚSOVÉ SOUPRAVY (svoz živé drůbeže)",
+      "role_category": "ridic",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 40000,
+      "salary_max": 49000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Řidič/ka kamionu pro mezinárodku - 58.000 – 67.000 Kč čistého vše na pásce",
+      "role_category": "ridic",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 58000,
+      "salary_max": 67000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Řidič skupiny C + E - Brno (JISTOTA práce, mzdy a každý den doma)",
+      "role_category": "ridic",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 35000,
+      "salary_max": 45000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Staň se ŘIDIČEM „C“ v AGF Food Logistics Planá nad Lužnicí",
+      "role_category": "ridic",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 37000,
+      "salary_max": 39000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Staň se ŘIDIČEM C v AGF Food Praha Ruzyně",
+      "role_category": "ridic",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 43000,
+      "salary_max": 49000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Pedagog v soukromé školce",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 30000,
+      "salary_max": 36000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "💛 Učitel/ka pro 6. třídu – výuka v týmu, moderní přístup",
+      "role_category": "ucitel",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 55000,
+      "salary_max": 65000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "UČITEL/KA  ČEŠTINY - zkrácený úvazek 70%, gymnázium P-9",
+      "role_category": "ucitel",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 50000,
+      "salary_max": 57000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Učitel/ka na osmiletém gymnáziu MA (ideálně v kombinaci s FY nebo IVT)",
+      "role_category": "ucitel",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 58000,
+      "salary_max": 60000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Učitel/ka EURYTMIE na waldorfské škole v Plzni",
+      "role_category": "ucitel",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 33000,
+      "salary_max": 40000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Učitel/ka matematiky pro denní nebo dálkové studium | školní rok 2026/2027",
+      "role_category": "ucitel",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 48000,
+      "salary_max": 55000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Speciální pedagog - učitel",
+      "role_category": "ucitel",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 47000,
+      "salary_max": 52000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "✨ Učitel/ka 1. stupně – ZŠ GENIUS, Praha 4 (Krč) 🎁 náborový příspěvek 25.000,-",
+      "role_category": "ucitel",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 42000,
+      "salary_max": 59000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Pečovatelka/zdravotní sestra/chůva/učitelka do dětské skupiny do Úval",
+      "role_category": "zdravotni_sestra",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 30000,
+      "salary_max": 35000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Učitel elektrotechnických předmětů",
+      "role_category": "ucitel",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 35000,
+      "salary_max": 55000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Učitel ZŠ -   1. stupeň, český jazyk, matematika",
+      "role_category": "ucitel",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 38000,
+      "salary_max": 50000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Učitel českého jazyka a anglického jazyka pro 2. stupeň základní školy",
+      "role_category": "ucitel",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 38000,
+      "salary_max": 45000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Učitel zeměpis - přírodopis na střední škole Praha 9",
+      "role_category": "ucitel",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 42000,
+      "salary_max": 45000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "UČITEL/KA - DĚJEPIS/ ZEMĚPIS (plný úvazek) ZŠ Praha 10, od září 2026",
+      "role_category": "ucitel",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 37000,
+      "salary_max": 50000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Učitel/ka -absolvent/ka FF, který bude kaučovat na seminárních a maturitních prací student",
+      "role_category": "ucitel",
+      "seniority": "junior",
+      "location": "praha",
+      "salary_min": 42000,
+      "salary_max": 48000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Učitel anglického jazyka na střední škole",
+      "role_category": "ucitel",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 45000,
+      "salary_max": 50000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Učitel/ka do soukromé školky v Úvalech",
+      "role_category": "ucitel",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 30000,
+      "salary_max": 38000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Středoškolský učitel/ka",
+      "role_category": "ucitel",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 39490,
+      "salary_max": 50270,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Učitelka/učitel v MŠ - předškolní pedagog",
+      "role_category": "ucitel",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 37000,
+      "salary_max": 45000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Učitel/ka matematiky",
+      "role_category": "ucitel",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 37580,
+      "salary_max": 48990,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "UČITEL/KA PRO CHERRY TREE",
+      "role_category": "ucitel",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 40000,
+      "salary_max": 45000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "UČITEL/KA MATEMATIKY a FYZIKY (plný, případně částečný úvazek) ZŠ Praha 10, od září 2026",
+      "role_category": "ucitel",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 25000,
+      "salary_max": 50000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "UČITEL/KA 1. stupně, nástup léto 2026 (ZŠ V Rybníčkách, Praha 10)",
+      "role_category": "ucitel",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 40000,
+      "salary_max": 60000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Učitel/učitelka ve Start-up školce Karlín",
+      "role_category": "ucitel",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 35000,
+      "salary_max": 40000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Učitel/ka českého jazyka a německého jazyka",
+      "role_category": "ucitel",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 37000,
+      "salary_max": 60000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Učitel/ka odborného výcviku obor elektro silnoproud",
+      "role_category": "ucitel",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 38000,
+      "salary_max": 45700,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Učitel/ka odborných předmětů pro stavební obory",
+      "role_category": "ucitel",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 37580,
+      "salary_max": 48990,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Učitel anglického jazyka",
+      "role_category": "ucitel",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 35120,
+      "salary_max": 45780,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Učitel/ka českého jazyka pro SOŠ",
+      "role_category": "ucitel",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 35000,
+      "salary_max": 46000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Učitel první stupeň",
+      "role_category": "ucitel",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 36000,
+      "salary_max": 45000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Učitel/ka na waldorfské základní škole v Plzni",
+      "role_category": "ucitel",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 33000,
+      "salary_max": 40000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Učitelka/učitel 1. stupně ZŠ",
+      "role_category": "ucitel",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 47000,
+      "salary_max": 50000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Učitel střední školy",
+      "role_category": "ucitel",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 37580,
+      "salary_max": 48990,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Učitel/ka odborných předmětů dřevařských oborů",
+      "role_category": "ucitel",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 37580,
+      "salary_max": 48990,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Učitel/ka českého jazyka - ZŠ Švehlova, Praha 10 (od 2026/27)",
+      "role_category": "ucitel",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 26000,
+      "salary_max": 52000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Učitel/ka 1. stupně",
+      "role_category": "ucitel",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 37000,
+      "salary_max": 50000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Učitel odborného výcviku obor tesař",
+      "role_category": "ucitel",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 38000,
+      "salary_max": 46000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "ZDRAVOTNÍ SESTRA - soukromá ambulantní klinika, péče o prémiovou klientelu",
+      "role_category": "zdravotni_sestra",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 40000,
+      "salary_max": 45000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Všeobecná zdravotní sestra pro domácí péči",
+      "role_category": "zdravotni_sestra",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 45000,
+      "salary_max": 55000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Zdravotní sestra v centru duševního zdraví Chrudim",
+      "role_category": "zdravotni_sestra",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 43000,
+      "salary_max": 45000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Zdravotní sestra v centru duševního zdraví Hradec Králové",
+      "role_category": "zdravotni_sestra",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 43000,
+      "salary_max": 45000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Všeobecná sestra / Praktická sestra / Zdravotní bratr",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 41000,
+      "salary_max": 51000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Zdravotní SESTRA do pediatrické kliniky",
+      "role_category": "zdravotni_sestra",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 40000,
+      "salary_max": 50000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Všeobecná zdravotní sestra",
+      "role_category": "zdravotni_sestra",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 42200,
+      "salary_max": 46200,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Zdravotní sestra - konzultantka URO (práce s lékaři i pacienty) Ústí, Děčín, Mělník, Lit.",
+      "role_category": "lekar",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 50000,
+      "salary_max": 60000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Hledáme zdravotní sestru pro práci v ambulanci!",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 35000,
+      "salary_max": 45000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Zdravotní sestra - konzultantka / nemocniční ORL/ONK - Morava",
+      "role_category": "zdravotni_sestra",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 55000,
+      "salary_max": 65000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Zdravotní sestra Krizového centra RIAPS - Chelčického 842/39, Praha 3",
+      "role_category": "zdravotni_sestra",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 33980,
+      "salary_max": 48090,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Zdravotní sestra v domácím hospici",
+      "role_category": "zdravotni_sestra",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 35000,
+      "salary_max": 38000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Terénní zdravotní sestra v na jednosměnný provoz",
+      "role_category": "zdravotni_sestra",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 45000,
+      "salary_max": 50000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Zdravotní sestra/specialistka estetické kliniky",
+      "role_category": "zdravotni_sestra",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 40000,
+      "salary_max": 60000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "zdravotní sestra",
+      "role_category": "zdravotni_sestra",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 27000,
+      "salary_max": 38330,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Odběrová zdravotní sestra - Přerov",
+      "role_category": "zdravotni_sestra",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 39000,
+      "salary_max": 45000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Zdravotní sestra, Praha 5, až 60 000 Kč",
+      "role_category": "zdravotni_sestra",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 53000,
+      "salary_max": 60000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "VŠEOBECNÁ SESTRA ZDRAVOTNÍ TERÉNNÍ PÉČE | PRAHA - VÝCHOD",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 45000,
+      "salary_max": 60000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "VŠEOBECNÁ SESTRA ZDRAVOTNÍ TERÉNNÍ PÉČE BRNO",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 45000,
+      "salary_max": 50000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "VŠEOBECNÁ SESTRA ZDRAVOTNÍ TERÉNNÍ PÉČE | PRAHA a okolí",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 45000,
+      "salary_max": 50000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "VŠEOBECNÁ SESTRA ZDRAVOTNÍ TERÉNNÍ PÉČE Brno-venkov",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 45000,
+      "salary_max": 50000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "VŠEOBECNÁ SESTRA ZDRAVOTNÍ TERÉNNÍ PÉČE | DUCHCOV",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 55000,
+      "salary_max": 60000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "VŠEOBECNÁ SESTRA ZDRAVOTNÍ TERÉNNÍ PÉČE | LOUNY",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 45000,
+      "salary_max": 60000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "VŠEOBECNÁ SESTRA ZDRAVOTNÍ TERÉNNÍ PÉČE",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 45000,
+      "salary_max": 60000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Všeobecná sestra v Domácí zdravotní péči",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 45000,
+      "salary_max": 50000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Zdravotní sestra do Domácí zdravotní a paliativní péče Rožnov p.R.",
+      "role_category": "zdravotni_sestra",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 17050,
+      "salary_max": 18300,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "AHC Senior centrum Trnová - ZDRAVOTNÍ SESTRA",
+      "role_category": "zdravotni_sestra",
+      "seniority": "senior",
+      "location": "regiony",
+      "salary_min": 45000,
+      "salary_max": 50000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Zdravotní sestra/praktická sestra",
+      "role_category": "zdravotni_sestra",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 44000,
+      "salary_max": 48000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Všeobecná zdravotní sestra pro Charitu Most, ošetřovatelskou domácí péči \"Sestra domů\"",
+      "role_category": "zdravotni_sestra",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 45000,
+      "salary_max": 51000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Všeobecná zdravotní sestra",
+      "role_category": "zdravotni_sestra",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 40000,
+      "salary_max": 50000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Praktická / Všeobecná zdravotní sestra / bratr",
+      "role_category": "zdravotni_sestra",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 40000,
+      "salary_max": 45000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Zdravotní sestra do moderní pediatrické ordinace",
+      "role_category": "zdravotni_sestra",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 28000,
+      "salary_max": 42000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Zdravotní sestra",
+      "role_category": "zdravotni_sestra",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 30000,
+      "salary_max": 39000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "zdravotní sestra v domově seniorů",
+      "role_category": "zdravotni_sestra",
+      "seniority": "senior",
+      "location": "regiony",
+      "salary_min": 43500,
+      "salary_max": 45000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "ZDRAVOTNÍ SESTRA V SOCIÁLNÍCH SLUŽBÁCH – DVOUSMĚNNÝ PROVOZ",
+      "role_category": "zdravotni_sestra",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 40590,
+      "salary_max": 42940,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Zdravotní sestra do nového domácího hospice v Klatovech",
+      "role_category": "zdravotni_sestra",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 50000,
+      "salary_max": 56000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Zdravotní sestra v domácím hospici v Plzni",
+      "role_category": "zdravotni_sestra",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 50000,
+      "salary_max": 56000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Psychiatrická zdravotní sestra do CDZ Podskalí",
+      "role_category": "zdravotni_sestra",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 50000,
+      "salary_max": 55000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "ZDRAVOTNÍ SESTRA DÁRCOVSKÉHO CENTRA PLAZMY – náborový bonus 50 000 Kč",
+      "role_category": "zdravotni_sestra",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 38000,
+      "salary_max": 40000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "ZDRAVOTNÍ SESTRA DÁRCOVSKÉHO CENTRA PLAZMY – náborový bonus 50 000 Kč",
+      "role_category": "zdravotni_sestra",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 40000,
+      "salary_max": 42000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Zdravotní sestra",
+      "role_category": "zdravotni_sestra",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 34560,
+      "salary_max": 46890,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Zdravotní sestra domácí hospicové péče",
+      "role_category": "zdravotni_sestra",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 47000,
+      "salary_max": 50000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Zdravotní sestra – 60.000 Kč brutto (HPP, DPČ, DPP nebo zkrácený úvazek)",
+      "role_category": "zdravotni_sestra",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 55000,
+      "salary_max": 60000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "ZDRAVOTNÍ SESTRA pro DOMÁCÍ HOSPIC EMANUEL",
+      "role_category": "zdravotni_sestra",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 48000,
+      "salary_max": 50000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Zdravotní sestra – domácí zdrav. péče – nové auto – flexibilní úvazek",
+      "role_category": "zdravotni_sestra",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 40000,
+      "salary_max": 50000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Lékař/ka neurologie nebo urologie (náborový příspěvek + možnost ubytování)",
+      "role_category": "lekar",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 50000,
+      "salary_max": 100000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Všeobecný/á lékař/ka ve Zlínském kraji",
+      "role_category": "lekar",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 100000,
+      "salary_max": 150000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Všeobecný praktický lékař*ka do Loono(na 0,5 - 1,0 úvazek s flexibilním nástupem!) 🟠🟠",
+      "role_category": "lekar",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 140000,
+      "salary_max": 160000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Praktický lékař/lékařka",
+      "role_category": "lekar",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 56000,
+      "salary_max": 60000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Hledáme praktického lékaře / lékařku do Multi-kliniky – Praha a okolí",
+      "role_category": "lekar",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 100000,
+      "salary_max": 200000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Lékař - Amber Plasma Cheb, max úvazek 0,8",
+      "role_category": "lekar",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 60000,
+      "salary_max": 90000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Lékař pro plazma centrum, brigáda",
+      "role_category": "lekar",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 75000,
+      "salary_max": 90000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Lékař pro plazma centrum",
+      "role_category": "lekar",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 75000,
+      "salary_max": 90000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "HLEDÁME LÉKAŘE / LÉKAŘKU ARIM",
+      "role_category": "lekar",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 100000,
+      "salary_max": 130000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Lékař / ka v moderním odběrovém centru - Tábor *Plný i částečný úvazek*",
+      "role_category": "lekar",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 50000,
+      "salary_max": 100000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "PRAKTICKÝ LÉKAŘ (95 800 - 161 760 Kč / měsíc)",
+      "role_category": "lekar",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 95800,
+      "salary_max": 161760,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Lékař/ka v domácím hospici v Plzni",
+      "role_category": "lekar",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 100000,
+      "salary_max": 110000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Praktický lékař / Praktická lékařka",
+      "role_category": "lekar",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 100000,
+      "salary_max": 140000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Praktický lékař/ka nebo lékař/ka pracovnělékařských služeb (PLS)",
+      "role_category": "lekar",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 75000,
+      "salary_max": 85000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Pneumolog/Pneumoložka – vedoucí lékař (možnost zkráceného úvazku)",
+      "role_category": "lekar",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 60000,
+      "salary_max": 100000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "PRAKTICKÝ LÉKAŘ až 100 000Kč",
+      "role_category": "lekar",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 70000,
+      "salary_max": 100000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Všeobecný praktický lékař",
+      "role_category": "lekar",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 110000,
+      "salary_max": 130000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Zubní lékař/ka privátní kliniky",
+      "role_category": "lekar",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 100000,
+      "salary_max": 200000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Klinika ESET hledá lékaře psychiatra!",
+      "role_category": "lekar",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 80000,
+      "salary_max": 120000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Pojďte s námi budovat kliniku v Písku - Zubní lékař/ka",
+      "role_category": "lekar",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 100000,
+      "salary_max": 200000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Zubní lékař/ Zubní lékařka",
+      "role_category": "lekar",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 130000,
+      "salary_max": 160000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Zubní lékař - včetně ubytování",
+      "role_category": "lekar",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 100000,
+      "salary_max": 200000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Lékař pediatr/pneumolog s možností firemního bydlení ve Zlatých Horách",
+      "role_category": "lekar",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 75000,
+      "salary_max": 150000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Zubní lékař/ka na odpolední směny",
+      "role_category": "lekar",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 80000,
+      "salary_max": 160000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Zubní lékař/lékařka Prémiová klinika Praha",
+      "role_category": "lekar",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 150000,
+      "salary_max": 250000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "ZUBNÍ LÉKAŘ ESTHETIC DENTISTRY",
+      "role_category": "lekar",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 150000,
+      "salary_max": 300000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Lékař - Psychiatr",
+      "role_category": "lekar",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 83000,
+      "salary_max": 123000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Lékař, obor: Psychiatrie (úvazek dle domluvy)",
+      "role_category": "lekar",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 100000,
+      "salary_max": 200000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Lékař/-ka - Sonografie",
+      "role_category": "lekar",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 100000,
+      "salary_max": 150000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Lékař/-ka Endokrinologie",
+      "role_category": "lekar",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 100000,
+      "salary_max": 200000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Elektrikář",
+      "role_category": "elektrikar",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 35000,
+      "salary_max": 45000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Elektrikář",
+      "role_category": "elektrikar",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 48306,
+      "salary_max": 56000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Technik údržby (mechanik / elektrikář), možnost spolupráce na IČO",
+      "role_category": "elektrikar",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 46000,
+      "salary_max": 48000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "ELEKTRIKÁŘ*NÁBOROVÝ PŘÍSPĚVEK 50 000 Kč",
+      "role_category": "elektrikar",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 55000,
+      "salary_max": 60000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Samostatný hotelový technik - elektrikář",
+      "role_category": "elektrikar",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 40000,
+      "salary_max": 45000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Elektrikář / Provozní technik",
+      "role_category": "elektrikar",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 45000,
+      "salary_max": 55000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Hledáme elektrikáře / učitele (3 měs. volna) až 55.000,-",
+      "role_category": "ucitel",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 40000,
+      "salary_max": 50000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Servisní technik / Elektrikář / Montážník",
+      "role_category": "elektrikar",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 40000,
+      "salary_max": 65000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Servisní technik / Elektrikář – chlazení a klimatizace",
+      "role_category": "elektrikar",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 50000,
+      "salary_max": 75000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Elektromontér - elektrikář - elektrotechnik",
+      "role_category": "elektrikar",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 38000,
+      "salary_max": 60000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Provozní elektrikář - Klášterec nad Ohří",
+      "role_category": "elektrikar",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 40000,
+      "salary_max": 45000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Elektrikář ve výrobě sušenek 💡(m/ž/x)",
+      "role_category": "elektrikar",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 32000,
+      "salary_max": 45000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "ELEKTRIKÁŘ",
+      "role_category": "elektrikar",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 35000,
+      "salary_max": 55000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Elektrikář - silnoproud",
+      "role_category": "elektrikar",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 35000,
+      "salary_max": 40000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Elektrikář pro Thermo King - náborový příspěvek 70 000 Kč",
+      "role_category": "elektrikar",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 41000,
+      "salary_max": 52000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Elektrikář",
+      "role_category": "elektrikar",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 50000,
+      "salary_max": 58000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "*NÁSTUPNÍ BONUS 60 000 Kč* ELEKTRIKÁŘ m/ž",
+      "role_category": "elektrikar",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 40000,
+      "salary_max": 55000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Specialista údržby - elektrikář",
+      "role_category": "elektrikar",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 50000,
+      "salary_max": 60000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "ADFORS Litomyšl PROVOZNÍ ELEKTRIKÁŘ - obsluha rozvodny 110kW",
+      "role_category": "elektrikar",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 46900,
+      "salary_max": 52100,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "ADFORS Litomyšl PROVOZNÍ ELEKTRIKÁŘ",
+      "role_category": "elektrikar",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 40300,
+      "salary_max": 45000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Elektrikář/ údržbář (ž/m) - Masozávod",
+      "role_category": "elektrikar",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 45000,
+      "salary_max": 51000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Provozní elektrikář Obalovna Sokolov (m/ž)",
+      "role_category": "elektrikar",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 40000,
+      "salary_max": 60000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Elektrikář ve výrobním závodě (m/ž)",
+      "role_category": "elektrikar",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 34000,
+      "salary_max": 42000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Stavební dělník, vzduchař, chlaďař, montér, elektrikář",
+      "role_category": "elektrikar",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 45000,
+      "salary_max": 65000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Instalatér/topenář až 70.000,-",
+      "role_category": "instalater",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 40000,
+      "salary_max": 70000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "INSTALATÉR/INSTALATÉRKA – TOPENÁŘ/TOPENÁŘKA",
+      "role_category": "instalater",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 26500,
+      "salary_max": 29000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Svářeč/Instalatér/Zámečník",
+      "role_category": "instalater",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 36000,
+      "salary_max": 50000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "učitel odborných předmětů - technické zabezpečení budov",
+      "role_category": "ucitel",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 34000,
+      "salary_max": 46000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Údržbář objektu",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 40000,
+      "salary_max": 45000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Technik - montér",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 42000,
+      "salary_max": 55000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Technik",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 42000,
+      "salary_max": 50000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Technik vířivých van, saun a pergol",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 45000,
+      "salary_max": 55000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "🔧 Obchodně-technický zástupce  (Ž/M) - Brno, Brno - venkov",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 50000,
+      "salary_max": 80000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "🔧 Obchodně-technický zástupce  (Ž/M) - Písek, Strakonice, Prachatice",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 50000,
+      "salary_max": 80000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "🔥Projektový manažer TZB🔥",
+      "role_category": "projektovy_manazer",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 50000,
+      "salary_max": 80000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Zástupce správce areálu & vedoucího údržby",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 30000,
+      "salary_max": 36000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Montážník kuchyní a dveří - 45.000-50.000 - Teplice",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 45000,
+      "salary_max": 50000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Montážník kuchyní a dveří - 45.000-50.000 - Praha",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 45000,
+      "salary_max": 50000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Technický pracovník - Pardubice",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 30000,
+      "salary_max": 40000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Technický pracovník - Brno",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 35000,
+      "salary_max": 40000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Obchodník - prodejce našich služeb",
+      "role_category": "prodavac",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 45000,
+      "salary_max": 90000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Odborný prodejce v oboru voda, topení, plyn - Velké Meziříčí",
+      "role_category": "prodavac",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 37000,
+      "salary_max": 45000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Technik - chladicí a klimatizační zařízení (příležitost i pro absolventy)",
+      "role_category": "general",
+      "seniority": "junior",
+      "location": "praha",
+      "salary_min": 43000,
+      "salary_max": 55000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Technik pro prémiové realizace (spa) - Praha / Střední Čechy",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 45000,
+      "salary_max": 55000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Operátor vodovodní sítě - Slavičín a okolí",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 35000,
+      "salary_max": 37000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Technik potrubních montáží pro servisní tým – zahraniční projekty",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 50000,
+      "salary_max": 80000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Servisní/ montážní technik (náborový příspěvek 50tis. Kč)",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 40000,
+      "salary_max": 55000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Konzultant příchozí linky pomoci řidičům(bez prodeje)",
+      "role_category": "ridic",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 30200,
+      "salary_max": 34000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Pracovník toolingu",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 33000,
+      "salary_max": 35500,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Mobilní technik údržby (M/Ž) -Mzda  od 45 000Kč - Praha a Střední Čechy",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 45000,
+      "salary_max": 58500,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Vedoucí zedníků / Mistr stavebních prací",
+      "role_category": "stavbar",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 40000,
+      "salary_max": 45000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "ZEDNÍK",
+      "role_category": "stavbar",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 30000,
+      "salary_max": 40000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Zvládneš 10 zedníků a být pravou rukou majiteli?",
+      "role_category": "stavbar",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 50000,
+      "salary_max": 70000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "ZEDNÍK-náborový příspěvek až 34 000 Kč  České  Budějovice",
+      "role_category": "stavbar",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 34000,
+      "salary_max": 39000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Učitel odborného výcviku obor zedník",
+      "role_category": "ucitel",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 38000,
+      "salary_max": 46000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "🔧 Obchodně-technický zástupce (Ž/M) – Klatovy, Domažlice, Tachov",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 50000,
+      "salary_max": 80000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "ŽELEZOBETONÁŘ od 38.000Kč",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 38000,
+      "salary_max": 40000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Stavbyvedoucí/Stavební dělník / tesař / zámečník/Elektromontér/Horolezec-montér",
+      "role_category": "stavbar",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 60000,
+      "salary_max": 70000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Stavební dělník/pomocný stavební pracovník (Ž/M)",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 42000,
+      "salary_max": 52000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Pracovník realizace průmyslových podlah - vhodné i pro cizince",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 40000,
+      "salary_max": 60000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Stavbyvedoucí",
+      "role_category": "stavbar",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 35000,
+      "salary_max": 40000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "PRACOVNÍK OSTRAHY A RECEPCE (rozšířené zbrojní oprávnění)",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 45000,
+      "salary_max": 50000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "OSTRAHA OBJEKTU",
+      "role_category": "ostraha",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 27000,
+      "salary_max": 30000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "OSTRAHA budovy FTV Prima, Praha - Vinohradská",
+      "role_category": "ostraha",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 31000,
+      "salary_max": 34000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Ostraha v Zoologické zahradě Tábor",
+      "role_category": "ostraha",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 30000,
+      "salary_max": 33000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Ostraha objektů Bezpečnostní informační služby",
+      "role_category": "ostraha",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 45000,
+      "salary_max": 55000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Ostraha - Safety Patrol -  - FNK",
+      "role_category": "ostraha",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 23200,
+      "salary_max": 30000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Ostraha obchodního centra",
+      "role_category": "ostraha",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 27000,
+      "salary_max": 30000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Ošetřovatel/Ošetřovatelka hospodářských zvířat - noční hlídač Oseva Agri Chrudim",
+      "role_category": "zdravotni_sestra",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 27000,
+      "salary_max": 35000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Bezpečnostní pracovník - se zbrojním oprávněním",
+      "role_category": "ostraha",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 32000,
+      "salary_max": 45000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Operátor velínu obchodního centra",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 27000,
+      "salary_max": 35000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Security & Loss Prevention Specialist pro Modivo group",
+      "role_category": "ostraha",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 45000,
+      "salary_max": 50000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Pracovník odpadového hospodářství obchodního centra",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 24000,
+      "salary_max": 30000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Člen zásahové jednotky ochrany podniku",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 40000,
+      "salary_max": 50000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Velitel objektu s angličtinou na Praze 9",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 30000,
+      "salary_max": 35000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Provozní manažer/ka bezpečnostních služeb Opava, mzda od 40.000 Kč + odměny",
+      "role_category": "ostraha",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 40000,
+      "salary_max": 60000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Administrátor správy budov a BOZP (plný nebo částečný úvazek)",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 46000,
+      "salary_max": 47000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Facilities & Health & Safety Administrator (Full-Time / Part-Time)",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 46000,
+      "salary_max": 47000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "HSE Specialist",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 75000,
+      "salary_max": 85000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Psycholog -Věznice Vinařice",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 35050,
+      "salary_max": 47920,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Hasič - HZSP JPO",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 31000,
+      "salary_max": 35000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Bezpečnostní manažer",
+      "role_category": "ostraha",
+      "seniority": "medior",
+      "location": "praha",
+      "salary_min": 55000,
+      "salary_max": 65000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "SPECIALISTA/KA BEZPEČNOSTI PROVOZU | LOGISTIKA",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 48000,
+      "salary_max": 57000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Manažer kybernetické bezpečnosti/specialista řízení rizik",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 50000,
+      "salary_max": 100000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Provozní manažer 🏸🏓☕️",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 40000,
+      "salary_max": 60000,
+      "source": "jobs.cz"
+    },
+    {
+      "title": "Staň se specialistou prodeje a zákaznické péče v T-Mobile Hradec Králové! (ž/m)",
+      "role_category": "general",
+      "seniority": "medior",
+      "location": "regiony",
+      "salary_min": 42500,
+      "salary_max": 72500,
+      "source": "jobs.cz"
     }
   ],
-  "count": 76
+  "count": 741
 }
