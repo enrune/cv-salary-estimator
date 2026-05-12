@@ -38,38 +38,80 @@ Pravidla:
 - Vrať POUZE validní JSON, žádný markdown, žádné code fences, žádný komentář.
 - Pokud informace v CV chybí, použij null (pro string pole) nebo prázdný seznam (pro list pole).
 - Pole `years_experience` spočítej jako součet relevantní praxe (zaokrouhli na 0.5).
-- Pole `role_category` musí být PŘESNĚ jedna z následujících kategorií (vyber nejbližší).
-  Pokud nic kandidátovi nesedí, použij "general":
-
-  IT — software:
-    python_developer, javascript_developer, frontend_developer,
-    backend_developer, fullstack_developer
-  IT — data / ML:
-    data_engineer, data_analyst, ml_engineer
-  IT — infra / produkt:
-    devops, product_manager
-  Office / administrativa / finance:
-    ucetni (účetní), financni_analytik (finanční analytik), hr_specialista,
-    administrativni_pracovnik, projektovy_manazer, office_manager
-  Sales / marketing / kreativa:
-    marketing_specialista, obchodni_zastupce (sales rep), copywriter, grafik
-  Retail / služby:
-    pokladni (pokladní), prodavac (prodavač), skladnik (skladník), recepcni
-  Gastronomie:
-    kuchar (kuchař), cisnik (číšník)
-  Doprava:
-    ridic (řidič), kuryr (kurýr)
-  Vzdělávání / zdravotnictví:
-    ucitel (učitel), zdravotni_sestra (zdrav. sestra), lekar (lékař)
-  Řemesla / stavebnictví:
-    elektrikar, instalater, stavbar (zedník, stavbyvedoucí)
-  Bezpečnost / sport:
-    ostraha, trener (osobní trenér, fitness trenér)
-  Fallback: general
-
 - Pole `level` u education: SS=středoškolské/výuční list, Bc=bakalář, Mgr=magistr, PhD=doktorát, MBA, other.
 - Pole `soft_skills` ODVOĎ z popisů rolí (např. "vedl tým 5 lidí" → "leadership"; "obsluhoval zákazníky" → "communication").
-- Lokace: pokud kandidát uvádí Prahu nebo Pražský kraj, dej "Praha", jinak konkrétní město."""
+- Lokace: pokud kandidát uvádí Prahu nebo Pražský kraj, dej "Praha", jinak konkrétní město.
+
+KLASIFIKACE ROLE (`role_category`) — KRITICKY DŮLEŽITÉ:
+Musí být PŘESNĚ jedna z níže uvedených kategorií. Vyber TU NEJBLIŽŠÍ kategorii pro
+aktuální/nejnovější pozici kandidáta. NEVRACEJ "general" pokud existuje rozumně blízká kategorie.
+"general" použij JEN POKUD kandidát skutečně neměl žádnou souvislou pracovní zkušenost
+(čerstvý absolvent, nezaměstnaný, exotická role mimo všechny kategorie).
+
+Postup výběru (priority shora dolů):
+  1. Zkus shodu specifické IT/oborové role (python_developer, lekar, učitel...)
+  2. Pokud kandidát programuje, ale v nezařazeném jazyce (Java, C++, Go) → `programmer`
+  3. Pokud je IT support / sysadmin / helpdesk → `it_specialist`
+  4. Pokud je inženýr (strojní, elektro, stavební) mimo IT → `inzenyr`
+  5. Pokud je obecný manažer/vedoucí (ne project manager) → `manazer`
+  6. Pokud je obchodní konzultant / business consultant → `konzultant`
+  7. Pokud je obecný analytik (ne data) → `analytik`
+  8. Pokud nic neodpovídá → `general` (POSLEDNÍ MOŽNOST)
+
+KATEGORIE (s českými ekvivalenty):
+
+IT — software:
+  python_developer, javascript_developer, frontend_developer, backend_developer,
+  fullstack_developer, programmer (jakýkoliv jiný programátor)
+
+IT — data / ML:
+  data_engineer, data_analyst, ml_engineer (AI/strojové učení)
+
+IT — infra / produkt / support:
+  devops (SRE, cloud, K8s), product_manager, it_specialist (IT support, sysadmin, helpdesk)
+
+Inženýrství / věda (ne IT):
+  inzenyr (strojní/elektro inženýr, konstruktér), architekt (stavební architekt),
+  vedec (výzkumný pracovník, akademik)
+
+Office / administrativa / finance / management:
+  ucetni (účetní), financni_analytik, hr_specialista (personalista, náborář),
+  administrativni_pracovnik, projektovy_manazer (project manager, PM),
+  office_manager, manazer (general manager, vedoucí oddělení),
+  konzultant (biz consultant), analytik (obecný analytik, ne data)
+
+Právní:
+  pravnik (advokát, právník, koncipient)
+
+Sales / marketing / kreativa / služby:
+  marketing_specialista, obchodni_zastupce (sales rep, account manager),
+  copywriter, grafik (designer, UX/UI), realitni_makler (realitní makléř),
+  pojistovak (finanční poradce, pojišťovák)
+
+Retail / služby:
+  pokladni, prodavac, skladnik (manipulant), recepcni
+
+Gastronomie:
+  kuchar, cisnik (servírka)
+
+Doprava / mechanika:
+  ridic (řidič kamion/MKD/MHD), kuryr (rozvozce), mechanik (automechanik, mechanik)
+
+Vzdělávání / zdravotnictví:
+  ucitel (učitel/lektor), zdravotni_sestra (zdravotnický asistent),
+  lekar (lékař všech specializací), fyzioterapeut (masér, fyzio)
+
+Řemesla / stavebnictví:
+  elektrikar, instalater (topenář, instalatér), stavbar (zedník, stavbyvedoucí)
+
+Beauty / osobní služby:
+  kadernik (kadeřník, kosmetička, manikérka)
+
+Bezpečnost / sport / kreativa:
+  ostraha (bezpečnostní agent), trener (fitness/sportovní trenér), fotograf
+
+Fallback (POUZE pokud nic nesedí):
+  general"""
 
 
 # JSON schema string pro vložení do user promptu. Důvod: LLM lépe respektuje schema,
@@ -102,7 +144,7 @@ _SCHEMA_HINT = """{
   "skills": ["technické dovednosti, např. Python, SQL, Docker"],
   "languages": ["jazyky s úrovní, např. 'angličtina C1'"],
   "soft_skills": ["odvozené z popisů, např. 'leadership', 'mentoring'"],
-  "role_category": "viz systémový prompt — IT: python_developer/javascript_developer/frontend_developer/backend_developer/fullstack_developer/data_engineer/data_analyst/ml_engineer/devops/product_manager | office: ucetni/financni_analytik/hr_specialista/administrativni_pracovnik/projektovy_manazer/office_manager | sales: marketing_specialista/obchodni_zastupce/copywriter/grafik | retail: pokladni/prodavac/skladnik/recepcni | gastro: kuchar/cisnik | doprava: ridic/kuryr | edu+zdrav: ucitel/zdravotni_sestra/lekar | řemesla: elektrikar/instalater/stavbar | ostatní: ostraha/trener | fallback: general",
+  "role_category": "viz systémový prompt — IT: python_developer/javascript_developer/frontend_developer/backend_developer/fullstack_developer/programmer/data_engineer/data_analyst/ml_engineer/devops/product_manager/it_specialist | engineering+věda: inzenyr/architekt/vedec | office+management: ucetni/financni_analytik/hr_specialista/administrativni_pracovnik/projektovy_manazer/office_manager/manazer/konzultant/analytik | právní: pravnik | sales+kreativa: marketing_specialista/obchodni_zastupce/copywriter/grafik/realitni_makler/pojistovak | retail: pokladni/prodavac/skladnik/recepcni | gastro: kuchar/cisnik | doprava+mechanika: ridic/kuryr/mechanik | edu+zdrav: ucitel/zdravotni_sestra/lekar/fyzioterapeut | řemesla: elektrikar/instalater/stavbar | beauty: kadernik | ostatní: ostraha/trener/fotograf | poslední možnost: general",
   "years_experience": "číslo (float), např. 3.5"
 }"""
 

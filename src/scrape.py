@@ -99,9 +99,37 @@ _ROLE_KEYWORDS: list[tuple[str, list[str]]] = [
     ("instalater",            ["instalatér", "instalater", "plumber", "topenář"]),
     ("stavbar",               ["stavbař", "stavbar", "zedník", "zednik", "stavbyvedoucí", "construction"]),
 
-    # Bezpečnost / sport
+    # Bezpečnost / sport / kreativa
     ("ostraha",               ["ostraha", "security", "bezpečnostní", "bezpecnostni", "strážný"]),
     ("trener",                ["trenér", "trener", "fitness trainer", "osobní trenér", "fitness instructor"]),
+    ("fotograf",              ["fotograf", "photographer"]),
+
+    # Beauty / osobní služby
+    ("kadernik",              ["kadeřník", "kadernik", "kosmetička", "kosmeticka", "manikérka", "manikerka", "hairdresser"]),
+
+    # Doprava / mechanika
+    ("mechanik",              ["automechanik", "mechanik", "auto-mechanik", "car mechanic"]),
+
+    # Inženýrství / věda (ne IT)
+    ("inzenyr",               ["strojní inženýr", "elektroinženýr", "konstruktér", "konstrukter", "process engineer", "mechanical engineer"]),
+    ("architekt",             ["architekt", "architect"]),
+    ("vedec",                 ["výzkumný pracovník", "researcher", "scientist", "akademický pracovník"]),
+
+    # Právní
+    ("pravnik",               ["právník", "pravnik", "advokát", "advokat", "lawyer", "koncipient", "paralegal"]),
+
+    # Sales / poradenství
+    ("realitni_makler",       ["realitní makléř", "realitni makler", "real estate agent", "realitní"]),
+    ("pojistovak",            ["finanční poradce", "financni poradce", "pojišťovací poradce", "pojistovak", "insurance advisor"]),
+
+    # Management / konzultace (obecné — po specifických)
+    ("konzultant",            ["consultant", "konzultant", "business consultant", "byznys konzultant"]),
+    ("manazer",               ["general manager", "vedoucí pracoviště", "vedouci pracoviste", "vedoucí oddělení", "vedouci oddeleni", "branch manager"]),
+    ("analytik",              ["business analyst", "byznysový analytik", "obchodní analytik", "obchodni analytik"]),
+
+    # IT support / generic programmer (po specifických IT)
+    ("it_specialist",         ["it support", "it specialist", "sysadmin", "system administrator", "helpdesk", "it administrator"]),
+    ("programmer",            ["java developer", "c# developer", "c++ developer", "go developer", "kotlin developer", "ruby developer", "php developer", "programátor", "programator", "developer"]),
 ]
 
 # Detekce seniority — rovněž pořadí: senior, medior, junior (default = medior).

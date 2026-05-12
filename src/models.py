@@ -63,31 +63,39 @@ class CV(BaseModel):
     # Pokud LLM nedokáže klasifikovat, vrátí "general" (fallback v salary.py)
     # Pokrýváme IT i non-IT pozice; názvy bez diakritiky pro JSON/Python kompatibilitu
     role_category: Literal[
-        # IT — software development
+        # IT — software
         "python_developer", "javascript_developer", "frontend_developer",
-        "backend_developer", "fullstack_developer",
+        "backend_developer", "fullstack_developer", "programmer",
         # IT — data / ML
         "data_engineer", "data_analyst", "ml_engineer",
-        # IT — infra / produkt
-        "devops", "product_manager",
+        # IT — infra / produkt / support
+        "devops", "product_manager", "it_specialist",
+        # Inženýrství / věda (ne IT)
+        "inzenyr", "architekt", "vedec",
         # Office / administrativa / finance
         "ucetni", "financni_analytik", "hr_specialista",
         "administrativni_pracovnik", "projektovy_manazer", "office_manager",
-        # Sales / marketing / kreativa
+        "manazer", "konzultant", "analytik",
+        # Sales / marketing / kreativa / služby
         "marketing_specialista", "obchodni_zastupce", "copywriter", "grafik",
+        "realitni_makler", "pojistovak",
+        # Právní
+        "pravnik",
         # Retail / služby
         "pokladni", "prodavac", "skladnik", "recepcni",
         # Gastronomie
         "kuchar", "cisnik",
-        # Doprava
-        "ridic", "kuryr",
+        # Doprava / mechanika
+        "ridic", "kuryr", "mechanik",
         # Vzdělávání / zdravotnictví
-        "ucitel", "zdravotni_sestra", "lekar",
+        "ucitel", "zdravotni_sestra", "lekar", "fyzioterapeut",
         # Řemesla / stavebnictví
         "elektrikar", "instalater", "stavbar",
-        # Bezpečnost / ostatní
-        "ostraha", "trener",
-        # Fallback
+        # Beauty / osobní služby
+        "kadernik",
+        # Bezpečnost / sport / kreativa
+        "ostraha", "trener", "fotograf",
+        # Fallback (poslední možnost)
         "general",
     ] = Field("general", description="Detekovaná kategorie role pro salary lookup")
     # years_experience pro scoring — LLM musí spočítat, ne my, protože data jsou v CV ve volném formátu
